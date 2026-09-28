@@ -159,7 +159,7 @@
   },
   "splitTone": {
     "shadowHue": 118,
-    "shadowSat": 0.12,
+    "shadowSat": 0.1,
     "highlightHue": 48,
     "highlightSat": 0.06,
     "balance": 0.05

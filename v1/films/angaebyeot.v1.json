@@ -1,0 +1,113 @@
+{
+  "id": "angaebyeot",
+  "name": "Angaebyeot",
+  "names": {
+    "en": "Mistlight",
+    "ko": "안개볕",
+    "ja": "霧の陽",
+    "zh-TW": "霧光",
+    "vi": "Nắng Sương",
+    "th": "แดดหมอก",
+    "id": "Sinar Kabut"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Sun through morning mist. A dreamy glow, soft focus, kind to skin",
+    "ko": "안개 사이로 드는 볕. 꿈결 같은 빛번짐, 부드러운 초점, 피부에 순하게",
+    "ja": "朝霧ごしの陽。夢のような光のにじみ、やわらかなピント、肌にやさしく",
+    "zh-TW": "晨霧中透出的陽光。夢幻光暈、柔焦、膚色溫柔",
+    "vi": "Nắng xuyên qua sương sớm. Quầng sáng mơ màng, lấy nét mềm, dịu với làn da",
+    "th": "แดดลอดผ่านหมอกยามเช้า แสงเรืองดั่งฝัน โฟกัสนุ่ม อ่อนโยนต่อผิว",
+    "id": "Mentari menembus kabut pagi. Pendar cahaya bak mimpi, fokus lembut, ramah di kulit"
+  },
+  "tier": "paid",
+  "productId": "film_angaebyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 2.4,
+    "amount": 0.9
+  },
+  "whiteBalance": {
+    "kelvin": 6700,
+    "tint": 0.01
+  },
+  "exposure": {
+    "ev": 0.15
+  },
+  "edgeBlur": {
+    "radius": 3.5,
+    "amount": 0.55,
+    "start": 0.3
+  },
+  "vignette": {
+    "amount": 0.08,
+    "midpoint": 0.85,
+    "feather": 0.7,
+    "roundness": 0.7
+  },
+  "bloom": {
+    "threshold": 0.45,
+    "radius": 44,
+    "amount": 0.42,
+    "tint": [
+      1.0,
+      0.97,
+      0.92
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.1
+      ],
+      [
+        0.25,
+        0.3
+      ],
+      [
+        0.5,
+        0.53
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        1,
+        0.93
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.9,
+    "vibrance": 0.0
+  },
+  "splitTone": {
+    "shadowHue": 210,
+    "shadowSat": 0.03,
+    "highlightHue": 45,
+    "highlightSat": 0.06,
+    "balance": 0.1
+  },
+  "grain": {
+    "amount": 0.005,
+    "size": 0.45,
+    "shadows": 0.8,
+    "midtones": 0.8,
+    "highlights": 0.3,
+    "color": 0.1
+  },
+  "defaults": {
+    "focal": 50,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

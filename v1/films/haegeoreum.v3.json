@@ -41,7 +41,7 @@
     "scale": 0.7
   },
   "whiteBalance": {
-    "kelvin": 7800,
+    "kelvin": 8000,
     "tint": 0.0
   },
   "vignette": {
@@ -127,8 +127,8 @@
   "splitTone": {
     "shadowHue": 20,
     "shadowSat": 0.04,
-    "highlightHue": 35,
-    "highlightSat": 0.12,
+    "highlightHue": 38,
+    "highlightSat": 0.15,
     "balance": 0.1
   }
 }

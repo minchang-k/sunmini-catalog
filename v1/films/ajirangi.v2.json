@@ -116,7 +116,7 @@
     "b": [
       [
         0,
-        0.06
+        0.03
       ],
       [
         0.5,
@@ -124,7 +124,7 @@
       ],
       [
         1,
-        0.9
+        0.92
       ]
     ]
   },
@@ -133,10 +133,10 @@
     "vibrance": 0.0
   },
   "splitTone": {
-    "shadowHue": 322,
-    "shadowSat": 0.06,
-    "highlightHue": 28,
-    "highlightSat": 0.08,
+    "shadowHue": 325,
+    "shadowSat": 0.08,
+    "highlightHue": 10,
+    "highlightSat": 0.06,
     "balance": 0.1
   },
   "grain": {

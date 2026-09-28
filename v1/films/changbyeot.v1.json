@@ -1,0 +1,92 @@
+{
+  "id": "changbyeot",
+  "name": "Changbyeot",
+  "names": {
+    "en": "Windowsill",
+    "ko": "창볕",
+    "ja": "窓辺の陽",
+    "zh-TW": "窗光",
+    "vi": "Nắng Bên Cửa",
+    "th": "แดดริมหน้าต่าง",
+    "id": "Sinar Jendela"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Sun on the café window seat. Clean and airy, cream whites, barely any grain",
+    "ko": "카페 창가에 드는 볕. 맑고 산뜻하게, 크림빛 흰색, 입자는 거의 없이",
+    "ja": "カフェの窓辺にさす陽。すっきり軽やか、クリーム色の白、粒子はごくわずか",
+    "zh-TW": "咖啡館窗邊的陽光。乾淨清爽、奶油般的白、幾乎沒有顆粒",
+    "vi": "Nắng bên ô cửa quán cà phê. Trong trẻo, thoáng đãng, trắng màu kem, gần như không hạt",
+    "th": "แดดส่องโต๊ะริมหน้าต่างร้านกาแฟ ใสสะอาด โปร่งสบาย ขาวครีม แทบไม่มีเกรน",
+    "id": "Sinar di kursi jendela kafe. Bersih dan lapang, putih krem, nyaris tanpa butiran"
+  },
+  "tier": "paid",
+  "productId": "film_changbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.2,
+    "amount": 0.55
+  },
+  "whiteBalance": {
+    "kelvin": 6700,
+    "tint": -0.01
+  },
+  "exposure": {
+    "ev": 0.25
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.07
+      ],
+      [
+        0.25,
+        0.32
+      ],
+      [
+        0.5,
+        0.58
+      ],
+      [
+        0.8,
+        0.86
+      ],
+      [
+        1,
+        0.97
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.08,
+    "vibrance": 0.16
+  },
+  "splitTone": {
+    "shadowHue": 95,
+    "shadowSat": 0.07,
+    "highlightHue": 40,
+    "highlightSat": 0.07,
+    "balance": 0.1
+  },
+  "grain": {
+    "amount": 0.008,
+    "size": 0.5,
+    "shadows": 0.8,
+    "midtones": 0.9,
+    "highlights": 0.3,
+    "color": 0.1
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.25
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "haemaereum",
+  "name": "Haemaereum",
+  "names": {
+    "en": "Beaming",
+    "ko": "해맑음",
+    "ja": "晴れやか",
+    "zh-TW": "晴朗",
+    "vi": "Trong Trẻo",
+    "th": "สดใส",
+    "id": "Ceria"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "A clear, beaming day. Gentle on skin, milky pastels, almost no grain",
+    "ko": "해맑게 갠 날. 피부에 순하고, 우윳빛 파스텔, 입자는 거의 없이",
+    "ja": "晴れやかな一日。肌にやさしく、ミルク色のパステル、粒子はほとんどなし",
+    "zh-TW": "晴朗的一天。膚色溫柔、牛奶般的粉彩、幾乎沒有顆粒",
+    "vi": "Ngày nắng trong trẻo. Dịu với làn da, pastel sữa, gần như không hạt",
+    "th": "วันสดใสแจ่มใส อ่อนโยนต่อผิว พาสเทลสีน้ำนม แทบไม่มีเกรน",
+    "id": "Hari yang cerah ceria. Lembut di kulit, pastel susu, hampir tanpa butiran"
+  },
+  "tier": "paid",
+  "productId": "film_haemaereum",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.4,
+    "amount": 0.6
+  },
+  "whiteBalance": {
+    "kelvin": 7000,
+    "tint": 0.035
+  },
+  "exposure": {
+    "ev": 0.35
+  },
+  "edgeBlur": {
+    "radius": 2.0,
+    "amount": 0.35,
+    "start": 0.55
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.05
+      ],
+      [
+        0.25,
+        0.32
+      ],
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.75,
+        0.83
+      ],
+      [
+        1,
+        0.94
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.02,
+    "vibrance": 0.0
+  },
+  "splitTone": {
+    "shadowHue": 200,
+    "shadowSat": 0.03,
+    "highlightHue": 12,
+    "highlightSat": 0.09,
+    "balance": 0.2
+  },
+  "grain": {
+    "amount": 0.006,
+    "size": 0.5,
+    "shadows": 0.8,
+    "midtones": 0.8,
+    "highlights": 0.3,
+    "color": 0.1
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}
