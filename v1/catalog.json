@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 6,
-  "generatedAt": "2026-09-28T09:31:43Z",
+  "version": 7,
+  "generatedAt": "2026-09-28T11:06:00Z",
   "minAppVersion": 12,
   "trialShots": 3,
   "revokedCodes": [
@@ -320,8 +320,8 @@
     {
       "id": "jebyeot",
       "visible": true,
-      "tier": "paid",
-      "productId": "film_jebyeot",
+      "tier": "free",
+      "productId": null,
       "badge": "new",
       "regions": {
         "allow": [],
