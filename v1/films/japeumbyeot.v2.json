@@ -23,7 +23,7 @@
   "tier": "paid",
   "productId": "film_japeumbyeot",
   "calibrated": false,
-  "version": 1,
+  "version": 2,
   "output": {
     "longEdge": 3072,
     "jpegQuality": 85,
@@ -127,10 +127,10 @@
     "balance": -0.1
   },
   "digitalNoise": {
-    "luma": 0.03,
-    "chroma": 0.14,
-    "size": 3.5,
-    "shadowBias": 1.5
+    "luma": 0.022,
+    "chroma": 0.065,
+    "size": 3.0,
+    "shadowBias": 2.2
   },
   "hotPixels": {
     "count": 14,

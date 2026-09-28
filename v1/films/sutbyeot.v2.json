@@ -23,7 +23,7 @@
   "tier": "paid",
   "productId": "film_sutbyeot",
   "calibrated": false,
-  "version": 1,
+  "version": 2,
   "output": {
     "longEdge": 3072,
     "jpegQuality": 94
@@ -37,7 +37,7 @@
     "tint": 0.0
   },
   "exposure": {
-    "ev": 0.1
+    "ev": 0.2
   },
   "chromaticAberration": {
     "amount": 0.0012
@@ -80,12 +80,16 @@
         0.0
       ],
       [
-        0.15,
-        0.02
+        0.12,
+        0.03
       ],
       [
-        0.5,
-        0.5
+        0.4,
+        0.38
+      ],
+      [
+        0.6,
+        0.74
       ],
       [
         0.8,
@@ -118,9 +122,9 @@
   },
   "splitTone": {
     "shadowHue": 30,
-    "shadowSat": 0.15,
+    "shadowSat": 0.08,
     "highlightHue": 38,
-    "highlightSat": 0.3,
+    "highlightSat": 0.2,
     "balance": 0.0
   },
   "grain": {

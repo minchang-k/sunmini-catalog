@@ -23,7 +23,7 @@
   "tier": "paid",
   "productId": "film_meokbit",
   "calibrated": false,
-  "version": 3,
+  "version": 4,
   "output": {
     "longEdge": 3072,
     "jpegQuality": 94
@@ -88,10 +88,10 @@
     ]
   },
   "splitTone": {
-    "shadowHue": 40,
-    "shadowSat": 0.015,
-    "highlightHue": 40,
-    "highlightSat": 0.02,
+    "shadowHue": 215,
+    "shadowSat": 0.05,
+    "highlightHue": 210,
+    "highlightSat": 0.03,
     "balance": 0.0
   },
   "grain": {

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 5,
-  "generatedAt": "2026-09-28T09:16:22Z",
+  "version": 6,
+  "generatedAt": "2026-09-28T09:31:43Z",
   "minAppVersion": 12,
   "trialShots": 3,
   "revokedCodes": [
@@ -61,9 +61,9 @@
         "allow": [],
         "deny": []
       },
-      "profileVersion": 3,
-      "profileUrl": "films/meokbit.v3.json",
-      "profileSha256": "4e3cd2472ec122c65cbb640b65d74d851ef2cf7b4897ba3aa265cc37bc735739"
+      "profileVersion": 4,
+      "profileUrl": "films/meokbit.v4.json",
+      "profileSha256": "f36aad51c9b5ac6d8599647761946ff9db303c690f53c9efa93991b2bfef0afc"
     },
     {
       "id": "sutbyeot",
@@ -75,9 +75,9 @@
         "allow": [],
         "deny": []
       },
-      "profileVersion": 1,
-      "profileUrl": "films/sutbyeot.v1.json",
-      "profileSha256": "0d704535b02146c44c4bf2f1c73dbe5ca82827b5cf19c4648c5f14196aa983a5"
+      "profileVersion": 2,
+      "profileUrl": "films/sutbyeot.v2.json",
+      "profileSha256": "25d7d251c3d9a0936fd8ecb57c28b6fff6d764be1dad1d12cd2884383ea19677"
     },
     {
       "id": "ajirangi",
@@ -663,9 +663,9 @@
         "allow": [],
         "deny": []
       },
-      "profileVersion": 1,
-      "profileUrl": "films/neonbyeot.v1.json",
-      "profileSha256": "1c3900635174b733f840d3cf7d94474c737ea4b79c5554cfd6aafc540c079021"
+      "profileVersion": 2,
+      "profileUrl": "films/neonbyeot.v2.json",
+      "profileSha256": "491045a1cb08f0ffb119ab4fcc1f6390cfa893c5bac83f6bc2edafa4b39538e9"
     },
     {
       "id": "japeumbyeot",
@@ -677,9 +677,9 @@
         "allow": [],
         "deny": []
       },
-      "profileVersion": 1,
-      "profileUrl": "films/japeumbyeot.v1.json",
-      "profileSha256": "d1ffbf37f27c00c54d9d6cbf0e5e1606ce7e8a06af74c62664119f613ec63865"
+      "profileVersion": 2,
+      "profileUrl": "films/japeumbyeot.v2.json",
+      "profileSha256": "c4a1f72b237029af5f6e3bc5b290c56716bb8484c4ce1b94ca1e761625f585e1"
     }
   ]
 }

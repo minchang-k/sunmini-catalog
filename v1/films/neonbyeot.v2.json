@@ -23,7 +23,7 @@
   "tier": "paid",
   "productId": "film_neonbyeot",
   "calibrated": false,
-  "version": 1,
+  "version": 2,
   "output": {
     "longEdge": 3072,
     "jpegQuality": 88,
@@ -123,9 +123,9 @@
     "balance": 0.0
   },
   "digitalNoise": {
-    "luma": 0.012,
-    "chroma": 0.09,
-    "size": 2.2,
+    "luma": 0.01,
+    "chroma": 0.045,
+    "size": 2.0,
     "shadowBias": 3.0
   },
   "timestamp": {
