@@ -1,0 +1,191 @@
+{
+  "id": "yunseul",
+  "name": "Yunseul",
+  "names": {
+    "en": "Glint",
+    "ko": "윤슬",
+    "ja": "きらめき",
+    "zh-TW": "粼光",
+    "vi": "Lấp Lánh",
+    "th": "ประกายน้ำ",
+    "id": "Kilau Air"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Light breaking on water. Teal mids, glinting highlights, crisp grain",
+    "ko": "물비늘에 부서지는 빛. 청록 미드톤, 반짝이는 하이라이트, 선명한 입자",
+    "ja": "水面にきらめく光。青緑の中間調、輝くハイライト、くっきりした粒子",
+    "zh-TW": "在水面碎開的光。青綠中間調、閃爍的亮部、清晰的粒子",
+    "vi": "Ánh sáng vỡ trên mặt nước. Tông giữa xanh ngọc, vùng sáng lấp lánh, hạt sắc nét",
+    "th": "แสงแตกกระจายบนผิวน้ำ มิดโทนเขียวอมฟ้า ไฮไลต์ระยิบระยับ เกรนคม",
+    "id": "Cahaya pecah di permukaan air. Midtone toska, highlight berkilau, butiran tajam"
+  },
+  "tier": "paid",
+  "productId": "film_yunseul",
+  "calibrated": false,
+  "version": 2,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.0,
+    "amount": 0.5
+  },
+  "whiteBalance": {
+    "kelvin": 5800,
+    "tint": -0.03
+  },
+  "exposure": {
+    "ev": -0.1
+  },
+  "chromaticAberration": {
+    "amount": 0.0004
+  },
+  "vignette": {
+    "amount": 0.25,
+    "midpoint": 0.82,
+    "feather": 0.7,
+    "roundness": 0.6
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.07
+      ],
+      [
+        0.15,
+        0.12
+      ],
+      [
+        0.45,
+        0.46
+      ],
+      [
+        0.75,
+        0.82
+      ],
+      [
+        1,
+        0.97
+      ]
+    ],
+    "r": [
+      [
+        0,
+        0.04
+      ],
+      [
+        0.35,
+        0.3
+      ],
+      [
+        0.7,
+        0.7
+      ],
+      [
+        1,
+        1.0
+      ]
+    ],
+    "g": [
+      [
+        0,
+        0.02
+      ],
+      [
+        0.4,
+        0.42
+      ],
+      [
+        0.8,
+        0.83
+      ],
+      [
+        1,
+        0.97
+      ]
+    ],
+    "b": [
+      [
+        0,
+        0.1
+      ],
+      [
+        0.4,
+        0.41
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        1,
+        0.9
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.9,
+    "vibrance": 0.05,
+    "mix": [
+      0.94,
+      0.06,
+      0.0,
+      0.0,
+      0.97,
+      0.03,
+      0.0,
+      0.08,
+      0.92
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 212,
+    "shadowSat": 0.06,
+    "highlightHue": 52,
+    "highlightSat": 0.05,
+    "balance": -0.05
+  },
+  "grain": {
+    "amount": 0.027,
+    "size": 0.45,
+    "shadows": 0.8,
+    "midtones": 1.0,
+    "highlights": 0.6,
+    "color": 0.12
+  },
+  "timestamp": {
+    "style": "led7",
+    "format": "yyyy.MM.dd",
+    "color": [
+      1.0,
+      0.38,
+      0.07
+    ],
+    "height": 0.03,
+    "margin": [
+      0.06,
+      0.05
+    ],
+    "glow": 0.6
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  },
+  "bloom": {
+    "threshold": 0.8,
+    "radius": 6,
+    "amount": 0.14,
+    "tint": [
+      1.0,
+      0.95,
+      0.82
+    ]
+  }
+}

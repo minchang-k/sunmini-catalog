@@ -1,0 +1,136 @@
+{
+  "id": "haetmuri",
+  "name": "Haetmuri",
+  "names": {
+    "en": "Halo",
+    "ko": "햇무리",
+    "ja": "日暈",
+    "zh-TW": "日暈",
+    "vi": "Quầng Nắng",
+    "th": "ตะวันทรงกลด",
+    "id": "Lingkar Mentari"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "A ring around the sun. Two frames side by side, warm and soft",
+    "ko": "해를 두른 둥근 무리. 나란히 두 컷, 따뜻하고 포근하게",
+    "ja": "太陽をかこむ光の輪。二コマを横に並べて、あたたかくやわらかく",
+    "zh-TW": "環繞太陽的光圈。兩格並排，溫暖柔和",
+    "vi": "Quầng sáng quanh mặt trời. Hai khung hình cạnh nhau, ấm và dịu",
+    "th": "วงแสงรอบดวงตะวัน สองเฟรมเคียงกัน อบอุ่นและนุ่มนวล",
+    "id": "Lingkar cahaya di sekeliling mentari. Dua bingkai berdampingan, hangat dan lembut"
+  },
+  "tier": "paid",
+  "productId": "film_haetmuri",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 92
+  },
+  "deSharpen": {
+    "radius": 1.6,
+    "amount": 0.8
+  },
+  "sensor": {
+    "scale": 0.62
+  },
+  "whiteBalance": {
+    "kelvin": 7000,
+    "tint": 0.01
+  },
+  "exposure": {
+    "ev": 0.25
+  },
+  "vignette": {
+    "amount": 0.3,
+    "midpoint": 0.72,
+    "feather": 0.8,
+    "roundness": 0.7
+  },
+  "bloom": {
+    "threshold": 0.68,
+    "radius": 26,
+    "amount": 0.24,
+    "tint": [
+      1.0,
+      0.86,
+      0.6
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.07
+      ],
+      [
+        0.25,
+        0.29
+      ],
+      [
+        0.5,
+        0.55
+      ],
+      [
+        0.75,
+        0.8
+      ],
+      [
+        1,
+        0.96
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.95,
+    "vibrance": 0.08
+  },
+  "splitTone": {
+    "shadowHue": 25,
+    "shadowSat": 0.05,
+    "highlightHue": 45,
+    "highlightSat": 0.12,
+    "balance": 0.1
+  },
+  "grain": {
+    "amount": 0.034,
+    "size": 1.0,
+    "shadows": 1.0,
+    "midtones": 1.0,
+    "highlights": 0.45,
+    "color": 0.15
+  },
+  "timestamp": {
+    "style": "led7",
+    "format": "''yy MM dd",
+    "color": [
+      1.0,
+      0.42,
+      0.08
+    ],
+    "height": 0.042,
+    "margin": [
+      0.07,
+      0.06
+    ],
+    "glow": 0.6
+  },
+  "layout": {
+    "type": "diptych",
+    "aspect": 0.75,
+    "gap": 0.012,
+    "color": [
+      0.04,
+      0.04,
+      0.04
+    ]
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

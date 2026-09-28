@@ -1,0 +1,130 @@
+{
+  "id": "bandi",
+  "name": "Bandi",
+  "names": {
+    "en": "Firefly",
+    "ko": "반딧불",
+    "ja": "蛍",
+    "zh-TW": "螢火",
+    "vi": "Đom Đóm",
+    "th": "หิ่งห้อย",
+    "id": "Kunang-kunang"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "A spark in the summer dark. Hard direct flash, bright faces, black night, a date",
+    "ko": "여름밤 어둠 속 반짝임. 정면 플래시, 환한 얼굴, 까만 밤, 날짜",
+    "ja": "夏の夜の小さな光。正面からの強いフラッシュ、明るい顔、黒い夜、日付",
+    "zh-TW": "夏夜裡的一閃。正面硬閃光、明亮的臉、漆黑夜色、日期",
+    "vi": "Đốm sáng trong đêm hè. Flash trực diện gắt, gương mặt sáng, đêm đen, in ngày",
+    "th": "ประกายในคืนฤดูร้อน แฟลชยิงตรงจัดจ้าน ใบหน้าสว่าง คืนมืดสนิท มีวันที่",
+    "id": "Kerlip di gelap malam musim panas. Flash langsung yang keras, wajah terang, malam pekat, cap tanggal"
+  },
+  "tier": "paid",
+  "productId": "film_bandi",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 2400,
+    "jpegQuality": 90
+  },
+  "deSharpen": {
+    "radius": 1.6,
+    "amount": 0.8
+  },
+  "sensor": {
+    "scale": 0.6
+  },
+  "whiteBalance": {
+    "kelvin": 6300,
+    "tint": 0.0
+  },
+  "exposure": {
+    "ev": -0.35
+  },
+  "flash": {
+    "forced": true,
+    "strength": 2.4,
+    "falloff": 0.36,
+    "ambient": 0.22,
+    "tint": [
+      0.98,
+      1.0,
+      1.07
+    ]
+  },
+  "chromaticAberration": {
+    "amount": 0.0015
+  },
+  "vignette": {
+    "amount": 0.38,
+    "midpoint": 0.7,
+    "feather": 0.8,
+    "roundness": 0.5
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.02
+      ],
+      [
+        0.2,
+        0.13
+      ],
+      [
+        0.5,
+        0.52
+      ],
+      [
+        0.8,
+        0.9
+      ],
+      [
+        1,
+        1.0
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.12,
+    "vibrance": 0.1
+  },
+  "splitTone": {
+    "shadowHue": 220,
+    "shadowSat": 0.1,
+    "highlightHue": 50,
+    "highlightSat": 0.04,
+    "balance": 0.0
+  },
+  "grain": {
+    "amount": 0.032,
+    "size": 0.8,
+    "shadows": 1.1,
+    "midtones": 1.0,
+    "highlights": 0.35,
+    "color": 0.25
+  },
+  "timestamp": {
+    "style": "led7",
+    "format": "''yy MM dd",
+    "color": [
+      1.0,
+      0.38,
+      0.06
+    ],
+    "height": 0.03,
+    "margin": [
+      0.06,
+      0.05
+    ],
+    "glow": 0.65
+  },
+  "defaults": {
+    "focal": 28,
+    "timestamp": true,
+    "grain": 1.0,
+    "flashRecommended": true,
+    "aspect": 1.5
+  }
+}

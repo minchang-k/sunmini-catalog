@@ -1,0 +1,488 @@
+{
+  "schema": 1,
+  "version": 1,
+  "generatedAt": "2026-09-28T00:28:18Z",
+  "regionOrder": {},
+  "films": [
+    {
+      "id": "byeotnwi",
+      "visible": true,
+      "tier": "free",
+      "productId": null,
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 2,
+      "profileUrl": "films/byeotnwi.v2.json",
+      "profileSha256": "254b20cbc12aaef247e924d14c26d80383a36f4231850abf59f3ed65d9d65fbe",
+      "art": {
+        "large": {
+          "url": "art/byeotnwi.webp",
+          "sha256": "5138c634f554614f4b065981f4137546a38d2a954582a2b1414a4a1b24d9ca11"
+        },
+        "small": {
+          "url": "art/byeotnwi_s.webp",
+          "sha256": "ad90e7be1eac79b1f7d290b9695365dafcd1ce71d664cde7c2bd384e461049e4"
+        }
+      }
+    },
+    {
+      "id": "noeul",
+      "visible": true,
+      "tier": "free",
+      "productId": null,
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 2,
+      "profileUrl": "films/noeul.v2.json",
+      "profileSha256": "26b03b209a667e3cc593edac1baef1954c76f95caaa02ca047a08a98fb427d5d",
+      "art": {
+        "large": {
+          "url": "art/noeul.webp",
+          "sha256": "46f535ad1169b4ce3fb8a57f8b3bf2542ef203d870697f931ccd21d37774a727"
+        },
+        "small": {
+          "url": "art/noeul_s.webp",
+          "sha256": "94806ff05462ff9c77326c3dad781cfefcfb548fe49803529d62b13702411f98"
+        }
+      }
+    },
+    {
+      "id": "yunseul",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_yunseul",
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 2,
+      "profileUrl": "films/yunseul.v2.json",
+      "profileSha256": "f6884e64af4f4b49dde709ddda8122f4a9deebf0126ea7e2a1b3b8442e7bc2e2",
+      "art": {
+        "large": {
+          "url": "art/yunseul.webp",
+          "sha256": "2019e454389a60485a6db154f96791cafa93619df4fd9ef53dd38308a921dc59"
+        },
+        "small": {
+          "url": "art/yunseul_s.webp",
+          "sha256": "f69561a4d0c5799d636bf77497bf81fd66dcd9f37877e9fe3f010dc901a4f1b8"
+        }
+      }
+    },
+    {
+      "id": "meokbit",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_meokbit",
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 2,
+      "profileUrl": "films/meokbit.v2.json",
+      "profileSha256": "90b9c78dff20a9b10e3d7780e0d92a9c286135d9da097efd4a30a74635b88568",
+      "art": {
+        "large": {
+          "url": "art/meokbit.webp",
+          "sha256": "18768eb5bf5316e1ca77294f393fe9ae6f91bc592c3b2af0ed4630ffe6e251a7"
+        },
+        "small": {
+          "url": "art/meokbit_s.webp",
+          "sha256": "719aa50d16db1e8d9bb4140b7fdbd658c4b6306d45e9dc9cc4be76d34a40f525"
+        }
+      }
+    },
+    {
+      "id": "ajirangi",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_ajirangi",
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 2,
+      "profileUrl": "films/ajirangi.v2.json",
+      "profileSha256": "ea0d18986e1e7cdba9e7fd6d5e9ffac594e881fb4b436ba08ceaf84fca5af717",
+      "art": {
+        "large": {
+          "url": "art/ajirangi.webp",
+          "sha256": "dde3175244e404fc0bd7f7f677ee4573f6d35a8eb56209fac73794267edd6399"
+        },
+        "small": {
+          "url": "art/ajirangi_s.webp",
+          "sha256": "d4508204fdfec9b4c1aef0cee61231c257f7aac3e8e3bce42812a92f5952b40b"
+        }
+      }
+    },
+    {
+      "id": "bombyeot",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_bombyeot",
+      "badge": "new",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 1,
+      "profileUrl": "films/bombyeot.v1.json",
+      "profileSha256": "f419ddbf40823c970b73aa6f5cdc660be26995f3e8504ac0ddceb3de01d3e92d",
+      "art": {
+        "large": {
+          "url": "art/bombyeot.webp",
+          "sha256": "9764008691a51709f6cee35c44be37e6c5a0024562b993301609736c9d825a32"
+        },
+        "small": {
+          "url": "art/bombyeot_s.webp",
+          "sha256": "0bfb0760245036cf8313329d05f7224e104599a31d25d73c0f448d97337aa59c"
+        }
+      }
+    },
+    {
+      "id": "mulbit",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_mulbit",
+      "badge": "new",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 1,
+      "profileUrl": "films/mulbit.v1.json",
+      "profileSha256": "bcc24031118782165a1a46ee914c45678841589ea34b043f61b854d7fe18bed4",
+      "art": {
+        "large": {
+          "url": "art/mulbit.webp",
+          "sha256": "ae81622ac1ec383b05ccb5d2f99f377bb31c08ab0cc9a778dc47230424a6814d"
+        },
+        "small": {
+          "url": "art/mulbit_s.webp",
+          "sha256": "039d0ab756c4c659439a7997f7dc31809ea50d05a7846781342395af72ea52f1"
+        }
+      }
+    },
+    {
+      "id": "seori",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_seori",
+      "badge": "new",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 1,
+      "profileUrl": "films/seori.v1.json",
+      "profileSha256": "1c3f98264a0f480f9073ec4f9e35aa07fcc50721d14cb1c81b3092ae4ceeb341",
+      "art": {
+        "large": {
+          "url": "art/seori.webp",
+          "sha256": "526c4907102813214b269e8994c5c16d9ac30cc0785268692b095526f0a61a76"
+        },
+        "small": {
+          "url": "art/seori_s.webp",
+          "sha256": "3bbe6cd789fe73bdee55c509d65f2d30a1637716717938e4c97f62a013277022"
+        }
+      }
+    },
+    {
+      "id": "bulbit",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_bulbit",
+      "badge": "new",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 1,
+      "profileUrl": "films/bulbit.v1.json",
+      "profileSha256": "973b1176a0a37344f8eb2e98d5a561325015e5d59359c3c5ff7925081bd03d9d",
+      "art": {
+        "large": {
+          "url": "art/bulbit.webp",
+          "sha256": "8c720598370ccb3853f8556fde853fe0a6a01dd9e033e6f6ac2c62bc210b5f47"
+        },
+        "small": {
+          "url": "art/bulbit_s.webp",
+          "sha256": "2ba696aee5044dccd290c97771f2631c6b073b161a1a7a1a201fee57fe4bc9ee"
+        }
+      }
+    },
+    {
+      "id": "jjokbit",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_jjokbit",
+      "badge": "new",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 1,
+      "profileUrl": "films/jjokbit.v1.json",
+      "profileSha256": "9aa85cec0403ce7c2be4c77e2533e9e6028064056a549fc1786deaa6e493e24d",
+      "art": {
+        "large": {
+          "url": "art/jjokbit.webp",
+          "sha256": "94ed65688dd58cce594f90e7c1b2a64db33c60e429f5bd2c0c949721c9b2301c"
+        },
+        "small": {
+          "url": "art/jjokbit_s.webp",
+          "sha256": "c2be05f709140b0dca63ef528cf3895499842eac5912f350b71a4236d94a598b"
+        }
+      }
+    },
+    {
+      "id": "danpung",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_danpung",
+      "badge": "new",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 1,
+      "profileUrl": "films/danpung.v1.json",
+      "profileSha256": "b56b9d770c95f1803ee4b208713461731e24951264c6f0f57d9d41761d13494c",
+      "art": {
+        "large": {
+          "url": "art/danpung.webp",
+          "sha256": "5b3c5c3984c016b25c088013ac5193756fa7b6e60734c5072faf2da5337e0f6b"
+        },
+        "small": {
+          "url": "art/danpung_s.webp",
+          "sha256": "df26be85d1cbff6a79db38d426e866f32655a6c93c03bb8d245fe4b45c20c96e"
+        }
+      }
+    },
+    {
+      "id": "mujigae",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_mujigae",
+      "badge": "new",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 1,
+      "profileUrl": "films/mujigae.v1.json",
+      "profileSha256": "4474c303da36918ad9c3575f197a8884f09865397e9a66fa3c9fc84b9a169a35",
+      "art": {
+        "large": {
+          "url": "art/mujigae.webp",
+          "sha256": "cdd142a7b315316278e2e29099f879f5e723602843b5881c541d507381d118a1"
+        },
+        "small": {
+          "url": "art/mujigae_s.webp",
+          "sha256": "71ce2a42f8920e4f0ecd285c127130a605ab0bb172fdbbeade7ddb688292e858"
+        }
+      }
+    },
+    {
+      "id": "haetmuri",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_haetmuri",
+      "badge": "new",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 1,
+      "profileUrl": "films/haetmuri.v1.json",
+      "profileSha256": "99c152893d66e31c8c154b1d5ab7920b76213997cc69d85493564f2210321312",
+      "art": {
+        "large": {
+          "url": "art/haetmuri.webp",
+          "sha256": "5a00775295099144a964240a185763ae25a883bdae74452a42337fcc0946aed6"
+        },
+        "small": {
+          "url": "art/haetmuri_s.webp",
+          "sha256": "5438d69194c8c99a33c6f7967b395ff7a39ad88314aaa1a7e4ee03d27a240481"
+        }
+      }
+    },
+    {
+      "id": "bandi",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_bandi",
+      "badge": "new",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 1,
+      "profileUrl": "films/bandi.v1.json",
+      "profileSha256": "31b44d1fc577444d1d9e93011143d024b934906aa9620ba5f9f857961b3b9d60",
+      "art": {
+        "large": {
+          "url": "art/bandi.webp",
+          "sha256": "ed12790f545a0388dfb581c8af5eaffbb61be7ea2cef557efd07e77f86728032"
+        },
+        "small": {
+          "url": "art/bandi_s.webp",
+          "sha256": "f775f3eebe822b499e01760a5775f448aee4f4472712fdf50f7a01bc6066ee4e"
+        }
+      }
+    },
+    {
+      "id": "yeoubyeot",
+      "visible": true,
+      "tier": "free",
+      "productId": null,
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 2,
+      "profileUrl": "films/yeoubyeot.v2.json",
+      "profileSha256": "261c19a37aec837686665ced08b4800e83d05ad7b4d889f1ba02a2bba396acaf",
+      "art": {
+        "large": {
+          "url": "art/yeoubyeot.webp",
+          "sha256": "19f4b7ae6498c3152d2783cf47a395342ae86622a6995560bbdaa702d15660e5"
+        },
+        "small": {
+          "url": "art/yeoubyeot_s.webp",
+          "sha256": "fa7d8135c5bf3f09ae9ec7e3b0ab38872f820001f43b8d1fe9f38bf1cda4d3b3"
+        }
+      }
+    },
+    {
+      "id": "hannat",
+      "visible": true,
+      "tier": "free",
+      "productId": null,
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 3,
+      "profileUrl": "films/hannat.v3.json",
+      "profileSha256": "ffea4b09dae703a0e33e2b66844676a6da310cd5aa7348010c25a72c36c3c791",
+      "art": {
+        "large": {
+          "url": "art/hannat.webp",
+          "sha256": "22491677b61584b975f41999867d72bdf6841a69029fb8b27db0e1b64c344ef0"
+        },
+        "small": {
+          "url": "art/hannat_s.webp",
+          "sha256": "9f650833b7ca2ce5e3197f69be7c09a55be7d023e06e6cbcc0af7e4e723bc839"
+        }
+      }
+    },
+    {
+      "id": "dalmuri",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_dalmuri",
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 3,
+      "profileUrl": "films/dalmuri.v3.json",
+      "profileSha256": "91986088e32790fae0e95d4adcb0332622e4290db5b8e27b8198c2a06b6c5d7f",
+      "art": {
+        "large": {
+          "url": "art/dalmuri.webp",
+          "sha256": "9b2e48cd19e22e224fbb6b0ef5604791b8d77cd211258d6a48604f36f00766f8"
+        },
+        "small": {
+          "url": "art/dalmuri_s.webp",
+          "sha256": "d3000fa476106cbf9a0ab870c979f144b3ae9708554fe88b2533ee6668b8823c"
+        }
+      }
+    },
+    {
+      "id": "geuneul",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_geuneul",
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 3,
+      "profileUrl": "films/geuneul.v3.json",
+      "profileSha256": "6a879c66fd3c25b046c569a15c2fa39229455116b124961d6f4bbaa51ff96835",
+      "art": {
+        "large": {
+          "url": "art/geuneul.webp",
+          "sha256": "9454803b10067656b4bde240ba192818b5151a19ada850b0bf4761ebf1c92388"
+        },
+        "small": {
+          "url": "art/geuneul_s.webp",
+          "sha256": "c87d82fb85c672fc10364b26108b29c77648c4c590949790454f305e38c9bceb"
+        }
+      }
+    },
+    {
+      "id": "saebyeok",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_saebyeok",
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 3,
+      "profileUrl": "films/saebyeok.v3.json",
+      "profileSha256": "0b3a16f6d77b74cc5ed383df4c476cea5fa8c10d2b5fac5b32e11286629a5bdc",
+      "art": {
+        "large": {
+          "url": "art/saebyeok.webp",
+          "sha256": "a6c183e471e4cd954ae5f5a27ce865d635502611c5459095d7673991afd5eae9"
+        },
+        "small": {
+          "url": "art/saebyeok_s.webp",
+          "sha256": "78b055a76c6d69917119ef5f3f4a2bf3dc2c81e88d04818a123741fb507dbd1e"
+        }
+      }
+    },
+    {
+      "id": "haegeoreum",
+      "visible": true,
+      "tier": "paid",
+      "productId": "film_haegeoreum",
+      "badge": "none",
+      "regions": {
+        "allow": [],
+        "deny": []
+      },
+      "profileVersion": 3,
+      "profileUrl": "films/haegeoreum.v3.json",
+      "profileSha256": "669998ac17143b4e2a75a43ac06ccdfc2a94cc5624da29bfc5f6da5556f61783",
+      "art": {
+        "large": {
+          "url": "art/haegeoreum.webp",
+          "sha256": "3b0d419c604073d47e7afe4025553cb56034c703ec6ca1c5486775650e8f07b8"
+        },
+        "small": {
+          "url": "art/haegeoreum_s.webp",
+          "sha256": "f719ed44be6d41822c8b815bef217f587bb8f6835ea77f7749738d84545a062b"
+        }
+      }
+    }
+  ]
+}

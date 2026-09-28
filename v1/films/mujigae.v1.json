@@ -1,0 +1,137 @@
+{
+  "id": "mujigae",
+  "name": "Mujigae",
+  "names": {
+    "en": "Rainbow",
+    "ko": "무지개",
+    "ja": "虹",
+    "zh-TW": "彩虹",
+    "vi": "Cầu Vồng",
+    "th": "สายรุ้ง",
+    "id": "Pelangi"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Colour spilling after rain. Light leaks and burned edges, never the same twice",
+    "ko": "비 갠 뒤 번지는 빛깔. 빛샘과 탄 가장자리, 매번 다르게",
+    "ja": "雨上がりにこぼれる色。光漏れと焼けたふち、毎回ちがう一枚",
+    "zh-TW": "雨後灑落的色彩。漏光與燒邊，每張都不一樣",
+    "vi": "Sắc màu tràn ra sau mưa. Lọt sáng và viền cháy, không tấm nào giống tấm nào",
+    "th": "สีสันที่ล้นออกมาหลังฝน แสงรั่วและขอบไหม้ ไม่มีภาพไหนซ้ำกัน",
+    "id": "Warna yang tumpah selepas hujan. Light leak dan tepi terbakar, tak pernah sama"
+  },
+  "tier": "paid",
+  "productId": "film_mujigae",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 92
+  },
+  "deSharpen": {
+    "radius": 1.6,
+    "amount": 0.8
+  },
+  "sensor": {
+    "scale": 0.66
+  },
+  "whiteBalance": {
+    "kelvin": 6900,
+    "tint": 0.02
+  },
+  "exposure": {
+    "ev": 0.1
+  },
+  "vignette": {
+    "amount": 0.3,
+    "midpoint": 0.72,
+    "feather": 0.8,
+    "roundness": 0.5
+  },
+  "lightLeak": {
+    "amount": 0.85,
+    "count": 3,
+    "size": 0.42,
+    "colors": [
+      [
+        1.0,
+        0.32,
+        0.06
+      ],
+      [
+        1.0,
+        0.1,
+        0.28
+      ],
+      [
+        1.0,
+        0.72,
+        0.16
+      ],
+      [
+        0.55,
+        0.2,
+        1.0
+      ]
+    ],
+    "burn": 0.55
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.07
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.5,
+        0.54
+      ],
+      [
+        0.75,
+        0.81
+      ],
+      [
+        1,
+        0.96
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.12,
+    "vibrance": 0.1
+  },
+  "grain": {
+    "amount": 0.03,
+    "size": 0.9,
+    "shadows": 1.0,
+    "midtones": 1.0,
+    "highlights": 0.45,
+    "color": 0.2
+  },
+  "timestamp": {
+    "style": "led7",
+    "format": "''yy MM dd",
+    "color": [
+      1.0,
+      0.4,
+      0.08
+    ],
+    "height": 0.03,
+    "margin": [
+      0.06,
+      0.05
+    ],
+    "glow": 0.65
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}
