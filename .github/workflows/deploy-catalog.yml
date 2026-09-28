@@ -1,0 +1,55 @@
+# Lives in minchang-k/sunmini-catalog as .github/workflows/deploy-catalog.yml (source: sunmini server/github-action/).
+# Copies the latest catalog published in the Sunmini admin to this repo (GitHub Pages = fallback host) and, when the
+# CLOUDFLARE_API_TOKEN secret exists, to the assets-only Worker sunmini-catalog (primary host).
+# Every file is checked first: Ed25519 signature with the app's catalog keys and each sha256 (catalog-sync.mjs).
+name: deploy-catalog
+on:
+  repository_dispatch:
+    types: [catalog-publish]
+  workflow_dispatch: {}
+  schedule:
+    - cron: "*/30 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: deploy-catalog
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch and check the latest published catalog
+        id: sync
+        run: |
+          cur=$(node -p "try { require('./v1/catalog.json').version } catch { 0 }")
+          new=$(node .github/scripts/catalog-sync.mjs --out /tmp/v1)
+          echo "mirror v$cur, published v$new"
+          echo "version=$new" >> "$GITHUB_OUTPUT"
+          if [ "$new" -gt "$cur" ]; then rm -rf v1 && cp -r /tmp/v1 v1 && echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Push to GitHub Pages (fallback host)
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          git config user.name sunmini-deploy
+          git config user.email sunmini-deploy@users.noreply.github.com
+          git add -A v1
+          git commit -m "catalog v${{ steps.sync.outputs.version }}"
+          git push
+      - name: Deploy to Cloudflare (primary host)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: af454be93180843d98d05a6416f64b8f
+        run: |
+          want=$(node -p "require('./v1/catalog.json').version")
+          live=$(curl -s -A Sunmini https://sunmini-catalog.sunmini.workers.dev/v1/catalog.json | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{try{console.log(JSON.parse(s).version)}catch{console.log(0)}})")
+          if [ "$live" -ge "$want" ]; then echo "primary already serves v$live"; exit 0; fi
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::warning::CLOUDFLARE_API_TOKEN secret missing: primary stays at v$live until 'npm run deploy-catalog' runs on the Mac (server/README.md)"
+            exit 0
+          fi
+          mkdir -p /tmp/site && cp -r v1 /tmp/site/v1
+          echo '{"name":"sunmini-catalog","compatibility_date":"2026-08-15","workers_dev":true,"preview_urls":false,"assets":{"directory":"/tmp/site"}}' > /tmp/wrangler.json
+          npx -y wrangler@4 deploy -c /tmp/wrangler.json
