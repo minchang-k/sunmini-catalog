@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": 2,
-  "generatedAt": "2026-09-28T01:28:47Z",
+  "version": 3,
+  "generatedAt": "2026-09-28T01:49:57Z",
   "trialShots": 3,
   "regionOrder": {},
   "films": [
@@ -17,17 +17,7 @@
       },
       "profileVersion": 2,
       "profileUrl": "films/byeotnwi.v2.json",
-      "profileSha256": "af792a74832cd56736c503e0976ec95a27906e6988789ab5c3796f42ae0860d5",
-      "art": {
-        "large": {
-          "url": "art/byeotnwi.webp",
-          "sha256": "5138c634f554614f4b065981f4137546a38d2a954582a2b1414a4a1b24d9ca11"
-        },
-        "small": {
-          "url": "art/byeotnwi_s.webp",
-          "sha256": "ad90e7be1eac79b1f7d290b9695365dafcd1ce71d664cde7c2bd384e461049e4"
-        }
-      }
+      "profileSha256": "af792a74832cd56736c503e0976ec95a27906e6988789ab5c3796f42ae0860d5"
     },
     {
       "id": "noeul",
@@ -41,17 +31,7 @@
       },
       "profileVersion": 2,
       "profileUrl": "films/noeul.v2.json",
-      "profileSha256": "26b03b209a667e3cc593edac1baef1954c76f95caaa02ca047a08a98fb427d5d",
-      "art": {
-        "large": {
-          "url": "art/noeul.webp",
-          "sha256": "46f535ad1169b4ce3fb8a57f8b3bf2542ef203d870697f931ccd21d37774a727"
-        },
-        "small": {
-          "url": "art/noeul_s.webp",
-          "sha256": "94806ff05462ff9c77326c3dad781cfefcfb548fe49803529d62b13702411f98"
-        }
-      }
+      "profileSha256": "26b03b209a667e3cc593edac1baef1954c76f95caaa02ca047a08a98fb427d5d"
     },
     {
       "id": "yunseul",
@@ -65,17 +45,7 @@
       },
       "profileVersion": 2,
       "profileUrl": "films/yunseul.v2.json",
-      "profileSha256": "f6884e64af4f4b49dde709ddda8122f4a9deebf0126ea7e2a1b3b8442e7bc2e2",
-      "art": {
-        "large": {
-          "url": "art/yunseul.webp",
-          "sha256": "2019e454389a60485a6db154f96791cafa93619df4fd9ef53dd38308a921dc59"
-        },
-        "small": {
-          "url": "art/yunseul_s.webp",
-          "sha256": "f69561a4d0c5799d636bf77497bf81fd66dcd9f37877e9fe3f010dc901a4f1b8"
-        }
-      }
+      "profileSha256": "f6884e64af4f4b49dde709ddda8122f4a9deebf0126ea7e2a1b3b8442e7bc2e2"
     },
     {
       "id": "meokbit",
@@ -89,17 +59,7 @@
       },
       "profileVersion": 2,
       "profileUrl": "films/meokbit.v2.json",
-      "profileSha256": "90b9c78dff20a9b10e3d7780e0d92a9c286135d9da097efd4a30a74635b88568",
-      "art": {
-        "large": {
-          "url": "art/meokbit.webp",
-          "sha256": "18768eb5bf5316e1ca77294f393fe9ae6f91bc592c3b2af0ed4630ffe6e251a7"
-        },
-        "small": {
-          "url": "art/meokbit_s.webp",
-          "sha256": "719aa50d16db1e8d9bb4140b7fdbd658c4b6306d45e9dc9cc4be76d34a40f525"
-        }
-      }
+      "profileSha256": "90b9c78dff20a9b10e3d7780e0d92a9c286135d9da097efd4a30a74635b88568"
     },
     {
       "id": "ajirangi",
@@ -113,17 +73,7 @@
       },
       "profileVersion": 2,
       "profileUrl": "films/ajirangi.v2.json",
-      "profileSha256": "290ce9203a06e2de7a8943008f7fb174afd824ab06a021e77482f901b9148e42",
-      "art": {
-        "large": {
-          "url": "art/ajirangi.webp",
-          "sha256": "dde3175244e404fc0bd7f7f677ee4573f6d35a8eb56209fac73794267edd6399"
-        },
-        "small": {
-          "url": "art/ajirangi_s.webp",
-          "sha256": "d4508204fdfec9b4c1aef0cee61231c257f7aac3e8e3bce42812a92f5952b40b"
-        }
-      }
+      "profileSha256": "290ce9203a06e2de7a8943008f7fb174afd824ab06a021e77482f901b9148e42"
     },
     {
       "id": "bombyeot",
@@ -137,17 +87,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/bombyeot.v1.json",
-      "profileSha256": "f419ddbf40823c970b73aa6f5cdc660be26995f3e8504ac0ddceb3de01d3e92d",
-      "art": {
-        "large": {
-          "url": "art/bombyeot.webp",
-          "sha256": "9764008691a51709f6cee35c44be37e6c5a0024562b993301609736c9d825a32"
-        },
-        "small": {
-          "url": "art/bombyeot_s.webp",
-          "sha256": "0bfb0760245036cf8313329d05f7224e104599a31d25d73c0f448d97337aa59c"
-        }
-      }
+      "profileSha256": "f419ddbf40823c970b73aa6f5cdc660be26995f3e8504ac0ddceb3de01d3e92d"
     },
     {
       "id": "mulbit",
@@ -161,17 +101,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/mulbit.v1.json",
-      "profileSha256": "bcc24031118782165a1a46ee914c45678841589ea34b043f61b854d7fe18bed4",
-      "art": {
-        "large": {
-          "url": "art/mulbit.webp",
-          "sha256": "ae81622ac1ec383b05ccb5d2f99f377bb31c08ab0cc9a778dc47230424a6814d"
-        },
-        "small": {
-          "url": "art/mulbit_s.webp",
-          "sha256": "039d0ab756c4c659439a7997f7dc31809ea50d05a7846781342395af72ea52f1"
-        }
-      }
+      "profileSha256": "bcc24031118782165a1a46ee914c45678841589ea34b043f61b854d7fe18bed4"
     },
     {
       "id": "seori",
@@ -185,17 +115,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/seori.v1.json",
-      "profileSha256": "1c3f98264a0f480f9073ec4f9e35aa07fcc50721d14cb1c81b3092ae4ceeb341",
-      "art": {
-        "large": {
-          "url": "art/seori.webp",
-          "sha256": "526c4907102813214b269e8994c5c16d9ac30cc0785268692b095526f0a61a76"
-        },
-        "small": {
-          "url": "art/seori_s.webp",
-          "sha256": "3bbe6cd789fe73bdee55c509d65f2d30a1637716717938e4c97f62a013277022"
-        }
-      }
+      "profileSha256": "1c3f98264a0f480f9073ec4f9e35aa07fcc50721d14cb1c81b3092ae4ceeb341"
     },
     {
       "id": "bulbit",
@@ -209,17 +129,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/bulbit.v1.json",
-      "profileSha256": "973b1176a0a37344f8eb2e98d5a561325015e5d59359c3c5ff7925081bd03d9d",
-      "art": {
-        "large": {
-          "url": "art/bulbit.webp",
-          "sha256": "8c720598370ccb3853f8556fde853fe0a6a01dd9e033e6f6ac2c62bc210b5f47"
-        },
-        "small": {
-          "url": "art/bulbit_s.webp",
-          "sha256": "2ba696aee5044dccd290c97771f2631c6b073b161a1a7a1a201fee57fe4bc9ee"
-        }
-      }
+      "profileSha256": "973b1176a0a37344f8eb2e98d5a561325015e5d59359c3c5ff7925081bd03d9d"
     },
     {
       "id": "jjokbit",
@@ -233,17 +143,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/jjokbit.v1.json",
-      "profileSha256": "9aa85cec0403ce7c2be4c77e2533e9e6028064056a549fc1786deaa6e493e24d",
-      "art": {
-        "large": {
-          "url": "art/jjokbit.webp",
-          "sha256": "94ed65688dd58cce594f90e7c1b2a64db33c60e429f5bd2c0c949721c9b2301c"
-        },
-        "small": {
-          "url": "art/jjokbit_s.webp",
-          "sha256": "c2be05f709140b0dca63ef528cf3895499842eac5912f350b71a4236d94a598b"
-        }
-      }
+      "profileSha256": "9aa85cec0403ce7c2be4c77e2533e9e6028064056a549fc1786deaa6e493e24d"
     },
     {
       "id": "danpung",
@@ -257,17 +157,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/danpung.v1.json",
-      "profileSha256": "b56b9d770c95f1803ee4b208713461731e24951264c6f0f57d9d41761d13494c",
-      "art": {
-        "large": {
-          "url": "art/danpung.webp",
-          "sha256": "5b3c5c3984c016b25c088013ac5193756fa7b6e60734c5072faf2da5337e0f6b"
-        },
-        "small": {
-          "url": "art/danpung_s.webp",
-          "sha256": "df26be85d1cbff6a79db38d426e866f32655a6c93c03bb8d245fe4b45c20c96e"
-        }
-      }
+      "profileSha256": "b56b9d770c95f1803ee4b208713461731e24951264c6f0f57d9d41761d13494c"
     },
     {
       "id": "mujigae",
@@ -281,17 +171,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/mujigae.v1.json",
-      "profileSha256": "4474c303da36918ad9c3575f197a8884f09865397e9a66fa3c9fc84b9a169a35",
-      "art": {
-        "large": {
-          "url": "art/mujigae.webp",
-          "sha256": "cdd142a7b315316278e2e29099f879f5e723602843b5881c541d507381d118a1"
-        },
-        "small": {
-          "url": "art/mujigae_s.webp",
-          "sha256": "71ce2a42f8920e4f0ecd285c127130a605ab0bb172fdbbeade7ddb688292e858"
-        }
-      }
+      "profileSha256": "4474c303da36918ad9c3575f197a8884f09865397e9a66fa3c9fc84b9a169a35"
     },
     {
       "id": "haetmuri",
@@ -305,17 +185,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/haetmuri.v1.json",
-      "profileSha256": "75eb4a045ac79b728ff6a8b3a1b03cdc75c5392a7ac52a47408f0129e96f65ad",
-      "art": {
-        "large": {
-          "url": "art/haetmuri.webp",
-          "sha256": "5a00775295099144a964240a185763ae25a883bdae74452a42337fcc0946aed6"
-        },
-        "small": {
-          "url": "art/haetmuri_s.webp",
-          "sha256": "5438d69194c8c99a33c6f7967b395ff7a39ad88314aaa1a7e4ee03d27a240481"
-        }
-      }
+      "profileSha256": "75eb4a045ac79b728ff6a8b3a1b03cdc75c5392a7ac52a47408f0129e96f65ad"
     },
     {
       "id": "bandi",
@@ -329,17 +199,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/bandi.v1.json",
-      "profileSha256": "31b44d1fc577444d1d9e93011143d024b934906aa9620ba5f9f857961b3b9d60",
-      "art": {
-        "large": {
-          "url": "art/bandi.webp",
-          "sha256": "ed12790f545a0388dfb581c8af5eaffbb61be7ea2cef557efd07e77f86728032"
-        },
-        "small": {
-          "url": "art/bandi_s.webp",
-          "sha256": "f775f3eebe822b499e01760a5775f448aee4f4472712fdf50f7a01bc6066ee4e"
-        }
-      }
+      "profileSha256": "31b44d1fc577444d1d9e93011143d024b934906aa9620ba5f9f857961b3b9d60"
     },
     {
       "id": "changbyeot",
@@ -353,17 +213,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/changbyeot.v1.json",
-      "profileSha256": "87bed5c5df658b793837cb7dd55147ca8d1d4f8d21df1f6f45a7f44f86b7660e",
-      "art": {
-        "large": {
-          "url": "art/changbyeot.webp",
-          "sha256": "241162904ebc8eecab1128a79e22764bee457b47ca5100c7908f62922cd1190b"
-        },
-        "small": {
-          "url": "art/changbyeot_s.webp",
-          "sha256": "5c14deea0ec07cebb28a13c4e363a477854c8af26ab68029bccbc8bc5578ebb2"
-        }
-      }
+      "profileSha256": "87bed5c5df658b793837cb7dd55147ca8d1d4f8d21df1f6f45a7f44f86b7660e"
     },
     {
       "id": "buttuimak",
@@ -377,17 +227,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/buttuimak.v1.json",
-      "profileSha256": "7a852d8ee935483954c787558f72ae6427a0d24561f957dac2175476932afcf3",
-      "art": {
-        "large": {
-          "url": "art/buttuimak.webp",
-          "sha256": "26a9ee72ef963d3928911d31a6ed48613e3f77473f8aca85264c0332a5531e11"
-        },
-        "small": {
-          "url": "art/buttuimak_s.webp",
-          "sha256": "02316d7b7d1ba2f8a7119004f6159e46eadc41cac23a23bced4a9d5ead327128"
-        }
-      }
+      "profileSha256": "7a852d8ee935483954c787558f72ae6427a0d24561f957dac2175476932afcf3"
     },
     {
       "id": "haesal",
@@ -401,17 +241,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/haesal.v1.json",
-      "profileSha256": "bd95f96d1ee65e52302804b3e62f960fad54516fcfc53687c218b7daa059f9f9",
-      "art": {
-        "large": {
-          "url": "art/haesal.webp",
-          "sha256": "611eac1fcf9d6bc2b025dfb0ba5d0c66135c6e1b61003ac756b5cab43cd57bb8"
-        },
-        "small": {
-          "url": "art/haesal_s.webp",
-          "sha256": "b72924c3c16e2ebdf4086d05b3079871699eea1a96e92ff767c2cdc9e06990ea"
-        }
-      }
+      "profileSha256": "bd95f96d1ee65e52302804b3e62f960fad54516fcfc53687c218b7daa059f9f9"
     },
     {
       "id": "bulkkot",
@@ -425,17 +255,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/bulkkot.v1.json",
-      "profileSha256": "907d0cba3f262afb6397b9f11d6186dda0a5ef027f2417155f46e7d25590b328",
-      "art": {
-        "large": {
-          "url": "art/bulkkot.webp",
-          "sha256": "b33974fa803805f8513ac8c650afcb777c4b8f56475c5ae826c8aa48a370e105"
-        },
-        "small": {
-          "url": "art/bulkkot_s.webp",
-          "sha256": "b23eeaed3c55ddcb1c33fb0d78dc0a593bd1629fee82499ea5af9092843eb09a"
-        }
-      }
+      "profileSha256": "907d0cba3f262afb6397b9f11d6186dda0a5ef027f2417155f46e7d25590b328"
     },
     {
       "id": "ttweoyakbyeot",
@@ -449,17 +269,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/ttweoyakbyeot.v1.json",
-      "profileSha256": "06d5801a3b84be336cb58ae0a01f79da8e05391d1d0a44579e1732b697c212b8",
-      "art": {
-        "large": {
-          "url": "art/ttweoyakbyeot.webp",
-          "sha256": "66dd33e08f9dc50ff8a0f78a0d0954bafee7c9a07515ed14986285f460d1bee7"
-        },
-        "small": {
-          "url": "art/ttweoyakbyeot_s.webp",
-          "sha256": "81ccfdd80a5d42a8d15251d833d3c5ec982f17fb6cbc523d095ef2bf1ed36855"
-        }
-      }
+      "profileSha256": "06d5801a3b84be336cb58ae0a01f79da8e05391d1d0a44579e1732b697c212b8"
     },
     {
       "id": "jikgwang",
@@ -473,17 +283,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/jikgwang.v1.json",
-      "profileSha256": "4f85444c6252174f847966a9eb1362ebaea8750d585b0ff358d5d5fbbcc29d10",
-      "art": {
-        "large": {
-          "url": "art/jikgwang.webp",
-          "sha256": "389ed4d663a8619a388e7776482ece33007e408b6233e4b13185d82337407ba5"
-        },
-        "small": {
-          "url": "art/jikgwang_s.webp",
-          "sha256": "4f6d29f0014a7b81e288a21bd18bc638187ad38628d45e9667c1acba95dbb8c3"
-        }
-      }
+      "profileSha256": "4f85444c6252174f847966a9eb1362ebaea8750d585b0ff358d5d5fbbcc29d10"
     },
     {
       "id": "angaebyeot",
@@ -497,17 +297,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/angaebyeot.v1.json",
-      "profileSha256": "014498fd4bc4795d62420a32c1dd1ebb2c3b5a8d090a241664273e6bd481fc95",
-      "art": {
-        "large": {
-          "url": "art/angaebyeot.webp",
-          "sha256": "6f09d717ae6a1faf225cc04c4abbc267e7b17cb5d2a13a9cbf107ded91f787d8"
-        },
-        "small": {
-          "url": "art/angaebyeot_s.webp",
-          "sha256": "3687dde9eaf224056ad1c9d9c28f5542fbb6114e948991f36e84fa79da9e8f59"
-        }
-      }
+      "profileSha256": "014498fd4bc4795d62420a32c1dd1ebb2c3b5a8d090a241664273e6bd481fc95"
     },
     {
       "id": "byeottteul",
@@ -521,17 +311,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/byeottteul.v1.json",
-      "profileSha256": "00bacd8e7f7ebd8b99ad0793928b9c11f5fb180848a9da774d58002e98d4556c",
-      "art": {
-        "large": {
-          "url": "art/byeottteul.webp",
-          "sha256": "2b621eafa81c052d15ed969897105a25c9cc2b8f6124fcae834bf33d4c50a335"
-        },
-        "small": {
-          "url": "art/byeottteul_s.webp",
-          "sha256": "4a823db64327e6bb2443054b7a992837a0467771d645434d7141b336140774d0"
-        }
-      }
+      "profileSha256": "00bacd8e7f7ebd8b99ad0793928b9c11f5fb180848a9da774d58002e98d4556c"
     },
     {
       "id": "haemaereum",
@@ -545,17 +325,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/haemaereum.v1.json",
-      "profileSha256": "d279aedd7f90f5ca50f049a036778d2c1b849ff8be7c909c3cf7c048abb7f27b",
-      "art": {
-        "large": {
-          "url": "art/haemaereum.webp",
-          "sha256": "e9e62d2430ff9d013a7c135488e6046fbf8a2ea031bdad9ca2281e1f702b0600"
-        },
-        "small": {
-          "url": "art/haemaereum_s.webp",
-          "sha256": "bcc0d88e1a24e53fb34fc5d5b147e231878cf002bc01e99231a65c7a4dc8d727"
-        }
-      }
+      "profileSha256": "d279aedd7f90f5ca50f049a036778d2c1b849ff8be7c909c3cf7c048abb7f27b"
     },
     {
       "id": "bitbal",
@@ -569,17 +339,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/bitbal.v1.json",
-      "profileSha256": "5b54b3a0fefd276653359ac315a317adc3d69927bd244639e07b0e557a94adfd",
-      "art": {
-        "large": {
-          "url": "art/bitbal.webp",
-          "sha256": "7879ce5429542c74b88e3c1bf972def40e6faeba0eb824a95925fbf8ef731668"
-        },
-        "small": {
-          "url": "art/bitbal_s.webp",
-          "sha256": "12dd3bfc9c10bf90246872dac0759b7a95e53455c9fb14691a8abc99a51acb55"
-        }
-      }
+      "profileSha256": "5b54b3a0fefd276653359ac315a317adc3d69927bd244639e07b0e557a94adfd"
     },
     {
       "id": "hambangnun",
@@ -593,17 +353,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/hambangnun.v1.json",
-      "profileSha256": "57f889e01c3f4755daba3fc0300e6cd23bbba3b1b34240173a54309a302e33ca",
-      "art": {
-        "large": {
-          "url": "art/hambangnun.webp",
-          "sha256": "61de37c18178dce37850bf4a40feecf18b75fa50d5ad43eed475a1f1effba635"
-        },
-        "small": {
-          "url": "art/hambangnun_s.webp",
-          "sha256": "6d02e80f714de1577d323f45bd2dd7643edbf89b093e454a846171773a1f03c4"
-        }
-      }
+      "profileSha256": "57f889e01c3f4755daba3fc0300e6cd23bbba3b1b34240173a54309a302e33ca"
     },
     {
       "id": "yeoubyeot",
@@ -617,17 +367,7 @@
       },
       "profileVersion": 2,
       "profileUrl": "films/yeoubyeot.v2.json",
-      "profileSha256": "261c19a37aec837686665ced08b4800e83d05ad7b4d889f1ba02a2bba396acaf",
-      "art": {
-        "large": {
-          "url": "art/yeoubyeot.webp",
-          "sha256": "19f4b7ae6498c3152d2783cf47a395342ae86622a6995560bbdaa702d15660e5"
-        },
-        "small": {
-          "url": "art/yeoubyeot_s.webp",
-          "sha256": "fa7d8135c5bf3f09ae9ec7e3b0ab38872f820001f43b8d1fe9f38bf1cda4d3b3"
-        }
-      }
+      "profileSha256": "261c19a37aec837686665ced08b4800e83d05ad7b4d889f1ba02a2bba396acaf"
     },
     {
       "id": "bitbaraem",
@@ -641,17 +381,7 @@
       },
       "profileVersion": 1,
       "profileUrl": "films/bitbaraem.v1.json",
-      "profileSha256": "92ba4052efb5f1ec90a683eb3fb270bb9d92a973782cb9c434d7be2ee38f0995",
-      "art": {
-        "large": {
-          "url": "art/bitbaraem.webp",
-          "sha256": "bfd1f35e26c16b9169df0ffda704c58cde15bcd964caa25dbd4340f34ff2cc1b"
-        },
-        "small": {
-          "url": "art/bitbaraem_s.webp",
-          "sha256": "36d25a4c7bf188510d80fe48e0d480a098650ab42eb7d3c4edbd977f173a4459"
-        }
-      }
+      "profileSha256": "92ba4052efb5f1ec90a683eb3fb270bb9d92a973782cb9c434d7be2ee38f0995"
     },
     {
       "id": "hannat",
@@ -665,17 +395,7 @@
       },
       "profileVersion": 3,
       "profileUrl": "films/hannat.v3.json",
-      "profileSha256": "ffea4b09dae703a0e33e2b66844676a6da310cd5aa7348010c25a72c36c3c791",
-      "art": {
-        "large": {
-          "url": "art/hannat.webp",
-          "sha256": "22491677b61584b975f41999867d72bdf6841a69029fb8b27db0e1b64c344ef0"
-        },
-        "small": {
-          "url": "art/hannat_s.webp",
-          "sha256": "9f650833b7ca2ce5e3197f69be7c09a55be7d023e06e6cbcc0af7e4e723bc839"
-        }
-      }
+      "profileSha256": "ffea4b09dae703a0e33e2b66844676a6da310cd5aa7348010c25a72c36c3c791"
     },
     {
       "id": "dalmuri",
@@ -689,17 +409,7 @@
       },
       "profileVersion": 3,
       "profileUrl": "films/dalmuri.v3.json",
-      "profileSha256": "91986088e32790fae0e95d4adcb0332622e4290db5b8e27b8198c2a06b6c5d7f",
-      "art": {
-        "large": {
-          "url": "art/dalmuri.webp",
-          "sha256": "9b2e48cd19e22e224fbb6b0ef5604791b8d77cd211258d6a48604f36f00766f8"
-        },
-        "small": {
-          "url": "art/dalmuri_s.webp",
-          "sha256": "d3000fa476106cbf9a0ab870c979f144b3ae9708554fe88b2533ee6668b8823c"
-        }
-      }
+      "profileSha256": "91986088e32790fae0e95d4adcb0332622e4290db5b8e27b8198c2a06b6c5d7f"
     },
     {
       "id": "geuneul",
@@ -713,17 +423,7 @@
       },
       "profileVersion": 3,
       "profileUrl": "films/geuneul.v3.json",
-      "profileSha256": "6a879c66fd3c25b046c569a15c2fa39229455116b124961d6f4bbaa51ff96835",
-      "art": {
-        "large": {
-          "url": "art/geuneul.webp",
-          "sha256": "9454803b10067656b4bde240ba192818b5151a19ada850b0bf4761ebf1c92388"
-        },
-        "small": {
-          "url": "art/geuneul_s.webp",
-          "sha256": "c87d82fb85c672fc10364b26108b29c77648c4c590949790454f305e38c9bceb"
-        }
-      }
+      "profileSha256": "6a879c66fd3c25b046c569a15c2fa39229455116b124961d6f4bbaa51ff96835"
     },
     {
       "id": "saebyeok",
@@ -737,17 +437,7 @@
       },
       "profileVersion": 3,
       "profileUrl": "films/saebyeok.v3.json",
-      "profileSha256": "0b3a16f6d77b74cc5ed383df4c476cea5fa8c10d2b5fac5b32e11286629a5bdc",
-      "art": {
-        "large": {
-          "url": "art/saebyeok.webp",
-          "sha256": "a6c183e471e4cd954ae5f5a27ce865d635502611c5459095d7673991afd5eae9"
-        },
-        "small": {
-          "url": "art/saebyeok_s.webp",
-          "sha256": "78b055a76c6d69917119ef5f3f4a2bf3dc2c81e88d04818a123741fb507dbd1e"
-        }
-      }
+      "profileSha256": "0b3a16f6d77b74cc5ed383df4c476cea5fa8c10d2b5fac5b32e11286629a5bdc"
     },
     {
       "id": "haegeoreum",
@@ -761,17 +451,7 @@
       },
       "profileVersion": 3,
       "profileUrl": "films/haegeoreum.v3.json",
-      "profileSha256": "2252d60565019d50c9d800afd309d4cd66d10449ec454d2b3ae7878fe81c917f",
-      "art": {
-        "large": {
-          "url": "art/haegeoreum.webp",
-          "sha256": "3b0d419c604073d47e7afe4025553cb56034c703ec6ca1c5486775650e8f07b8"
-        },
-        "small": {
-          "url": "art/haegeoreum_s.webp",
-          "sha256": "f719ed44be6d41822c8b815bef217f587bb8f6835ea77f7749738d84545a062b"
-        }
-      }
+      "profileSha256": "2252d60565019d50c9d800afd309d4cd66d10449ec454d2b3ae7878fe81c917f"
     }
   ]
 }
