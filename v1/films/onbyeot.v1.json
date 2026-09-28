@@ -1,0 +1,164 @@
+{
+  "id": "onbyeot",
+  "name": "Onbyeot",
+  "names": {
+    "ko": "따끈이",
+    "en": "Toasty",
+    "ja": "ぽかぽか",
+    "zh-TW": "暖暖",
+    "vi": "Ấm Áp",
+    "th": "อุ่นอุ่น",
+    "id": "Si Hangat"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Everyday colour film. A warm amber cast over everything, olive greens, visible grain, a date",
+    "ko": "매일 쓰는 컬러 필름. 전체에 드리운 따뜻한 호박빛, 올리브빛 초록, 눈에 띄는 입자, 날짜",
+    "ja": "毎日のカラーフィルム。全体にかかる暖かい琥珀色、オリーブ色の緑、見える粒子、日付",
+    "zh-TW": "日常彩色底片。整體暖琥珀色調、橄欖綠、明顯顆粒、日期",
+    "vi": "Phim màu thường ngày. Ánh hổ phách ấm phủ khắp ảnh, xanh ô liu, hạt rõ, có ngày",
+    "th": "ฟิล์มสีใช้ทุกวัน โทนอำพันอุ่นทั้งภาพ เขียวมะกอก เกรนชัด มีวันที่",
+    "id": "Film warna sehari-hari. Rona amber hangat di seluruh foto, hijau zaitun, grain terlihat, ada tanggal"
+  },
+  "tier": "paid",
+  "productId": "film_onbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 92
+  },
+  "deSharpen": {
+    "radius": 1.6,
+    "amount": 0.8
+  },
+  "sensor": {
+    "scale": 0.7
+  },
+  "whiteBalance": {
+    "kelvin": 6850,
+    "tint": 0.02
+  },
+  "exposure": {
+    "ev": 0.1
+  },
+  "chromaticAberration": {
+    "amount": 0.0012
+  },
+  "vignette": {
+    "amount": 0.16,
+    "midpoint": 0.78,
+    "feather": 0.8,
+    "roundness": 0.5
+  },
+  "halation": {
+    "threshold": 0.75,
+    "radius": 16,
+    "amount": 0.12,
+    "tint": [
+      1.0,
+      0.55,
+      0.3
+    ]
+  },
+  "bloom": {
+    "threshold": 0.8,
+    "radius": 12,
+    "amount": 0.1,
+    "tint": [
+      1.0,
+      0.97,
+      0.9
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.09
+      ],
+      [
+        0.25,
+        0.29
+      ],
+      [
+        0.5,
+        0.56
+      ],
+      [
+        0.8,
+        0.84
+      ],
+      [
+        1.0,
+        0.93
+      ]
+    ],
+    "b": [
+      [
+        0.0,
+        0.02
+      ],
+      [
+        0.5,
+        0.46
+      ],
+      [
+        1.0,
+        0.9
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.06,
+    "vibrance": 0.04,
+    "mix": [
+      1.04,
+      0.0,
+      -0.04,
+      0.05,
+      0.95,
+      0.0,
+      0.0,
+      0.02,
+      0.98
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 70,
+    "shadowSat": 0.07,
+    "highlightHue": 45,
+    "highlightSat": 0.14,
+    "balance": 0.0
+  },
+  "grain": {
+    "amount": 0.04,
+    "size": 0.9,
+    "shadows": 1.0,
+    "midtones": 1.0,
+    "highlights": 0.4,
+    "color": 0.25
+  },
+  "timestamp": {
+    "style": "led7",
+    "format": "yyyy.MM.dd",
+    "color": [
+      1.0,
+      0.38,
+      0.06
+    ],
+    "height": 0.03,
+    "margin": [
+      0.06,
+      0.05
+    ],
+    "glow": 0.65
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": true,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

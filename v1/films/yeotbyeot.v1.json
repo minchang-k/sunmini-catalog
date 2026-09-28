@@ -1,0 +1,126 @@
+{
+  "id": "yeotbyeot",
+  "name": "Yeotbyeot",
+  "names": {
+    "ko": "살랑이",
+    "en": "Breezy",
+    "ja": "そよそよ",
+    "zh-TW": "微風",
+    "vi": "Hiu Hiu",
+    "th": "ลมเย็น",
+    "id": "Si Semilir"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Pale, quiet film. Airy low contrast, cyan-sage shadows, a misty glow",
+    "ko": "옅고 고요한 필름. 가볍고 낮은 대비, 청록빛 그림자, 안개 같은 빛번짐",
+    "ja": "淡くて静かなフィルム。軽やかな低コントラスト、シアンがかったセージの影、ミストのような光",
+    "zh-TW": "淡淡的安靜底片。輕盈低對比、青綠色陰影、霧般的光暈",
+    "vi": "Phim nhạt và tĩnh lặng. Tương phản thấp nhẹ nhàng, bóng xanh lơ, quầng sáng như sương",
+    "th": "ฟิล์มจางและเงียบสงบ คอนทราสต์ต่ำโปร่งเบา เงาเขียวอมฟ้า แสงฟุ้งเหมือนหมอก",
+    "id": "Film pucat yang tenang. Kontras rendah yang lapang, bayangan sian-sage, pendar berkabut"
+  },
+  "tier": "paid",
+  "productId": "film_yeotbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.8,
+    "amount": 0.8
+  },
+  "whiteBalance": {
+    "kelvin": 6600,
+    "tint": -0.02
+  },
+  "exposure": {
+    "ev": 0.15
+  },
+  "chromaticAberration": {
+    "amount": 0.0012
+  },
+  "edgeBlur": {
+    "radius": 3.0,
+    "amount": 0.4,
+    "start": 0.45
+  },
+  "vignette": {
+    "amount": 0.08,
+    "midpoint": 0.82,
+    "feather": 0.8,
+    "roundness": 0.6
+  },
+  "halation": {
+    "threshold": 0.55,
+    "radius": 40,
+    "amount": 0.22,
+    "tint": [
+      1.0,
+      0.92,
+      0.88
+    ]
+  },
+  "bloom": {
+    "threshold": 0.5,
+    "radius": 30,
+    "amount": 0.24,
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.17
+      ],
+      [
+        0.25,
+        0.34
+      ],
+      [
+        0.5,
+        0.54
+      ],
+      [
+        0.8,
+        0.76
+      ],
+      [
+        1.0,
+        0.87
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.84,
+    "vibrance": 0.0
+  },
+  "splitTone": {
+    "shadowHue": 175,
+    "shadowSat": 0.26,
+    "highlightHue": 30,
+    "highlightSat": 0.1,
+    "balance": 0.0
+  },
+  "grain": {
+    "amount": 0.028,
+    "size": 0.7,
+    "shadows": 1.0,
+    "midtones": 1.0,
+    "highlights": 0.4,
+    "color": 0.15
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.25
+  }
+}

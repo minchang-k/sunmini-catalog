@@ -1,0 +1,178 @@
+{
+  "id": "geuneul",
+  "name": "Geuneul",
+  "names": {
+    "en": "Swingy",
+    "ko": "흔들이",
+    "ja": "ゆらゆら",
+    "zh-TW": "搖搖",
+    "vi": "Đung Đưa",
+    "th": "ไกวไกว",
+    "id": "Si Ayun"
+  },
+  "kind": "digital",
+  "taglines": {
+    "en": "A premium digicam in the shade. Firm contrast, calm true colour, crisp detail",
+    "ko": "그늘에서 찍은 고급 디카. 단단한 대비, 차분하고 정직한 색, 또렷한 디테일",
+    "ja": "日陰で撮る上位機のデジカメ。しっかりしたコントラスト、落ち着いた素直な色、くっきりした描写",
+    "zh-TW": "在樹蔭下拍的高階數位相機。紮實的對比、沉穩真實的色彩、清晰的細節",
+    "vi": "Máy ảnh số cao cấp dưới bóng râm. Tương phản chắc, màu điềm tĩnh và trung thực, chi tiết sắc nét",
+    "th": "กล้องดิจิทัลระดับสูงในร่มเงา คอนทราสต์หนักแน่น สีสุขุมตามจริง รายละเอียดคมชัด",
+    "id": "Kamera digital kelas atas di tempat teduh. Kontras tegas, warna tenang dan jujur, detail tajam"
+  },
+  "tier": "paid",
+  "productId": "film_geuneul",
+  "calibrated": false,
+  "version": 4,
+  "output": {
+    "longEdge": 2592,
+    "jpegQuality": 90,
+    "sizes": [
+      2048,
+      1024
+    ]
+  },
+  "deSharpen": {
+    "radius": 1.2,
+    "amount": 0.6
+  },
+  "sensor": {
+    "scale": 0.85
+  },
+  "whiteBalance": {
+    "kelvin": 6700,
+    "tint": 0.015
+  },
+  "exposure": {
+    "ev": -0.2
+  },
+  "flash": {
+    "strength": 1.3,
+    "falloff": 0.6,
+    "ambient": 0.5,
+    "tint": [
+      1.0,
+      1.0,
+      1.04
+    ]
+  },
+  "chromaticAberration": {
+    "amount": 0.0008
+  },
+  "vignette": {
+    "amount": 0.28,
+    "midpoint": 0.75,
+    "feather": 0.8,
+    "roundness": 0.6
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.0
+      ],
+      [
+        0.15,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.64
+      ],
+      [
+        0.85,
+        0.92
+      ],
+      [
+        1,
+        0.99
+      ]
+    ],
+    "b": [
+      [
+        0,
+        0.02
+      ],
+      [
+        0.5,
+        0.49
+      ],
+      [
+        1,
+        0.97
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.0,
+    "vibrance": 0.0
+  },
+  "splitTone": {
+    "shadowHue": 160,
+    "shadowSat": 0.05,
+    "highlightHue": 40,
+    "highlightSat": 0.03,
+    "balance": -0.1
+  },
+  "sharpen": {
+    "radius": 1.1,
+    "amount": 1.1,
+    "threshold": 0.003
+  },
+  "digitalNoise": {
+    "luma": 0.012,
+    "chroma": 0.025,
+    "size": 1.8,
+    "shadowBias": 2.2
+  },
+  "timestamp": {
+    "style": "digital",
+    "format": "yyyy/MM/dd HH:mm",
+    "color": [
+      1.0,
+      0.55,
+      0.1
+    ],
+    "height": 0.032,
+    "margin": [
+      0.045,
+      0.04
+    ],
+    "opacity": 1.0,
+    "variants": [
+      {
+        "format": "dd/MM/yyyy",
+        "color": [
+          0.95,
+          0.95,
+          0.92
+        ]
+      },
+      {
+        "style": "led7",
+        "format": "''yy MM dd",
+        "color": [
+          1.0,
+          0.42,
+          0.08
+        ],
+        "height": 0.03,
+        "glow": 0.6
+      }
+    ]
+  },
+  "jpeg": {
+    "quality": 76,
+    "passes": 1
+  },
+  "defaults": {
+    "focal": 28,
+    "timestamp": false,
+    "grain": 1.0,
+    "aspect": 1.3333334
+  }
+}

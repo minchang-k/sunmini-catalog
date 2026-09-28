@@ -1,0 +1,131 @@
+{
+  "id": "goreunbyeot",
+  "name": "Goreunbyeot",
+  "names": {
+    "ko": "구름이",
+    "en": "Cloudy",
+    "ja": "くもくも",
+    "zh-TW": "雲雲",
+    "vi": "Mây Mây",
+    "th": "เมฆน้อย",
+    "id": "Si Awan"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Made for grey, cloudy days. Colour brought back, fresh greens, soft even light",
+    "ko": "흐린 날을 위한 필름. 되살린 색, 싱그러운 초록, 고르고 부드러운 빛",
+    "ja": "曇りの日のためのフィルム。よみがえる色、みずみずしい緑、やわらかく均一な光",
+    "zh-TW": "為陰天而生。找回色彩、清新綠意、柔和均勻的光",
+    "vi": "Dành cho ngày trời xám mây. Màu sắc được hồi lại, xanh lá tươi, ánh sáng dịu đều",
+    "th": "สำหรับวันฟ้าครึ้ม สีกลับมามีชีวิต เขียวสดชื่น แสงนุ่มสม่ำเสมอ",
+    "id": "Untuk hari mendung yang kelabu. Warna dihidupkan kembali, hijau segar, cahaya lembut merata"
+  },
+  "tier": "paid",
+  "productId": "film_goreunbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.4,
+    "amount": 0.6
+  },
+  "whiteBalance": {
+    "kelvin": 6200,
+    "tint": -0.02
+  },
+  "exposure": {
+    "ev": 0.0
+  },
+  "chromaticAberration": {
+    "amount": 0.0005
+  },
+  "edgeBlur": {
+    "radius": 2.5,
+    "amount": 0.25,
+    "start": 0.5
+  },
+  "halation": {
+    "threshold": 0.65,
+    "radius": 20,
+    "amount": 0.1,
+    "tint": [
+      1.0,
+      0.85,
+      0.75
+    ]
+  },
+  "bloom": {
+    "threshold": 0.8,
+    "radius": 14,
+    "amount": 0.12,
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.08
+      ],
+      [
+        0.25,
+        0.28
+      ],
+      [
+        0.5,
+        0.51
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        1.0,
+        0.88
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.3,
+    "vibrance": 0.12,
+    "mix": [
+      1.04,
+      -0.02,
+      -0.02,
+      -0.05,
+      1.16,
+      -0.11,
+      0.0,
+      0.02,
+      0.98
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 200,
+    "shadowSat": 0.07,
+    "highlightHue": 40,
+    "highlightSat": 0.03,
+    "balance": 0.0
+  },
+  "grain": {
+    "amount": 0.018,
+    "size": 0.6,
+    "shadows": 0.9,
+    "midtones": 1.0,
+    "highlights": 0.3,
+    "color": 0.15
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.25
+  }
+}

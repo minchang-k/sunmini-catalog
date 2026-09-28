@@ -1,0 +1,116 @@
+{
+  "id": "mulbit",
+  "name": "Mulbit",
+  "names": {
+    "en": "Bubbly",
+    "ko": "뽀글이",
+    "ja": "ぶくぶく",
+    "zh-TW": "泡泡",
+    "vi": "Bong Bóng",
+    "th": "ฟองฟอง",
+    "id": "Si Gelembung"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Light on clear water. Deep blue sky, vivid colour, crisp contrast",
+    "ko": "맑은 물에 비친 빛. 짙푸른 하늘, 선명한 색, 또렷한 대비",
+    "ja": "澄んだ水に映る光。深い青空、鮮やかな色、くっきりしたコントラスト",
+    "zh-TW": "清水映著的光。深藍天空、鮮豔色彩、俐落對比",
+    "vi": "Ánh sáng trên làn nước trong. Trời xanh thẫm, màu rực rỡ, tương phản sắc nét",
+    "th": "แสงบนผืนน้ำใส ฟ้าสีน้ำเงินเข้ม สีสด คอนทราสต์คม",
+    "id": "Cahaya di air yang jernih. Langit biru pekat, warna cerah, kontras tajam"
+  },
+  "tier": "paid",
+  "productId": "film_mulbit",
+  "calibrated": false,
+  "version": 2,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 95
+  },
+  "deSharpen": {
+    "radius": 1.2,
+    "amount": 0.6
+  },
+  "whiteBalance": {
+    "kelvin": 6100,
+    "tint": 0.0
+  },
+  "exposure": {
+    "ev": -0.1
+  },
+  "vignette": {
+    "amount": 0.26,
+    "midpoint": 0.72,
+    "feather": 0.7,
+    "roundness": 0.6
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.0
+      ],
+      [
+        0.22,
+        0.16
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.78,
+        0.86
+      ],
+      [
+        1,
+        1.0
+      ]
+    ],
+    "b": [
+      [
+        0,
+        0.03
+      ],
+      [
+        0.5,
+        0.54
+      ],
+      [
+        1,
+        1.0
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.38,
+    "vibrance": 0.22,
+    "mix": [
+      1.07,
+      -0.05,
+      -0.02,
+      -0.03,
+      1.06,
+      -0.03,
+      -0.05,
+      -0.08,
+      1.13
+    ]
+  },
+  "grain": {
+    "amount": 0.009,
+    "size": 0.5,
+    "shadows": 0.7,
+    "midtones": 0.8,
+    "highlights": 0.3,
+    "color": 0.1
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

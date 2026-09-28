@@ -1,0 +1,127 @@
+{
+  "id": "milbyeot",
+  "name": "Milbyeot",
+  "names": {
+    "ko": "크림이",
+    "en": "Creamy",
+    "ja": "ミルク",
+    "zh-TW": "奶油",
+    "vi": "Kem Sữa",
+    "th": "ครีมมี่",
+    "id": "Si Krim"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Portrait film for faces. Creamy skin, sage shadows, soft pink highlights, fine grain",
+    "ko": "얼굴을 위한 인물 필름. 크림빛 피부, 세이지빛 그림자, 은은한 분홍 하이라이트, 고운 입자",
+    "ja": "顔のためのポートレートフィルム。クリーミーな肌、セージ色の影、淡いピンクのハイライト、細かい粒子",
+    "zh-TW": "為臉而生的人像底片。奶油膚色、鼠尾草綠陰影、淡粉高光、細緻顆粒",
+    "vi": "Phim chân dung cho khuôn mặt. Da mịn như kem, bóng xanh xám, vùng sáng hồng nhạt, hạt mịn",
+    "th": "ฟิล์มพอร์ตเทรตสำหรับใบหน้า ผิวนวลครีม เงาเขียวเสจ ไฮไลต์ชมพูอ่อน เกรนละเอียด",
+    "id": "Film potret untuk wajah. Kulit selembut krim, bayangan hijau sage, highlight merah muda lembut, grain halus"
+  },
+  "tier": "paid",
+  "productId": "film_milbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.6,
+    "amount": 0.8
+  },
+  "whiteBalance": {
+    "kelvin": 6650,
+    "tint": 0.04
+  },
+  "exposure": {
+    "ev": 0.15
+  },
+  "chromaticAberration": {
+    "amount": 0.0004
+  },
+  "edgeBlur": {
+    "radius": 2.5,
+    "amount": 0.3,
+    "start": 0.5
+  },
+  "vignette": {
+    "amount": 0.06,
+    "midpoint": 0.85,
+    "feather": 0.7,
+    "roundness": 0.7
+  },
+  "halation": {
+    "threshold": 0.88,
+    "radius": 8,
+    "amount": 0.08,
+    "tint": [
+      1.0,
+      0.75,
+      0.6
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.1
+      ],
+      [
+        0.25,
+        0.31
+      ],
+      [
+        0.5,
+        0.54
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        1.0,
+        0.9
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.96,
+    "vibrance": 0.0,
+    "mix": [
+      1.0,
+      0.02,
+      -0.02,
+      0.0,
+      1.03,
+      -0.03,
+      0.0,
+      0.03,
+      0.97
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 140,
+    "shadowSat": 0.18,
+    "highlightHue": 25,
+    "highlightSat": 0.1,
+    "balance": 0.0
+  },
+  "grain": {
+    "amount": 0.014,
+    "size": 0.5,
+    "shadows": 0.9,
+    "midtones": 0.9,
+    "highlights": 0.3,
+    "color": 0.1
+  },
+  "defaults": {
+    "focal": 50,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.25
+  }
+}

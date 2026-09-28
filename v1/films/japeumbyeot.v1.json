@@ -1,0 +1,179 @@
+{
+  "id": "japeumbyeot",
+  "name": "Japeumbyeot",
+  "names": {
+    "ko": "지지직이",
+    "en": "Fuzzy",
+    "ja": "ザザザ",
+    "zh-TW": "沙沙",
+    "vi": "Rè Rè",
+    "th": "ซ่าซ่า",
+    "id": "Si Kresek"
+  },
+  "kind": "digital",
+  "taglines": {
+    "en": "An early digicam in dim light, no flash. Purple noise, washed colour, stuck pixels, soft corners",
+    "ko": "플래시 없이 어둑한 곳의 옛 디카. 보랏빛 노이즈, 바랜 색, 고장 난 화소, 흐린 모서리",
+    "ja": "フラッシュなしで薄暗い場所の古いデジカメ。紫のノイズ、あせた色、ドット抜け、ぼやけた四隅",
+    "zh-TW": "昏暗處不開閃光的老數位相機。紫色雜訊、褪淡的色彩、壞點、柔焦邊角",
+    "vi": "Máy ảnh số đời đầu trong chỗ tối, không flash. Nhiễu tím, màu nhạt, điểm chết, góc mờ",
+    "th": "กล้องดิจิทัลยุคแรกในที่สลัว ไม่ใช้แฟลช นอยส์สีม่วง สีซีด พิกเซลเสีย มุมภาพนุ่ม",
+    "id": "Kamera digital awal di tempat redup tanpa flash. Noise ungu, warna pudar, piksel mati, sudut lembut"
+  },
+  "tier": "paid",
+  "productId": "film_japeumbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 85,
+    "sizes": [
+      2048,
+      1280
+    ]
+  },
+  "deSharpen": {
+    "radius": 1.6,
+    "amount": 0.8
+  },
+  "sensor": {
+    "scale": 0.65
+  },
+  "whiteBalance": {
+    "kelvin": 6120,
+    "tint": 0.04
+  },
+  "exposure": {
+    "ev": -0.25
+  },
+  "chromaticAberration": {
+    "amount": 0.003
+  },
+  "edgeBlur": {
+    "radius": 4.0,
+    "amount": 0.6,
+    "start": 0.35
+  },
+  "vignette": {
+    "amount": 0.36,
+    "midpoint": 0.72,
+    "feather": 0.8,
+    "roundness": 0.5
+  },
+  "halation": {
+    "threshold": 0.8,
+    "radius": 8,
+    "amount": 0.06,
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "bloom": {
+    "threshold": 0.6,
+    "radius": 18,
+    "amount": 0.15,
+    "tint": [
+      0.95,
+      0.95,
+      1.0
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.12
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.5,
+        0.46
+      ],
+      [
+        0.8,
+        0.76
+      ],
+      [
+        1.0,
+        0.9
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.72,
+    "vibrance": 0.0,
+    "mix": [
+      0.98,
+      -0.02,
+      0.04,
+      -0.02,
+      0.96,
+      0.06,
+      0.04,
+      -0.02,
+      1.08
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 262,
+    "shadowSat": 0.16,
+    "highlightHue": 220,
+    "highlightSat": 0.04,
+    "balance": -0.1
+  },
+  "digitalNoise": {
+    "luma": 0.03,
+    "chroma": 0.14,
+    "size": 3.5,
+    "shadowBias": 1.5
+  },
+  "hotPixels": {
+    "count": 14,
+    "size": 1.2,
+    "strength": 1.0
+  },
+  "timestamp": {
+    "style": "digital",
+    "format": "yyyy.MM.dd",
+    "color": [
+      1.0,
+      0.45,
+      0.1
+    ],
+    "height": 0.032,
+    "margin": [
+      0.045,
+      0.04
+    ],
+    "opacity": 1.0,
+    "variants": [
+      {
+        "style": "led7",
+        "format": "''yy MM dd",
+        "color": [
+          1.0,
+          0.42,
+          0.08
+        ],
+        "height": 0.03,
+        "glow": 0.6
+      }
+    ]
+  },
+  "jpeg": {
+    "quality": 70,
+    "passes": 1
+  },
+  "defaults": {
+    "focal": 28,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.3333334
+  }
+}

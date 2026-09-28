@@ -1,0 +1,117 @@
+{
+  "id": "sunbyeot",
+  "name": "Sunbyeot",
+  "names": {
+    "ko": "두근이",
+    "en": "Lovey",
+    "ja": "ドキドキ",
+    "zh-TW": "怦怦",
+    "vi": "Thình Thịch",
+    "th": "ตึกตัก",
+    "id": "Si Debar"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "The wedding album look. Bright and airy, clean whites, gold in the highlights, no haze",
+    "ko": "웨딩 앨범 느낌. 밝고 산뜻하게, 깨끗한 흰색, 하이라이트의 금빛, 뿌옇지 않게",
+    "ja": "ウェディングアルバムの雰囲気。明るく軽やか、澄んだ白、ハイライトに金色、もやなし",
+    "zh-TW": "婚禮相簿質感。明亮輕盈、乾淨的白、高光帶金、不霧化",
+    "vi": "Phong cách album cưới. Sáng và thoáng, trắng trong, ánh vàng ở vùng sáng, không mờ",
+    "th": "ลุคอัลบั้มงานแต่ง สว่างโปร่ง ขาวสะอาด ไฮไลต์สีทอง ไม่ฟุ้ง",
+    "id": "Nuansa album pernikahan. Terang dan lapang, putih bersih, kilau emas di highlight, tanpa kabut"
+  },
+  "tier": "paid",
+  "productId": "film_sunbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.4,
+    "amount": 0.6
+  },
+  "whiteBalance": {
+    "kelvin": 6550,
+    "tint": 0.0
+  },
+  "exposure": {
+    "ev": 0.45
+  },
+  "edgeBlur": {
+    "radius": 2.0,
+    "amount": 0.2,
+    "start": 0.55
+  },
+  "halation": {
+    "threshold": 0.85,
+    "radius": 10,
+    "amount": 0.1,
+    "tint": [
+      1.0,
+      0.9,
+      0.75
+    ]
+  },
+  "bloom": {
+    "threshold": 0.75,
+    "radius": 18,
+    "amount": 0.18,
+    "tint": [
+      1.0,
+      0.97,
+      0.9
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.14
+      ],
+      [
+        0.25,
+        0.4
+      ],
+      [
+        0.5,
+        0.65
+      ],
+      [
+        0.8,
+        0.9
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.02,
+    "vibrance": 0.05
+  },
+  "splitTone": {
+    "shadowHue": 210,
+    "shadowSat": 0.03,
+    "highlightHue": 45,
+    "highlightSat": 0.18,
+    "balance": 0.5
+  },
+  "grain": {
+    "amount": 0.01,
+    "size": 0.45,
+    "shadows": 0.8,
+    "midtones": 0.8,
+    "highlights": 0.3,
+    "color": 0.1
+  },
+  "defaults": {
+    "focal": 50,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.25
+  }
+}

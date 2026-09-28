@@ -1,0 +1,141 @@
+{
+  "id": "sutbyeot",
+  "name": "Sutbyeot",
+  "names": {
+    "ko": "까칠이",
+    "en": "Edgy",
+    "ja": "ツンツン",
+    "zh-TW": "酷酷",
+    "vi": "Ngầu Ngầu",
+    "th": "เท่เท่",
+    "id": "Si Keren"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Pushed black and white. Hard contrast, coarse grain, warm grey tones, dark corners",
+    "ko": "증감한 흑백. 강한 대비, 거친 입자, 따뜻한 회색 톤, 어두운 모서리",
+    "ja": "増感したモノクロ。硬いコントラスト、粗い粒子、暖かいグレー、暗い四隅",
+    "zh-TW": "增感黑白。強烈對比、粗顆粒、暖灰色調、暗角",
+    "vi": "Đen trắng đẩy sáng. Tương phản gắt, hạt thô, tông xám ấm, góc tối",
+    "th": "ขาวดำแบบพุชฟิล์ม คอนทราสต์จัด เกรนหยาบ โทนเทาอุ่น มุมมืด",
+    "id": "Hitam putih yang di-push. Kontras keras, grain kasar, abu-abu hangat, sudut gelap"
+  },
+  "tier": "paid",
+  "productId": "film_sutbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.2,
+    "amount": 0.5
+  },
+  "whiteBalance": {
+    "kelvin": 6500,
+    "tint": 0.0
+  },
+  "exposure": {
+    "ev": 0.1
+  },
+  "chromaticAberration": {
+    "amount": 0.0012
+  },
+  "edgeBlur": {
+    "radius": 2.5,
+    "amount": 0.25,
+    "start": 0.5
+  },
+  "vignette": {
+    "amount": 0.5,
+    "midpoint": 0.68,
+    "feather": 0.8,
+    "roundness": 0.5
+  },
+  "halation": {
+    "threshold": 0.75,
+    "radius": 16,
+    "amount": 0.18,
+    "tint": [
+      1.0,
+      0.8,
+      0.6
+    ]
+  },
+  "bloom": {
+    "threshold": 0.8,
+    "radius": 12,
+    "amount": 0.12,
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.15,
+        0.02
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.8,
+        0.97
+      ],
+      [
+        0.9,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.0,
+    "vibrance": 0.0,
+    "mix": [
+      0.34,
+      0.5,
+      0.16,
+      0.34,
+      0.5,
+      0.16,
+      0.34,
+      0.5,
+      0.16
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 30,
+    "shadowSat": 0.15,
+    "highlightHue": 38,
+    "highlightSat": 0.3,
+    "balance": 0.0
+  },
+  "grain": {
+    "amount": 0.07,
+    "size": 1.1,
+    "shadows": 1.0,
+    "midtones": 1.0,
+    "highlights": 0.5,
+    "color": 0.0
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "pulbyeot",
+  "name": "Pulbyeot",
+  "names": {
+    "ko": "새싹이",
+    "en": "Sprouty",
+    "ja": "めばえ",
+    "zh-TW": "小芽",
+    "vi": "Mầm Non",
+    "th": "ต้นอ่อน",
+    "id": "Si Tunas"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Garden film. Delicate blue-greens, petals that keep their detail, fine grain",
+    "ko": "정원의 필름. 섬세한 푸른 초록, 디테일이 살아 있는 꽃잎, 고운 입자",
+    "ja": "庭園のフィルム。繊細な青みの緑、ディテールが残る花びら、細かい粒子",
+    "zh-TW": "花園底片。細膩的藍綠、保留細節的花瓣、細緻顆粒",
+    "vi": "Phim cho khu vườn. Xanh lá ngả lam tinh tế, cánh hoa giữ chi tiết, hạt mịn",
+    "th": "ฟิล์มสวนดอกไม้ เขียวอมฟ้าละมุน กลีบดอกเก็บรายละเอียด เกรนละเอียด",
+    "id": "Film taman. Hijau kebiruan yang halus, kelopak bunga tetap berdetail, grain halus"
+  },
+  "tier": "paid",
+  "productId": "film_pulbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.4,
+    "amount": 0.6
+  },
+  "whiteBalance": {
+    "kelvin": 6250,
+    "tint": -0.03
+  },
+  "chromaticAberration": {
+    "amount": 0.0004
+  },
+  "edgeBlur": {
+    "radius": 3.0,
+    "amount": 0.35,
+    "start": 0.45
+  },
+  "vignette": {
+    "amount": 0.05,
+    "midpoint": 0.85,
+    "feather": 0.7,
+    "roundness": 0.7
+  },
+  "halation": {
+    "threshold": 0.8,
+    "radius": 10,
+    "amount": 0.1,
+    "tint": [
+      1.0,
+      0.7,
+      0.5
+    ]
+  },
+  "bloom": {
+    "threshold": 0.8,
+    "radius": 14,
+    "amount": 0.14,
+    "tint": [
+      1.0,
+      1.0,
+      0.98
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.07
+      ],
+      [
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.52
+      ],
+      [
+        0.8,
+        0.83
+      ],
+      [
+        1.0,
+        0.94
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.98,
+    "vibrance": 0.04,
+    "mix": [
+      1.0,
+      0.0,
+      0.0,
+      -0.03,
+      1.08,
+      -0.05,
+      0.0,
+      0.16,
+      0.86
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 165,
+    "shadowSat": 0.07,
+    "highlightHue": 60,
+    "highlightSat": 0.03,
+    "balance": 0.0
+  },
+  "grain": {
+    "amount": 0.022,
+    "size": 0.55,
+    "shadows": 0.9,
+    "midtones": 1.0,
+    "highlights": 0.35,
+    "color": 0.12
+  },
+  "defaults": {
+    "focal": 50,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

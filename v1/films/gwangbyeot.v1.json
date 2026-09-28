@@ -1,0 +1,177 @@
+{
+  "id": "gwangbyeot",
+  "name": "Gwangbyeot",
+  "names": {
+    "ko": "블링이",
+    "en": "Glossy",
+    "ja": "キラリン",
+    "zh-TW": "亮晶晶",
+    "vi": "Lung Linh",
+    "th": "วิ้งวิ้ง",
+    "id": "Si Kinclong"
+  },
+  "kind": "digital",
+  "taglines": {
+    "en": "Glossy Y2K digicam in the sun. Candy colours, pink-warm cast, shiny highlights, JPEG bite",
+    "ko": "햇빛 아래 반짝이는 Y2K 디카. 사탕 같은 색, 분홍빛 온기, 번들거리는 하이라이트, JPEG 질감",
+    "ja": "日差しの下のツヤツヤY2Kデジカメ。キャンディカラー、ピンクがかった暖色、光るハイライト、JPEGの粗さ",
+    "zh-TW": "陽光下亮晶晶的Y2K數位相機。糖果色、粉暖色調、油亮高光、JPEG顆粒感",
+    "vi": "Máy ảnh số Y2K bóng bẩy dưới nắng. Màu kẹo ngọt, ánh hồng ấm, vùng sáng bóng loáng, vệt nén JPEG",
+    "th": "กล้องดิจิทัล Y2K เงาวับกลางแดด สีลูกกวาด โทนชมพูอุ่น ไฮไลต์มันวาว รอยบีบอัด JPEG",
+    "id": "Kamera digital Y2K yang mengilap di bawah matahari. Warna permen, rona hangat merah muda, highlight berkilau, jejak JPEG"
+  },
+  "tier": "paid",
+  "productId": "film_gwangbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 2560,
+    "jpegQuality": 88,
+    "sizes": [
+      1600,
+      640
+    ]
+  },
+  "deSharpen": {
+    "radius": 1.4,
+    "amount": 0.7
+  },
+  "sensor": {
+    "scale": 0.75
+  },
+  "whiteBalance": {
+    "kelvin": 6700,
+    "tint": 0.05
+  },
+  "exposure": {
+    "ev": 0.15
+  },
+  "chromaticAberration": {
+    "amount": 0.0028
+  },
+  "vignette": {
+    "amount": 0.14,
+    "midpoint": 0.8,
+    "feather": 0.7,
+    "roundness": 0.6
+  },
+  "halation": {
+    "threshold": 0.8,
+    "radius": 8,
+    "amount": 0.1,
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "bloom": {
+    "threshold": 0.75,
+    "radius": 16,
+    "amount": 0.2,
+    "tint": [
+      1.0,
+      0.96,
+      0.98
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.07
+      ],
+      [
+        0.2,
+        0.19
+      ],
+      [
+        0.5,
+        0.53
+      ],
+      [
+        0.8,
+        0.88
+      ],
+      [
+        1.0,
+        0.96
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.32,
+    "vibrance": 0.12,
+    "mix": [
+      1.08,
+      -0.04,
+      -0.04,
+      -0.03,
+      1.0,
+      0.03,
+      0.02,
+      -0.04,
+      1.04
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 300,
+    "shadowSat": 0.06,
+    "highlightHue": 345,
+    "highlightSat": 0.1,
+    "balance": 0.0
+  },
+  "chromaBlur": {
+    "radius": 2.0
+  },
+  "sharpen": {
+    "radius": 1.0,
+    "amount": 0.8,
+    "threshold": 0.003
+  },
+  "digitalNoise": {
+    "luma": 0.008,
+    "chroma": 0.025,
+    "size": 2.0,
+    "shadowBias": 2.0
+  },
+  "timestamp": {
+    "style": "digital",
+    "format": "yyyy.MM.dd",
+    "color": [
+      1.0,
+      0.45,
+      0.1
+    ],
+    "height": 0.032,
+    "margin": [
+      0.045,
+      0.04
+    ],
+    "opacity": 1.0,
+    "variants": [
+      {
+        "style": "led7",
+        "format": "''yy MM dd",
+        "color": [
+          1.0,
+          0.42,
+          0.08
+        ],
+        "height": 0.03,
+        "glow": 0.6
+      }
+    ]
+  },
+  "jpeg": {
+    "quality": 72,
+    "passes": 1
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": true,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.3333334
+  }
+}

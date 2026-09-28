@@ -1,0 +1,117 @@
+{
+  "id": "bulkkot",
+  "name": "Bulkkot",
+  "names": {
+    "en": "Cheery",
+    "ko": "응원이",
+    "ja": "おうえん",
+    "zh-TW": "應援",
+    "vi": "Cổ Vũ",
+    "th": "เชียร์เชียร์",
+    "id": "Si Sorak"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Stage lights and sparks. Pushed film: bleeding lights, deep blacks, coarse grain",
+    "ko": "무대 조명과 불티. 증감한 필름: 번지는 빛, 깊은 검정, 거친 입자",
+    "ja": "ステージの光と火花。増感フィルム：にじむ光、深い黒、粗い粒子",
+    "zh-TW": "舞台燈光與火花。增感底片：暈開的光、深邃的黑、粗顆粒",
+    "vi": "Ánh đèn sân khấu và tia lửa. Phim đẩy sáng: đèn loang, đen sâu, hạt thô",
+    "th": "แสงไฟเวทีและประกายไฟ ฟิล์มดันความไว แสงฟุ้ง ดำลึก เกรนหยาบ",
+    "id": "Lampu panggung dan percikan api. Film push: cahaya meluber, hitam pekat, butiran kasar"
+  },
+  "tier": "paid",
+  "productId": "film_bulkkot",
+  "calibrated": false,
+  "version": 2,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 90
+  },
+  "deSharpen": {
+    "radius": 1.4,
+    "amount": 0.7
+  },
+  "sensor": {
+    "scale": 0.7
+  },
+  "whiteBalance": {
+    "kelvin": 6100,
+    "tint": 0.06
+  },
+  "exposure": {
+    "ev": 0.2
+  },
+  "vignette": {
+    "amount": 0.4,
+    "midpoint": 0.7,
+    "feather": 0.8,
+    "roundness": 0.5
+  },
+  "halation": {
+    "threshold": 0.55,
+    "radius": 42,
+    "amount": 0.38,
+    "tint": [
+      1.0,
+      0.35,
+      0.7
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.02
+      ],
+      [
+        0.2,
+        0.1
+      ],
+      [
+        0.5,
+        0.52
+      ],
+      [
+        0.75,
+        0.88
+      ],
+      [
+        1,
+        1.0
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.2,
+    "vibrance": 0.1
+  },
+  "splitTone": {
+    "shadowHue": 255,
+    "shadowSat": 0.22,
+    "highlightHue": 35,
+    "highlightSat": 0.14,
+    "balance": -0.1
+  },
+  "grain": {
+    "amount": 0.046,
+    "size": 1.1,
+    "shadows": 1.2,
+    "midtones": 1.0,
+    "highlights": 0.4,
+    "color": 0.3
+  },
+  "digitalNoise": {
+    "luma": 0.0,
+    "chroma": 0.02,
+    "size": 2.0,
+    "shadowBias": 2.0
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "saebyeok",
+  "name": "Saebyeok",
+  "names": {
+    "en": "Yawny",
+    "ko": "하품이",
+    "ja": "ふわあ",
+    "zh-TW": "哈欠",
+    "vi": "Ngáp Ngáp",
+    "th": "หาวหาว",
+    "id": "Si Nguap"
+  },
+  "kind": "digital",
+  "taglines": {
+    "en": "The blue hour before sunrise. Deep shadows, lilac tones, matte highlights",
+    "ko": "해 뜨기 전 푸른 시간. 깊은 그림자, 라일락빛 톤, 매트한 하이라이트",
+    "ja": "日の出前の青い時間。深い影、ライラックのトーン、マットなハイライト",
+    "zh-TW": "日出前的藍色時刻。深沉的陰影、淡紫色調、霧面的亮部",
+    "vi": "Giờ xanh trước bình minh. Bóng tối sâu, tông tím nhạt, vùng sáng lì",
+    "th": "ฟ้าสีครามก่อนรุ่งอรุณ เงาลึก โทนม่วงไลแลค ไฮไลต์ด้าน",
+    "id": "Langit biru sebelum fajar. Bayangan dalam, nuansa lila, highlight matte"
+  },
+  "tier": "paid",
+  "productId": "film_saebyeok",
+  "calibrated": false,
+  "version": 4,
+  "output": {
+    "longEdge": 2448,
+    "jpegQuality": 88,
+    "sizes": [
+      1600,
+      640
+    ]
+  },
+  "deSharpen": {
+    "radius": 1.6,
+    "amount": 0.8
+  },
+  "sensor": {
+    "scale": 0.6
+  },
+  "whiteBalance": {
+    "kelvin": 5400,
+    "tint": 0.02
+  },
+  "exposure": {
+    "ev": -0.15
+  },
+  "chromaticAberration": {
+    "amount": 0.0006
+  },
+  "vignette": {
+    "amount": 0.22,
+    "midpoint": 0.8,
+    "feather": 0.7,
+    "roundness": 0.8
+  },
+  "bloom": {
+    "threshold": 0.85,
+    "radius": 16,
+    "amount": 0.08,
+    "tint": [
+      1.0,
+      0.95,
+      0.85
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.0
+      ],
+      [
+        0.12,
+        0.05
+      ],
+      [
+        0.35,
+        0.3
+      ],
+      [
+        0.65,
+        0.66
+      ],
+      [
+        0.9,
+        0.86
+      ],
+      [
+        1,
+        0.9
+      ]
+    ],
+    "r": [
+      [
+        0,
+        0.02
+      ],
+      [
+        0.5,
+        0.51
+      ],
+      [
+        1,
+        1.0
+      ]
+    ],
+    "b": [
+      [
+        0,
+        0.0
+      ],
+      [
+        0.5,
+        0.48
+      ],
+      [
+        1,
+        0.95
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.82,
+    "vibrance": 0.0
+  },
+  "splitTone": {
+    "shadowHue": 250,
+    "shadowSat": 0.14,
+    "highlightHue": 290,
+    "highlightSat": 0.06,
+    "balance": 0
+  },
+  "sharpen": {
+    "radius": 1.0,
+    "amount": 0.5,
+    "threshold": 0.004
+  },
+  "digitalNoise": {
+    "luma": 0.014,
+    "chroma": 0.022,
+    "size": 1.8,
+    "shadowBias": 2.0
+  },
+  "timestamp": {
+    "style": "digital",
+    "format": "yyyy-MM-dd HH:mm",
+    "color": [
+      0.96,
+      0.96,
+      0.94
+    ],
+    "height": 0.028,
+    "margin": [
+      0.04,
+      0.035
+    ],
+    "opacity": 0.95,
+    "variants": [
+      {
+        "format": "MM/dd HH:mm",
+        "color": [
+          1.0,
+          0.74,
+          0.12
+        ]
+      }
+    ]
+  },
+  "jpeg": {
+    "quality": 72,
+    "passes": 1
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "aspect": 1.3333334
+  }
+}

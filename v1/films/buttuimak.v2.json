@@ -1,0 +1,122 @@
+{
+  "id": "buttuimak",
+  "name": "Buttuimak",
+  "names": {
+    "en": "Yummy",
+    "ko": "냠냠이",
+    "ja": "もぐもぐ",
+    "zh-TW": "饞饞",
+    "vi": "Măm Măm",
+    "th": "งั่มงั่ม",
+    "id": "Si Nyam"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Warm light over the stove. Rich reds and golds, deep warm shadows",
+    "ko": "아궁이 위 따스한 불빛. 먹음직한 붉은빛과 금빛, 깊고 따뜻한 그늘",
+    "ja": "かまどの上のあたたかな灯。おいしそうな赤と金、深くあたたかな影",
+    "zh-TW": "灶上的溫暖火光。誘人的紅與金、深沉溫暖的陰影",
+    "vi": "Ánh lửa ấm trên bếp. Đỏ và vàng đậm đà, bóng tối ấm áp",
+    "th": "แสงอุ่นเหนือเตาไฟ แดงและทองน่ากิน เงาลึกอบอุ่น",
+    "id": "Cahaya hangat di atas tungku. Merah dan emas yang menggugah, bayangan hangat dan dalam"
+  },
+  "tier": "paid",
+  "productId": "film_buttuimak",
+  "calibrated": false,
+  "version": 2,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 92
+  },
+  "deSharpen": {
+    "radius": 1.4,
+    "amount": 0.7
+  },
+  "sensor": {
+    "scale": 0.75
+  },
+  "whiteBalance": {
+    "kelvin": 8000,
+    "tint": 0.01
+  },
+  "exposure": {
+    "ev": 0.05
+  },
+  "vignette": {
+    "amount": 0.32,
+    "midpoint": 0.72,
+    "feather": 0.8,
+    "roundness": 0.6
+  },
+  "halation": {
+    "threshold": 0.8,
+    "radius": 14,
+    "amount": 0.1,
+    "tint": [
+      1.0,
+      0.72,
+      0.4
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.035
+      ],
+      [
+        0.22,
+        0.17
+      ],
+      [
+        0.5,
+        0.52
+      ],
+      [
+        0.78,
+        0.85
+      ],
+      [
+        1,
+        0.98
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.14,
+    "vibrance": 0.06,
+    "mix": [
+      1.08,
+      -0.04,
+      -0.04,
+      -0.02,
+      1.0,
+      0.02,
+      -0.04,
+      -0.06,
+      0.94
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 30,
+    "shadowSat": 0.12,
+    "highlightHue": 42,
+    "highlightSat": 0.06,
+    "balance": -0.1
+  },
+  "grain": {
+    "amount": 0.024,
+    "size": 0.9,
+    "shadows": 1.0,
+    "midtones": 1.0,
+    "highlights": 0.4,
+    "color": 0.2
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.25
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "hambangnun",
+  "name": "Hambangnun",
+  "names": {
+    "en": "Fluffy",
+    "ko": "뽀득이",
+    "ja": "ふわふわ",
+    "zh-TW": "綿綿",
+    "vi": "Bông Tuyết",
+    "th": "ปุยหิมะ",
+    "id": "Si Salju"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Big soft snowflakes. White snow stays white, shadows go blue, bright and cold",
+    "ko": "펑펑 내리는 함박눈. 하얀 눈은 하얗게, 그늘은 푸르게, 밝고 차갑게",
+    "ja": "しんしんと降るぼたん雪。白い雪は白く、影は青く、明るく冷たく",
+    "zh-TW": "紛飛的大片雪花。白雪依舊潔白、陰影轉藍、明亮而冷冽",
+    "vi": "Tuyết rơi từng bông lớn. Tuyết vẫn trắng, bóng ngả xanh, sáng và lạnh",
+    "th": "หิมะโปรยปุยใหญ่ หิมะยังขาว เงาเป็นสีฟ้า สว่างและเย็น",
+    "id": "Salju turun berbulir besar. Salju tetap putih, bayangan kebiruan, terang dan dingin"
+  },
+  "tier": "paid",
+  "productId": "film_hambangnun",
+  "calibrated": false,
+  "version": 2,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 94
+  },
+  "deSharpen": {
+    "radius": 1.2,
+    "amount": 0.55
+  },
+  "whiteBalance": {
+    "kelvin": 5200,
+    "tint": 0.0
+  },
+  "exposure": {
+    "ev": 0.4
+  },
+  "halation": {
+    "threshold": 0.85,
+    "radius": 14,
+    "amount": 0.08,
+    "tint": [
+      0.9,
+      0.95,
+      1.0
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.1
+      ],
+      [
+        0.25,
+        0.33
+      ],
+      [
+        0.5,
+        0.6
+      ],
+      [
+        0.8,
+        0.9
+      ],
+      [
+        0.95,
+        0.99
+      ],
+      [
+        1,
+        1.0
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.82,
+    "vibrance": 0.0,
+    "mix": [
+      0.98,
+      0.02,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.02,
+      0.02,
+      1.06
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 225,
+    "shadowSat": 0.18,
+    "highlightHue": 200,
+    "highlightSat": 0.02,
+    "balance": 0.15
+  },
+  "grain": {
+    "amount": 0.012,
+    "size": 0.55,
+    "shadows": 0.8,
+    "midtones": 0.8,
+    "highlights": 0.2,
+    "color": 0.1
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

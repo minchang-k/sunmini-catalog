@@ -1,0 +1,130 @@
+{
+  "id": "yeonghwabyeot",
+  "name": "Yeonghwabyeot",
+  "names": {
+    "ko": "팝콘이",
+    "en": "Reely",
+    "ja": "ポップコーン",
+    "zh-TW": "爆米花",
+    "vi": "Bắp Rang",
+    "th": "ป๊อปคอร์น",
+    "id": "Si Popcorn"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Cinema film after dark. Teal shadows, wide latitude, red halos that grow with the light",
+    "ko": "해진 뒤의 영화 필름. 청록 그림자, 넓은 관용도, 빛이 셀수록 커지는 붉은 번짐",
+    "ja": "夜の映画フィルム。ティールの影、広いラチチュード、光が強いほど大きくなる赤いにじみ",
+    "zh-TW": "入夜後的電影底片。青綠陰影、寬廣寬容度、光越強越大的紅色光暈",
+    "vi": "Phim điện ảnh sau hoàng hôn. Bóng xanh mòng két, dải sáng rộng, quầng đỏ lớn dần theo ánh sáng",
+    "th": "ฟิล์มภาพยนตร์ยามค่ำ เงาสีเขียวอมฟ้า ช่วงแสงกว้าง ฮาโลสีแดงที่ใหญ่ขึ้นตามความสว่าง",
+    "id": "Film sinema selepas senja. Bayangan teal, latitude lebar, halo merah yang membesar mengikuti cahaya"
+  },
+  "tier": "paid",
+  "productId": "film_yeonghwabyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 92
+  },
+  "deSharpen": {
+    "radius": 1.4,
+    "amount": 0.7
+  },
+  "whiteBalance": {
+    "kelvin": 5700,
+    "tint": -0.03
+  },
+  "chromaticAberration": {
+    "amount": 0.0015
+  },
+  "vignette": {
+    "amount": 0.12,
+    "midpoint": 0.8,
+    "feather": 0.8,
+    "roundness": 0.4
+  },
+  "halation": {
+    "threshold": 0.6,
+    "radius": 22,
+    "amount": 0.5,
+    "tint": [
+      1.0,
+      0.3,
+      0.12
+    ],
+    "scaling": 1.2
+  },
+  "bloom": {
+    "threshold": 0.5,
+    "radius": 20,
+    "amount": 0.15,
+    "tint": [
+      1.0,
+      0.95,
+      0.9
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.14
+      ],
+      [
+        0.25,
+        0.32
+      ],
+      [
+        0.5,
+        0.51
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        1.0,
+        0.9
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.98,
+    "vibrance": 0.05,
+    "mix": [
+      1.02,
+      -0.02,
+      0.0,
+      -0.04,
+      0.96,
+      0.08,
+      -0.02,
+      0.04,
+      1.0
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 182,
+    "shadowSat": 0.3,
+    "highlightHue": 28,
+    "highlightSat": 0.05,
+    "balance": -0.1
+  },
+  "grain": {
+    "amount": 0.03,
+    "size": 0.7,
+    "shadows": 1.1,
+    "midtones": 1.0,
+    "highlights": 0.35,
+    "color": 0.2
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.7777778
+  }
+}

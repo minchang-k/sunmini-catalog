@@ -1,0 +1,143 @@
+{
+  "id": "bitbaraem",
+  "name": "Bitbaraem",
+  "names": {
+    "en": "Keepsy",
+    "ko": "추억이",
+    "ja": "おもいで",
+    "zh-TW": "回憶",
+    "vi": "Kỷ Niệm",
+    "th": "ความทรงจำ",
+    "id": "Si Kenangan"
+  },
+  "kind": "instant",
+  "taglines": {
+    "en": "An instant print left in the sun for years. Warm fade, soft corners, a square card",
+    "ko": "오래 볕에 바랜 즉석 사진. 따스하게 바랜 색, 흐린 모서리, 정사각 카드",
+    "ja": "長い年月、陽にさらされたインスタント写真。あたたかく褪せた色、やわらかな四隅、正方形のカード",
+    "zh-TW": "被陽光曬了多年的拍立得相片。溫暖褪色、柔和四角、方形相紙",
+    "vi": "Tấm ảnh lấy liền phơi nắng nhiều năm. Màu phai ấm, góc mờ, khung vuông",
+    "th": "ภาพอินสแตนต์ที่ตากแดดมาหลายปี สีซีดอุ่น มุมภาพนุ่ม การ์ดจัตุรัส",
+    "id": "Foto instan yang bertahun-tahun terjemur. Pudar hangat, sudut lembut, kartu persegi"
+  },
+  "tier": "paid",
+  "productId": "film_bitbaraem",
+  "calibrated": false,
+  "version": 2,
+  "output": {
+    "longEdge": 1800,
+    "jpegQuality": 92
+  },
+  "deSharpen": {
+    "radius": 1.8,
+    "amount": 0.9
+  },
+  "sensor": {
+    "scale": 0.55
+  },
+  "whiteBalance": {
+    "kelvin": 7800,
+    "tint": -0.03
+  },
+  "exposure": {
+    "ev": 0.2
+  },
+  "edgeBlur": {
+    "radius": 3.0,
+    "amount": 0.6,
+    "start": 0.4
+  },
+  "vignette": {
+    "amount": 0.22,
+    "midpoint": 0.75,
+    "feather": 0.8,
+    "roundness": 0.8
+  },
+  "bloom": {
+    "threshold": 0.75,
+    "radius": 18,
+    "amount": 0.15,
+    "tint": [
+      1.0,
+      0.97,
+      0.88
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.15
+      ],
+      [
+        0.25,
+        0.3
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        1,
+        0.82
+      ]
+    ],
+    "b": [
+      [
+        0,
+        0.0
+      ],
+      [
+        0.5,
+        0.42
+      ],
+      [
+        1,
+        0.84
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.8,
+    "vibrance": 0.0
+  },
+  "splitTone": {
+    "shadowHue": 90,
+    "shadowSat": 0.05,
+    "highlightHue": 55,
+    "highlightSat": 0.1,
+    "balance": 0.0
+  },
+  "grain": {
+    "amount": 0.01,
+    "size": 0.6,
+    "shadows": 0.8,
+    "midtones": 0.8,
+    "highlights": 0.3,
+    "color": 0.3
+  },
+  "frame": {
+    "type": "instant",
+    "color": [
+      0.95,
+      0.935,
+      0.9
+    ],
+    "border": 0.06,
+    "top": 0.06,
+    "bottom": 0.09,
+    "radius": 0.02,
+    "texture": 0.008
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.0
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "hwamyeonbyeot",
+  "name": "Hwamyeonbyeot",
+  "names": {
+    "ko": "뿅뿅이",
+    "en": "Bleepy",
+    "ja": "ピコピコ",
+    "zh-TW": "嗶嗶",
+    "vi": "Bíp Bíp",
+    "th": "ปิ๊ปปิ๊ป",
+    "id": "Si Bip"
+  },
+  "kind": "digital",
+  "taglines": {
+    "en": "A handheld game-screen camera. Four shades of green, dotted dither, chunky pixels",
+    "ko": "휴대용 게임기 화면 카메라. 초록 네 단계, 점무늬 디더링, 큼직한 픽셀",
+    "ja": "携帯ゲーム機の画面カメラ。4階調のグリーン、ドットのディザ、大きなピクセル",
+    "zh-TW": "掌上遊戲機螢幕相機。四階綠色、點狀抖動、大顆像素",
+    "vi": "Máy ảnh màn hình máy chơi game cầm tay. Bốn sắc xanh lá, chấm dither, điểm ảnh to",
+    "th": "กล้องจอเกมพกพา เขียวสี่ระดับ ลายจุดดิเธอร์ พิกเซลใหญ่",
+    "id": "Kamera layar konsol genggam. Empat gradasi hijau, pola titik dither, piksel besar"
+  },
+  "tier": "paid",
+  "productId": "film_hwamyeonbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 1024,
+    "jpegQuality": 95
+  },
+  "whiteBalance": {
+    "kelvin": 6500,
+    "tint": 0.0
+  },
+  "exposure": {
+    "ev": 0.1
+  },
+  "vignette": {
+    "amount": 0.25,
+    "midpoint": 0.8,
+    "feather": 0.7,
+    "roundness": 0.5
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.2,
+        0.12
+      ],
+      [
+        0.5,
+        0.52
+      ],
+      [
+        0.8,
+        0.9
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  "posterize": {
+    "nativeLongEdge": 128,
+    "levels": [
+      0.08,
+      0.35,
+      0.62,
+      0.85
+    ],
+    "palette": [
+      [
+        0.07,
+        0.13,
+        0.08
+      ],
+      [
+        0.21,
+        0.33,
+        0.18
+      ],
+      [
+        0.47,
+        0.6,
+        0.33
+      ],
+      [
+        0.74,
+        0.82,
+        0.58
+      ]
+    ],
+    "dither": 1.0,
+    "grid": 0.12
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.1428572
+  }
+}

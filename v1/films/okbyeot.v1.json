@@ -1,0 +1,182 @@
+{
+  "id": "okbyeot",
+  "name": "Okbyeot",
+  "names": {
+    "ko": "찰칵이",
+    "en": "Snappy",
+    "ja": "パシャ",
+    "zh-TW": "咔嚓",
+    "vi": "Tách Tách",
+    "th": "แชะแชะ",
+    "id": "Si Jepret"
+  },
+  "kind": "digital",
+  "taglines": {
+    "en": "Party flash on an old digicam. Milky skin, inky navy background, vivid lips, an orange date",
+    "ko": "옛 디카의 파티 플래시. 우윳빛 피부, 짙은 남색 배경, 선명한 입술색, 주황 날짜",
+    "ja": "昔のデジカメでパーティーフラッシュ。ミルキーな肌、濃紺の背景、鮮やかな唇、オレンジの日付",
+    "zh-TW": "老數位相機的派對閃光。奶白膚色、深藍背景、鮮豔唇色、橘色日期",
+    "vi": "Đèn flash tiệc tùng của máy ảnh số cũ. Da trắng sữa, nền xanh đen, môi rực, ngày màu cam",
+    "th": "แฟลชปาร์ตี้จากกล้องดิจิทัลรุ่นเก่า ผิวขาวนวล ฉากหลังน้ำเงินเข้ม ปากสีสด วันที่สีส้ม",
+    "id": "Flash pesta kamera digital lawas. Kulit seputih susu, latar biru gelap, bibir cerah, tanggal oranye"
+  },
+  "tier": "paid",
+  "productId": "film_okbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 90,
+    "sizes": [
+      2048,
+      1280
+    ]
+  },
+  "deSharpen": {
+    "radius": 1.2,
+    "amount": 0.6
+  },
+  "whiteBalance": {
+    "kelvin": 5700,
+    "tint": 0.0
+  },
+  "exposure": {
+    "ev": -0.3
+  },
+  "flash": {
+    "forced": true,
+    "strength": 2.8,
+    "falloff": 0.34,
+    "ambient": 0.1,
+    "tint": [
+      0.92,
+      1.0,
+      1.14
+    ]
+  },
+  "chromaticAberration": {
+    "amount": 0.0015
+  },
+  "vignette": {
+    "amount": 0.22,
+    "midpoint": 0.75,
+    "feather": 0.8,
+    "roundness": 0.6
+  },
+  "halation": {
+    "threshold": 0.85,
+    "radius": 6,
+    "amount": 0.06,
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "bloom": {
+    "threshold": 0.8,
+    "radius": 8,
+    "amount": 0.12,
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.2,
+        0.1
+      ],
+      [
+        0.5,
+        0.53
+      ],
+      [
+        0.8,
+        0.91
+      ],
+      [
+        1.0,
+        0.99
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.15,
+    "vibrance": 0.05,
+    "mix": [
+      1.12,
+      -0.06,
+      -0.06,
+      -0.04,
+      0.96,
+      0.08,
+      0.04,
+      -0.06,
+      1.02
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 228,
+    "shadowSat": 0.3,
+    "highlightHue": 200,
+    "highlightSat": 0.06,
+    "balance": -0.1
+  },
+  "sharpen": {
+    "radius": 1.0,
+    "amount": 0.7,
+    "threshold": 0.003
+  },
+  "digitalNoise": {
+    "luma": 0.01,
+    "chroma": 0.05,
+    "size": 2.0,
+    "shadowBias": 2.0
+  },
+  "timestamp": {
+    "style": "digital",
+    "format": "yyyy.MM.dd",
+    "color": [
+      1.0,
+      0.45,
+      0.1
+    ],
+    "height": 0.032,
+    "margin": [
+      0.045,
+      0.04
+    ],
+    "opacity": 1.0,
+    "variants": [
+      {
+        "style": "led7",
+        "format": "''yy MM dd",
+        "color": [
+          1.0,
+          0.42,
+          0.08
+        ],
+        "height": 0.03,
+        "glow": 0.6
+      }
+    ]
+  },
+  "jpeg": {
+    "quality": 85,
+    "passes": 1
+  },
+  "defaults": {
+    "focal": 28,
+    "timestamp": true,
+    "grain": 1.0,
+    "flashRecommended": true,
+    "aspect": 1.25
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "jebyeot",
+  "name": "Jebyeot",
+  "names": {
+    "ko": "쌩얼이",
+    "en": "Natty",
+    "ja": "すっぴん",
+    "zh-TW": "素顏",
+    "vi": "Mộc Mạc",
+    "th": "หน้าสด",
+    "id": "Si Polos"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "True-to-life colour. No cast, gentle contrast, almost no grain, no vignette",
+    "ko": "있는 그대로의 색. 색 틀어짐 없이, 순한 대비, 입자는 거의 없이, 비네팅 없이",
+    "ja": "見たままの色。色かぶりなし、やさしいコントラスト、粒子ほぼなし、周辺減光なし",
+    "zh-TW": "真實還原的顏色。無偏色、柔和對比、幾乎無顆粒、無暗角",
+    "vi": "Màu chân thực. Không ám màu, tương phản nhẹ, gần như không hạt, không tối góc",
+    "th": "สีตามจริง ไม่มีสีเพี้ยน คอนทราสต์นุ่ม แทบไม่มีเกรน ไม่มีขอบมืด",
+    "id": "Warna apa adanya. Tanpa rona, kontras lembut, nyaris tanpa grain, tanpa vinyet"
+  },
+  "tier": "paid",
+  "productId": "film_jebyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 95
+  },
+  "deSharpen": {
+    "radius": 1.0,
+    "amount": 0.4
+  },
+  "whiteBalance": {
+    "kelvin": 6500,
+    "tint": 0.0
+  },
+  "chromaticAberration": {
+    "amount": 0.0003
+  },
+  "halation": {
+    "threshold": 0.92,
+    "radius": 6,
+    "amount": 0.03,
+    "tint": [
+      1.0,
+      0.9,
+      0.85
+    ]
+  },
+  "bloom": {
+    "threshold": 0.9,
+    "radius": 8,
+    "amount": 0.05,
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.04
+      ],
+      [
+        0.5,
+        0.51
+      ],
+      [
+        1.0,
+        0.97
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.03,
+    "vibrance": 0.0
+  },
+  "grain": {
+    "amount": 0.01,
+    "size": 0.5,
+    "shadows": 0.9,
+    "midtones": 1.0,
+    "highlights": 0.3,
+    "color": 0.1
+  },
+  "timestamp": {
+    "style": "led7",
+    "format": "yyyy.MM.dd",
+    "color": [
+      1.0,
+      0.38,
+      0.06
+    ],
+    "height": 0.03,
+    "margin": [
+      0.06,
+      0.05
+    ],
+    "glow": 0.65
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

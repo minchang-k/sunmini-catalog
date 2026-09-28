@@ -1,0 +1,147 @@
+{
+  "id": "jeopbyeot",
+  "name": "Jeopbyeot",
+  "names": {
+    "ko": "딸깍이",
+    "en": "Flippy",
+    "ja": "パカパカ",
+    "zh-TW": "翻蓋",
+    "vi": "Nắp Gập",
+    "th": "ฝาพับ",
+    "id": "Si Lipat"
+  },
+  "kind": "digital",
+  "taglines": {
+    "en": "An old flip-phone snap. Green-cyan cast, crunchy sharpening, a tiny blocky picture",
+    "ko": "옛 폴더폰으로 찍은 사진. 초록·청록 색감, 과한 선명함, 작고 각진 화질",
+    "ja": "昔のガラケーで撮った一枚。緑がかったシアン、カリカリのシャープ、小さくて粗い画質",
+    "zh-TW": "舊翻蓋手機的隨手拍。青綠色調、過度銳利、小小的方塊畫質",
+    "vi": "Ảnh chụp từ điện thoại nắp gập đời cũ. Ám xanh lục lam, nét gắt, ảnh nhỏ vỡ hạt",
+    "th": "ภาพจากมือถือฝาพับรุ่นเก่า โทนเขียวอมฟ้า ความคมจัดจ้าน ภาพเล็กแตกเป็นบล็อก",
+    "id": "Jepretan ponsel lipat jadul. Rona hijau-sian, ketajaman berlebihan, gambar kecil kotak-kotak"
+  },
+  "tier": "paid",
+  "productId": "film_jeopbyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 1280,
+    "jpegQuality": 85,
+    "sizes": [
+      640
+    ]
+  },
+  "deSharpen": {
+    "radius": 1.6,
+    "amount": 0.8
+  },
+  "sensor": {
+    "scale": 0.55,
+    "sharpen": 1.1,
+    "sharpenRadius": 1.2
+  },
+  "whiteBalance": {
+    "kelvin": 6250,
+    "tint": -0.07
+  },
+  "exposure": {
+    "ev": -0.15
+  },
+  "vignette": {
+    "amount": 0.08,
+    "midpoint": 0.85,
+    "feather": 0.6,
+    "roundness": 0.7
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.1
+      ],
+      [
+        0.25,
+        0.3
+      ],
+      [
+        0.5,
+        0.52
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        1.0,
+        0.95
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.9,
+    "vibrance": 0.0,
+    "mix": [
+      0.94,
+      0.04,
+      0.02,
+      0.0,
+      1.02,
+      -0.02,
+      -0.02,
+      0.1,
+      0.92
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 182,
+    "shadowSat": 0.18,
+    "highlightHue": 160,
+    "highlightSat": 0.08,
+    "balance": 0.0
+  },
+  "digitalNoise": {
+    "luma": 0.03,
+    "chroma": 0.08,
+    "size": 1.5,
+    "shadowBias": 1.8
+  },
+  "timestamp": {
+    "style": "digital",
+    "format": "yyyy/MM/dd HH:mm",
+    "color": [
+      0.95,
+      0.95,
+      0.92
+    ],
+    "height": 0.032,
+    "margin": [
+      0.045,
+      0.04
+    ],
+    "opacity": 1.0,
+    "variants": [
+      {
+        "style": "led7",
+        "format": "''yy MM dd",
+        "color": [
+          1.0,
+          0.42,
+          0.08
+        ],
+        "height": 0.03,
+        "glow": 0.6
+      }
+    ]
+  },
+  "jpeg": {
+    "quality": 50,
+    "passes": 1
+  },
+  "defaults": {
+    "focal": 28,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.3333334
+  }
+}

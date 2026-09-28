@@ -1,0 +1,117 @@
+{
+  "id": "bitbal",
+  "name": "Bitbal",
+  "names": {
+    "en": "Splashy",
+    "ko": "첨벙이",
+    "ja": "ぴちゃぴちゃ",
+    "zh-TW": "嘩啦",
+    "vi": "Lõm Bõm",
+    "th": "จ๋อมแจ๋ม",
+    "id": "Si Ciprat"
+  },
+  "kind": "film",
+  "taglines": {
+    "en": "Rain coming down in lines. Blue-grey, wet reflections, streaky grain",
+    "ko": "줄지어 내리는 빗발. 푸른 잿빛, 젖은 반사, 빗줄기 같은 입자",
+    "ja": "筋になって降る雨。青みがかった灰色、濡れた照り返し、雨筋のような粒子",
+    "zh-TW": "成絲落下的雨。藍灰色調、濕潤的反光、雨絲般的顆粒",
+    "vi": "Mưa rơi thành vệt. Xám xanh, phản chiếu ướt át, hạt như sợi mưa",
+    "th": "ฝนโปรยเป็นสาย เทาอมฟ้า แสงสะท้อนเปียกชื้น เกรนเป็นเส้นสายฝน",
+    "id": "Hujan turun bergaris. Biru kelabu, pantulan basah, butiran seperti garis hujan"
+  },
+  "tier": "paid",
+  "productId": "film_bitbal",
+  "calibrated": false,
+  "version": 2,
+  "output": {
+    "longEdge": 3072,
+    "jpegQuality": 92
+  },
+  "deSharpen": {
+    "radius": 1.4,
+    "amount": 0.7
+  },
+  "sensor": {
+    "scale": 0.75
+  },
+  "whiteBalance": {
+    "kelvin": 5500,
+    "tint": -0.02
+  },
+  "exposure": {
+    "ev": 0.0
+  },
+  "edgeBlur": {
+    "radius": 2.5,
+    "amount": 0.45,
+    "start": 0.5
+  },
+  "vignette": {
+    "amount": 0.24,
+    "midpoint": 0.75,
+    "feather": 0.8,
+    "roundness": 0.5
+  },
+  "bloom": {
+    "threshold": 0.7,
+    "radius": 8,
+    "amount": 0.3,
+    "tint": [
+      0.9,
+      0.96,
+      1.0
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0,
+        0.07
+      ],
+      [
+        0.25,
+        0.28
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        1,
+        0.95
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 0.8,
+    "vibrance": 0.0
+  },
+  "splitTone": {
+    "shadowHue": 215,
+    "shadowSat": 0.14,
+    "highlightHue": 200,
+    "highlightSat": 0.03,
+    "balance": 0.1
+  },
+  "grain": {
+    "amount": 0.03,
+    "size": 0.7,
+    "shadows": 1.0,
+    "midtones": 1.0,
+    "highlights": 0.45,
+    "color": 0.1,
+    "streak": 4.0
+  },
+  "defaults": {
+    "focal": 35,
+    "timestamp": false,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.5
+  }
+}

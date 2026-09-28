@@ -1,0 +1,171 @@
+{
+  "id": "jeombyeot",
+  "name": "Jeombyeot",
+  "names": {
+    "ko": "네모이",
+    "en": "Blocky",
+    "ja": "カクカク",
+    "zh-TW": "方方",
+    "vi": "Ô Vuông",
+    "th": "สี่เหลี่ยม",
+    "id": "Si Kotak"
+  },
+  "kind": "digital",
+  "taglines": {
+    "en": "A 0.3-megapixel button phone. Warm cast, bleeding colour, blocky JPEG, an orange date",
+    "ko": "30만 화소 버튼폰. 따뜻한 색감, 번지는 색, 깍두기 JPEG, 주황 날짜",
+    "ja": "30万画素のボタン式ケータイ。暖かい色、にじむ色、ブロック状のJPEG、オレンジの日付",
+    "zh-TW": "30萬畫素按鍵手機。暖色調、暈開的色彩、方塊JPEG、橘色日期",
+    "vi": "Điện thoại bàn phím 0,3 megapixel. Tông ấm, màu loang, JPEG vỡ ô, ngày màu cam",
+    "th": "มือถือปุ่มกด 0.3 ล้านพิกเซล โทนอุ่น สีเยิ้ม JPEG แตกเป็นบล็อก วันที่สีส้ม",
+    "id": "Ponsel tombol 0,3 megapiksel. Rona hangat, warna meluber, JPEG kotak-kotak, tanggal oranye"
+  },
+  "tier": "paid",
+  "productId": "film_jeombyeot",
+  "calibrated": false,
+  "version": 1,
+  "output": {
+    "longEdge": 1280,
+    "jpegQuality": 85,
+    "sizes": [
+      640
+    ]
+  },
+  "deSharpen": {
+    "radius": 1.6,
+    "amount": 0.8
+  },
+  "sensor": {
+    "scale": 0.5,
+    "nearest": true
+  },
+  "whiteBalance": {
+    "kelvin": 6620,
+    "tint": 0.03
+  },
+  "exposure": {
+    "ev": 0.15
+  },
+  "vignette": {
+    "amount": 0.1,
+    "midpoint": 0.82,
+    "feather": 0.6,
+    "roundness": 0.6
+  },
+  "bloom": {
+    "threshold": 0.85,
+    "radius": 6,
+    "amount": 0.08,
+    "tint": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "toneCurve": {
+    "master": [
+      [
+        0.0,
+        0.03
+      ],
+      [
+        0.25,
+        0.24
+      ],
+      [
+        0.6,
+        0.67
+      ],
+      [
+        0.85,
+        0.97
+      ],
+      [
+        0.92,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ]
+  },
+  "color": {
+    "saturation": 1.1,
+    "vibrance": 0.05,
+    "mix": [
+      1.1,
+      -0.05,
+      -0.05,
+      -0.02,
+      0.94,
+      0.08,
+      -0.04,
+      0.06,
+      0.98
+    ]
+  },
+  "splitTone": {
+    "shadowHue": 30,
+    "shadowSat": 0.08,
+    "highlightHue": 50,
+    "highlightSat": 0.08,
+    "balance": 0.0
+  },
+  "chromaBlur": {
+    "radius": 3.0
+  },
+  "grain": {
+    "amount": 0.008,
+    "size": 0.8,
+    "shadows": 1.0,
+    "midtones": 1.0,
+    "highlights": 0.4,
+    "color": 0.3
+  },
+  "digitalNoise": {
+    "luma": 0.015,
+    "chroma": 0.07,
+    "size": 1.6,
+    "shadowBias": 2.0
+  },
+  "timestamp": {
+    "style": "digital",
+    "format": "yyyy.MM.dd",
+    "color": [
+      1.0,
+      0.45,
+      0.1
+    ],
+    "height": 0.032,
+    "margin": [
+      0.045,
+      0.04
+    ],
+    "opacity": 1.0,
+    "variants": [
+      {
+        "style": "led7",
+        "format": "''yy MM dd",
+        "color": [
+          1.0,
+          0.42,
+          0.08
+        ],
+        "height": 0.03,
+        "glow": 0.6
+      }
+    ]
+  },
+  "jpeg": {
+    "quality": 45,
+    "passes": 1
+  },
+  "defaults": {
+    "focal": 28,
+    "timestamp": true,
+    "grain": 1.0,
+    "flashRecommended": false,
+    "aspect": 1.3333334
+  }
+}
