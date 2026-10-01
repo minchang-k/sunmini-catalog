@@ -1,0 +1,272 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Sunmini (볕조각)</title>
+<style>body{max-width:760px;margin:2rem auto;padding:0 1rem;font:16px/1.65 -apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;color:#2b2622;background:#faf6ee}h1,h2,h3{line-height:1.3}code{background:#efe8da;padding:0 .25em;border-radius:4px}a{color:#b4661f}</style>
+</head><body><h1 id="privacy-policy-sunmini">Privacy Policy — Sunmini (볕조각)</h1>
+<p><strong>Effective date:</strong> 2026-09-28
+<strong>App:</strong> Sunmini / 볕조각 / サンミニ / 小太陽 (package <code>app.sunmini.film</code>)
+<strong>Developer:</strong> Byeotjogak</p>
+<p><a href="#english">English</a> · <a href="#한국어">한국어</a></p>
+<hr />
+<h2 id="english">English</h2>
+<h3 id="summary">Summary</h3>
+<p>Sunmini is a film camera app that works on your device. It does not collect, store on a server, or share any personal
+data. There are no accounts, no ads, no advertising ID, and no third-party analytics or crash-reporting services. Your
+photos never leave your device unless you choose to share them yourself. The only thing the app downloads on its own is
+a small list of films (see "Film catalog download" below), and that request contains no personal data. The app sends
+two things: once a day, anonymous counts of how each film was used, with no identifier, which you can turn off in
+Settings (see "Anonymous usage statistics"); and, only if you redeem a gift code, that code and a random install id,
+nothing that identifies you (see "Gift codes").</p>
+<h3 id="data-we-collect">Data we collect</h3>
+<p>No personal data. The app does not collect your name, e-mail, account, contacts, device identifiers, advertising ID,
+location or crash reports, and it does not send your photos anywhere. It sends only:</p>
+<ul>
+<li>anonymous daily film usage statistics: counts per film and day, with no identifier (you can turn this off; see
+  "Anonymous usage statistics"), and</li>
+<li>a gift code you choose to redeem, with a random install id (see "Gift codes").</li>
+</ul>
+<h3 id="on-device-processing-and-storage">On-device processing and storage</h3>
+<ul>
+<li>Photos you take or import are developed (colour, grain, date stamp, border, trial mark) entirely on your device.</li>
+<li>Developed photos are saved to your device's photo library, in <code>Pictures/Sunmini</code>.</li>
+<li>The original, undeveloped image of each shot is kept in the app's private storage so you can develop it again later
+  (for example with another film, or without the trial mark after a purchase). Other apps cannot read this storage.</li>
+<li>Your settings, the films you own, the count of trial shots used and the downloaded film catalog are stored only on
+  the device.</li>
+<li>The film usage counts of the days not sent yet (see "Anonymous usage statistics") are kept in the app's private
+  storage until they are sent, for at most 7 days. They are not backed up.</li>
+<li>Redeemed gift codes (the signed gift, the random install id and the list of cancelled codes) are kept in one small
+  file. It is the only app data included in Android's own backup (Auto Backup to your Google account, and device-to-
+  device transfer), so a gift survives a reinstall or a new phone. Nothing else is backed up: no photos, originals,
+  settings, trial counters or purchases (Google Play restores purchases itself).</li>
+<li>Deleting a photo in the app removes it from the app and from <code>Pictures/Sunmini</code>. Uninstalling the app removes all
+  app-private data (originals, trial counters, settings, the cached catalog, unsent usage counts, gifts). Photos
+  already saved to your photo library stay there until you delete them; a backed-up gift file stays in your Google
+  account backup until Android replaces or deletes it.</li>
+</ul>
+<h3 id="film-catalog-download">Film catalog download</h3>
+<p>To add new films and update film looks, names and order without an app update, the app downloads a small film
+catalog: a JSON file, its digital signature, film profiles (JSON) and film character images. The files are public
+static files hosted on Cloudflare (<code>https://sunmini-catalog.sunmini.workers.dev/v1/</code>), with an identical copy on GitHub
+Pages (<code>https://minchang-k.github.io/sunmini-catalog/v1/</code>) that is asked only when Cloudflare cannot be reached. When
+you open the app it checks for a new catalog, at most once every 15 minutes (usually a tiny "not changed" answer), and
+uses a new one only if its signature is valid, from the next start; otherwise it keeps the films it already has.
+Shooting and developing work without it.</p>
+<p>The request contains no personal data: no account, no identifier, no photos, no settings and no information about
+your purchases. Like any web request, it reveals your IP address to the host; the app sends the fixed User-Agent
+<code>Sunmini</code> (no device model or Android version). We do not log these requests; we see only aggregate daily request
+counts. Cloudflare and GitHub, as hosts, may keep request logs under the
+<a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a> and the
+<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.
+Films shown first in some countries are chosen on your device from your device's language/region setting; your
+country is not sent. (The only place where our server uses a country is the anonymous usage statistics below, where it
+comes from Cloudflare, not from your device.)</p>
+<h3 id="gift-codes">Gift codes</h3>
+<p>The developer can give films away with one-time gift codes (<code>SUN-XXXX-XXXX-XXXX</code>), shared as a code or a link. When
+you redeem one (Settings → Redeem code, and you confirm), the app sends to our server
+(<code>https://sunmini-api.sunmini.workers.dev/</code>, a Cloudflare Worker with a Cloudflare D1 database) only:</p>
+<ul>
+<li>the code, and</li>
+<li>a random install id: 128 random bits made by the app once, not derived from your device, account or phone number.</li>
+</ul>
+<p>Our server stores that install id and the time with the redeemed code, so each code can be used only once (and the
+same install can redeem it again after a reinstall). It is not linked to your name, e-mail, Google account or
+purchases, and it is used for nothing else. The server also counts attempts per IP address for a short time to stop
+code guessing; IP addresses are not stored with the code. The server answers with a signed gift that the app checks
+on the device and keeps in the gift file described above; using a gifted film never contacts the server again. To have
+a redemption record deleted, contact us with the code.</p>
+<h3 id="anonymous-usage-statistics">Anonymous usage statistics</h3>
+<p>To learn which films people actually use, so that we can decide the order of the film shelf and which films to keep,
+improve or retire, the app counts on your device how each film is used each day and sends these counts to our server
+(<code>https://sunmini-api.sunmini.workers.dev/</code>, the same Cloudflare Worker and D1 database as for gift codes).</p>
+<ul>
+<li><strong>What is sent</strong>, for each film you used that day: how many times it was picked, shots taken, pictures saved,
+  pictures shared, trial shots taken, whether its last trial shot was used, how often its purchase sheet was opened,
+  purchases, and gift-code unlocks. With these counts: the app version, the film catalog version, the Android major
+  version (for example 16), the kind of device (phone, foldable or tablet), whether the app is a test build or from
+  Google Play, and a random batch id that is new every day and is used only to notice the same upload arriving twice.</li>
+<li><strong>When:</strong> once a day, the next time you open the app, it sends the counts of each finished day in one small request
+  (at most 3 KB; a very busy day may take a few). If that fails (for example offline), it tries again at a later app
+  open; counts older than 7 days that could not be sent are deleted on the phone.</li>
+<li><strong>What is not sent:</strong> no photos, no install id or user id, no account, name or e-mail, no Android ID or advertising
+  ID, no location, no settings and no list of your pictures. Nothing links one day's counts to another day or to you.</li>
+<li><strong>On the server:</strong> like any web request, the upload reveals your IP address to Cloudflare. Our server takes only the
+  country code that Cloudflare derives from it (for example <code>KR</code>) and adds your counts to daily totals per film,
+  country, app version, catalog version and channel (test or Google Play). The upload itself and your IP address are
+  not stored: a salted hash of the IP address is kept for at most one hour to limit abuse, and the random batch id for
+  up to 8 days to drop duplicates. The daily totals are kept to compare films over time; because they hold no
+  identifier, they cannot be linked to you or deleted per person.</li>
+<li><strong>Your choice:</strong> the switch Settings → "Send anonymous film usage statistics" is on by default. When you turn it off,
+  the app stops counting and sending, and deletes the counts it has not sent yet.</li>
+</ul>
+<h3 id="permissions-and-why">Permissions and why</h3>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Camera (<code>CAMERA</code>)</td>
+<td>To take photos. Asked at first launch. If you decline, you can still import and develop existing photos.</td>
+</tr>
+<tr>
+<td>Internet (<code>INTERNET</code>)</td>
+<td>To download the film catalog described above, to send the anonymous usage statistics (unless you turn them off), to redeem a gift code you enter, and for Google Play Billing.</td>
+</tr>
+<tr>
+<td>Google Play Billing (<code>com.android.vending.BILLING</code>)</td>
+<td>To buy films as in-app purchases through Google Play.</td>
+</tr>
+<tr>
+<td>Network state (<code>ACCESS_NETWORK_STATE</code>)</td>
+<td>Declared by the Google Play Billing Library the app includes, not used by the app's own code.</td>
+</tr>
+</tbody>
+</table>
+<p>The app requests no storage, media or location permission. To import photos the app uses the Android system photo
+picker, which shares only the photos you pick.</p>
+<h3 id="purchases-google-play-billing">Purchases (Google Play Billing)</h3>
+<p>Four films are free. The other films can be bought one by one as one-time in-app purchases; each paid film can be
+tried for 3 shots first. Payments are handled entirely by Google Play; we never see your payment details, name or
+e-mail address. The app receives only the purchase state (which films you own) from Google Play on your device, so it
+can unlock them. Purchases never pass through our server; the anonymous usage statistics only count how many times
+each film was bought that day, with no purchase token, order number, price or identifier. Purchases are processed by
+Google under the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<h3 id="children">Children</h3>
+<p>The app is suitable for all ages. Because it collects no personal data from anyone, it collects none from children
+(a redeemed gift code is stored only with a random install id, and the usage statistics are anonymous daily totals).</p>
+<h3 id="changes-to-this-policy">Changes to this policy</h3>
+<p>If this policy changes, the updated version will be published at this address with a new effective date. If the app
+ever starts collecting more data, this policy will say so before that version is released.</p>
+<h3 id="contact">Contact</h3>
+<p>Questions about this policy: eldora99120@gmail.com</p>
+<hr />
+<h2 id="_1">한국어</h2>
+<h3 id="_2">요약</h3>
+<p>볕조각(Sunmini)은 기기 안에서 동작하는 필름 카메라 앱입니다. 어떤 개인정보도 수집하거나, 서버에 저장하거나, 다른
+곳과 공유하지 않습니다. 계정, 광고, 광고 ID, 외부 분석 도구, 오류 보고 서비스가 없습니다. 사진은 직접 공유하지 않는
+한 기기 밖으로 나가지 않습니다. 앱이 스스로 내려받는 것은 작은 필름 목록뿐이며(아래 "필름 목록 다운로드" 참고), 이
+요청에는 개인정보가 담기지 않습니다. 앱이 보내는 것은 두 가지입니다. 하루 한 번, 필름별로 얼마나 쓰였는지를 세는
+익명 통계(식별자 없음, 설정에서 끌 수 있음, "익명 사용 통계" 참고)와, 선물 코드를 직접 등록할 때의 코드와 무작위 설치
+ID입니다. 사용자를 알아볼 수 있는 정보는 보내지 않습니다("선물 코드" 참고).</p>
+<h3 id="_3">수집하는 정보</h3>
+<p>개인정보는 수집하지 않습니다. 앱은 이름, 이메일, 계정, 연락처, 기기 식별자, 광고 ID, 위치, 오류 보고를 수집하지
+않으며 사진을 어디에도 전송하지 않습니다. 앱이 보내는 것은 다음뿐입니다.</p>
+<ul>
+<li>익명 필름 사용 통계: 식별자 없이 필름별·날짜별 횟수만 보냅니다(끌 수 있음, "익명 사용 통계" 참고).</li>
+<li>사용자가 직접 등록하는 선물 코드와 무작위 설치 ID("선물 코드" 참고).</li>
+</ul>
+<h3 id="_4">기기 안에서의 처리와 저장</h3>
+<ul>
+<li>촬영하거나 불러온 사진의 현상(색, 입자, 날짜, 테두리, 체험 표시)은 모두 기기 안에서 이루어집니다.</li>
+<li>현상된 사진은 기기 사진 보관함의 <code>Pictures/Sunmini</code> 폴더에 저장됩니다.</li>
+<li>다시 현상할 수 있도록(예: 다른 필름으로, 또는 구매 후 체험 표시 없이) 각 사진의 원본은 앱 전용 저장공간에
+  보관됩니다. 다른 앱은 이 저장공간을 읽을 수 없습니다.</li>
+<li>설정, 보유한 필름, 사용한 체험 컷 수, 내려받은 필름 목록은 기기에만 저장됩니다.</li>
+<li>아직 보내지 않은 날의 필름 사용 횟수("익명 사용 통계" 참고)는 보낼 때까지, 최대 7일 동안 앱 전용 저장공간에
+  보관되며 백업되지 않습니다.</li>
+<li>등록한 선물 코드(서명된 선물, 무작위 설치 ID, 취소된 코드 목록)는 작은 파일 하나에 보관됩니다. 이 파일은 Android
+  자체 백업(Google 계정으로의 자동 백업, 기기 간 전송)에 포함되는 유일한 앱 데이터로, 앱을 다시 설치하거나 휴대폰을
+  바꿔도 선물이 남도록 합니다. 사진, 원본, 설정, 체험 횟수, 구매 정보는 백업하지 않습니다(구매는 Google Play가 직접
+  복원합니다).</li>
+<li>앱에서 사진을 삭제하면 앱과 <code>Pictures/Sunmini</code> 폴더에서 함께 지워집니다. 앱을 삭제하면 앱 전용 데이터(원본,
+  체험 횟수, 설정, 저장된 필름 목록, 보내지 않은 사용 횟수, 선물)가 모두 지워집니다. 이미 사진 보관함에 저장된
+  사진은 직접 지우기 전까지 남아 있고, 백업된 선물 파일은 Android가 교체하거나 지울 때까지 Google 계정 백업에 남아 있습니다.</li>
+</ul>
+<h3 id="_5">필름 목록 다운로드</h3>
+<p>앱을 업데이트하지 않아도 새 필름을 추가하고 필름의 색, 이름, 순서를 바꿀 수 있도록, 앱은 작은 필름 목록을
+내려받습니다. 목록은 JSON 파일과 그 전자서명, 필름 프로필(JSON), 필름 캐릭터 이미지로 이루어진 공개 정적 파일이며
+Cloudflare(<code>https://sunmini-catalog.sunmini.workers.dev/v1/</code>)에 있고, 같은 사본이 GitHub
+Pages(<code>https://minchang-k.github.io/sunmini-catalog/v1/</code>)에도 있어 Cloudflare에 연결할 수 없을 때만 사용합니다. 앱을
+열 때 새 목록이 있는지 최대 15분에 한 번 확인하며(대개 "바뀌지 않음"이라는 아주 작은 응답), 서명이 올바를 때만 다음
+실행부터 사용합니다. 그렇지 않으면 이미 가진 필름을 그대로 씁니다. 촬영과 현상은 이 목록 없이도 동작합니다.</p>
+<p>이 요청에는 개인정보가 담기지 않습니다. 계정, 식별자, 사진, 설정, 구매 정보를 보내지 않습니다. 다만 모든 웹
+요청과 마찬가지로 IP 주소가 호스트에 전달됩니다(앱은 기기 모델이나 Android 버전 없이 고정된 User-Agent
+<code>Sunmini</code>만 보냅니다). 개발자는 이 요청을 기록하지 않으며, 하루 요청 수 합계만 봅니다. 호스트인 Cloudflare와
+GitHub는 <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare 개인정보처리방침</a>과
+<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>에
+따라 요청 기록을 보관할 수 있습니다. 나라별로 먼저 보여 줄 필름은 기기의 언어·지역 설정을 바탕으로 기기 안에서
+정해지며, 국가 정보는 전송되지 않습니다. (개발자의 서버가 국가를 쓰는 곳은 아래 익명 사용 통계뿐이며, 이때 국가는
+기기가 아니라 Cloudflare가 알려 줍니다.)</p>
+<h3 id="_6">선물 코드</h3>
+<p>개발자는 한 번만 쓸 수 있는 선물 코드(<code>SUN-XXXX-XXXX-XXXX</code>)로 필름을 선물할 수 있으며, 코드나 링크로 전달됩니다.
+사용자가 코드를 등록하면(설정 → 코드 등록, 사용자가 직접 확인) 앱은 개발자의 서버
+(<code>https://sunmini-api.sunmini.workers.dev/</code>, Cloudflare Worker와 Cloudflare D1 데이터베이스)로 다음만 보냅니다.</p>
+<ul>
+<li>코드</li>
+<li>무작위 설치 ID: 앱이 한 번 만든 128비트 난수로, 기기, 계정, 전화번호에서 만든 값이 아닙니다.</li>
+</ul>
+<p>서버는 각 코드를 한 번만 쓸 수 있도록(같은 설치는 재설치 후 다시 등록할 수 있도록) 등록된 코드와 함께 이 설치 ID와
+등록 시각을 저장합니다. 이 정보는 이름, 이메일, Google 계정, 구매 정보와 연결되지 않으며 다른 용도로 쓰지 않습니다.
+코드 추측을 막기 위해 서버는 IP 주소별 시도 횟수를 잠시 세지만, IP 주소를 코드와 함께 저장하지 않습니다. 서버는
+서명된 선물을 돌려주고, 앱은 이를 기기에서 확인해 위의 선물 파일에 보관합니다. 선물받은 필름을 쓸 때는 서버에 다시
+연결하지 않습니다. 등록 기록의 삭제를 원하면 코드와 함께 문의해 주세요.</p>
+<h3 id="_7">익명 사용 통계</h3>
+<p>사람들이 실제로 어떤 필름을 쓰는지 알고, 이를 바탕으로 필름 진열 순서와 남기거나 다듬거나 정리할 필름을 정하기 위해,
+앱은 필름별로 하루 동안 얼마나 쓰였는지를 기기 안에서 세어 개발자의 서버(<code>https://sunmini-api.sunmini.workers.dev/</code>,
+선물 코드와 같은 Cloudflare Worker와 D1 데이터베이스)로 보냅니다.</p>
+<ul>
+<li><strong>보내는 정보:</strong> 그날 쓴 필름마다 고른 횟수, 촬영 수, 저장한 사진 수, 공유한 사진 수, 체험 촬영 수, 마지막 체험 컷을
+  썼는지, 구매 화면을 연 횟수, 구매 수, 선물 코드로 열린 횟수. 함께 보내는 것은 앱 버전, 필름 목록 버전, Android 주
+  버전(예: 16), 기기 종류(휴대폰, 폴더블, 태블릿), 테스트 빌드인지 Google Play 빌드인지, 그리고 같은 전송이 두 번
+  도착했는지 알아보는 데만 쓰는, 매일 새로 만드는 무작위 묶음 ID입니다.</li>
+<li><strong>보내는 때:</strong> 하루 한 번, 앱을 다음에 열 때 지난 날의 횟수를 작은 요청 하나(최대 3KB, 아주 많이 쓴 날은 몇 개)로 보냅니다. 보내지
+  못하면(예: 오프라인) 나중에 앱을 열 때 다시 시도하며, 7일이 지나도록 보내지 못한 횟수는 휴대폰에서 지웁니다.</li>
+<li><strong>보내지 않는 정보:</strong> 사진, 설치 ID나 사용자 ID, 계정·이름·이메일, Android ID나 광고 ID, 위치, 설정, 사진 목록은
+  보내지 않습니다. 어느 날의 횟수를 다른 날이나 사용자와 연결할 수 있는 정보는 없습니다.</li>
+<li><strong>서버에서:</strong> 모든 웹 요청과 마찬가지로 전송 시 IP 주소가 Cloudflare에 전달됩니다. 서버는 Cloudflare가 이 주소에서
+  알아낸 국가 코드(예: <code>KR</code>)만 사용해, 받은 횟수를 필름·국가·앱 버전·필름 목록 버전·채널(테스트 또는 Google Play)별
+  하루 합계에 더합니다. 받은 요청 자체와 IP 주소는 저장하지 않습니다. 남용을 막기 위해 IP 주소의 솔트 해시를 최대
+  1시간, 중복을 거르기 위해 무작위 묶음 ID를 최대 8일 보관할 뿐입니다. 하루 합계는 필름을 기간별로 비교하려고
+  보관하며, 식별자가 없어 사용자와 연결하거나 사람별로 지울 수 없습니다.</li>
+<li><strong>선택:</strong> 설정 → "익명 필름 사용 통계 보내기"는 기본으로 켜져 있습니다. 끄면 앱은 횟수를 세거나 보내지 않고,
+  아직 보내지 않은 횟수도 지웁니다.</li>
+</ul>
+<h3 id="_8">권한과 사용 목적</h3>
+<table>
+<thead>
+<tr>
+<th>권한</th>
+<th>목적</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>카메라 (<code>CAMERA</code>)</td>
+<td>사진 촬영. 처음 실행할 때 요청합니다. 거부해도 기존 사진을 불러와 현상할 수 있습니다.</td>
+</tr>
+<tr>
+<td>인터넷 (<code>INTERNET</code>)</td>
+<td>위에서 설명한 필름 목록 다운로드, 익명 사용 통계 전송(끄지 않은 경우), 직접 입력한 선물 코드 등록, Google Play 결제.</td>
+</tr>
+<tr>
+<td>Google Play 결제 (<code>com.android.vending.BILLING</code>)</td>
+<td>Google Play를 통한 필름 인앱 구매.</td>
+</tr>
+<tr>
+<td>네트워크 상태 (<code>ACCESS_NETWORK_STATE</code>)</td>
+<td>앱에 포함된 Google Play 결제 라이브러리가 선언하는 권한으로, 앱 자체 코드는 사용하지 않습니다.</td>
+</tr>
+</tbody>
+</table>
+<p>저장공간, 사진·미디어, 위치 권한은 요청하지 않습니다. 사진을 불러올 때는 Android 시스템 사진 선택기를 사용하며,
+직접 고른 사진만 앱에 전달됩니다.</p>
+<h3 id="google-play">구매 (Google Play 결제)</h3>
+<p>필름 4종은 무료입니다. 나머지 필름은 하나씩 1회성 인앱 상품으로 구매할 수 있으며, 유료 필름은 모두 먼저 3컷을
+체험할 수 있습니다. 결제는 전적으로 Google Play가 처리하며, 개발자는 결제 수단, 이름, 이메일 주소를 볼 수 없습니다.
+앱은 구매한 필름을 열기 위해 기기 안의 Google Play로부터 구매 상태(어떤 필름을 보유했는지)만 받습니다. 구매는
+개발자의 서버를 거치지 않습니다. 익명 사용 통계는 그날 필름별로 몇 번 구매되었는지만 세며, 구매 토큰, 주문 번호,
+가격, 식별자는 보내지 않습니다. 구매 정보는 <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a>에 따라
+Google이 처리합니다.</p>
+<h3 id="_9">아동</h3>
+<p>앱은 모든 연령이 사용하기에 적합합니다. 누구의 개인정보도 수집하지 않으므로 아동의 개인정보도 수집하지 않습니다
+(등록한 선물 코드는 무작위 설치 ID와만 함께 저장되고, 사용 통계는 익명의 하루 합계입니다).</p>
+<h3 id="_10">방침의 변경</h3>
+<p>이 방침이 바뀌면 같은 주소에 새 시행일과 함께 게시합니다. 앱이 정보를 더 수집하게 되는 경우, 그 버전을 배포하기 전에
+이 방침에 먼저 밝힙니다.</p>
+<h3 id="_11">문의</h3>
+<p>이 방침에 관한 문의: eldora99120@gmail.com</p>
+<p><strong>시행일:</strong> 2026-09-28</p></body></html>
