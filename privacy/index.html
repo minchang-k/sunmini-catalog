@@ -40,12 +40,13 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <body>
 <div class="wrap">
 <nav class="lang"><a href="#ko" data-l="ko" class="on">한국어</a><a href="#en" data-l="en">English</a></nav>
-<article lang="ko" id="ko"><header><h1>볕조각 개인정보 처리방침</h1><p class="date">시행일: 2026년 10월 1일</p></header>
+<article lang="ko" id="ko"><header><h1>볕조각 개인정보 처리방침</h1><p class="date">시행일: 2026년 10월 4일 (앱 0.19.0부터)</p></header>
 <p>볕조각(이하 "앱")의 개발자 김민창(이하 "개발자")은 「개인정보 보호법」 제30조에 따라 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
 <h2>제1조 처리하는 개인정보</h2>
 <ol>
-<li>개발자는 이용자의 개인정보를 수집하거나 저장하지 않습니다.</li>
-<li>앱에는 회원가입·로그인 기능이 없으며, 이름, 이메일, 전화번호, 위치, 기기 식별자(Android ID, 광고 ID)를 수집하지 않습니다.</li>
+<li>앱에는 회원가입·로그인 기능이 없으며, 개발자는 이름, 이메일, 전화번호, 위치, Android ID를 수집하지 않습니다.</li>
+<li>개발자는 앱을 설치한 기기를 구별하기 위해 앱이 처음 실행될 때 만드는 임의의 값(이하 "설치 ID")과, 그 설치의 일별 이용 기록(제2조)을 수집합니다. 설치 ID는 광고 ID나 기기 정보에서 만들지 않으며 이름 등 다른 정보와 결합하지 않습니다.</li>
+<li>개발자가 서버에서 광고 사용 여부를 켠 경우, 앱에 포함된 Meta 앱 이벤트 도구가 광고 ID와 앱 이용 기록을 Meta에 전송합니다(제7조, 제12조).</li>
 <li>사진은 기기 안에서만 처리되며 서버로 전송되지 않습니다.</li>
 <li>개발자의 서버는 접속자의 IP 주소를 이용하거나 기록하지 않습니다.</li>
 </ol>
@@ -74,6 +75,12 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <td>일별 합계로 보관</td>
 </tr>
 <tr>
+<td>설치 분석</td>
+<td>설치 ID, 처음 실행한 날짜, 설치 경로(Google Play 설치 리퍼러의 utm_source·utm_medium·utm_campaign·utm_content·utm_term 값), 앱 버전, 배포 경로, 기기 언어 설정(예: ko-KR)과 그 국가, 날짜별 횟수(앱 열기, 첫 현상, 필름 보기, 촬영, 저장, 공유, 구매 화면 열기, 구매, 체험 시작, 선물 코드 등록)와 날짜별 구매한 상품 ID</td>
+<td>설치 경로·이용 흐름·재방문 분석, 서비스 개선</td>
+<td>400일 보관 후 설치 ID 없는 합계로만 보관</td>
+</tr>
+<tr>
 <td>선물 코드</td>
 <td>이용자가 입력한 선물 코드, 등록 시각, 등록할 때마다 새로 만드는 임의값</td>
 <td>선물 코드 확인 및 지급</td>
@@ -83,12 +90,13 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </table></div>
 <ul>
 <li>사용 통계는 하루 한 번 자동으로 전송되며, 이용자를 구별할 수 있는 정보는 포함되지 않습니다.</li>
+<li>설치 분석은 처음 실행할 때 한 번, 그 뒤로 하루 한 번 자동으로 전송됩니다. 사진, 이름, 위치, 광고 ID는 포함되지 않습니다.</li>
 <li>선물 코드는 이용자가 직접 입력한 경우에만 전송됩니다.</li>
 </ul>
 <h2>제3조 기기에 저장되는 정보</h2>
 <ol>
 <li>촬영한 사진은 기기의 <code>Pictures/Sunmini</code> 폴더에, 재현상을 위한 원본은 앱 전용 저장공간에 저장됩니다.</li>
-<li>설정, 보유 필름, 체험 횟수, 아직 전송되지 않은 사용 통계(최대 7일)는 기기에만 저장됩니다.</li>
+<li>설정, 보유 필름, 체험 횟수, 아직 전송되지 않은 사용 통계(최대 7일)와 설치 분석(설치 ID, 설치 경로, 최대 10일의 횟수)은 기기에 저장됩니다. 설치 ID는 앱을 삭제하거나 앱 데이터를 지우면 함께 삭제되고, 다시 설치하면 새로 만들어집니다.</li>
 <li>등록한 선물 정보는 앱 재설치 시 복원될 수 있도록 Android 자동 백업(Google 계정)에 포함됩니다.</li>
 <li>앱을 삭제하면 앱 전용 데이터는 모두 삭제됩니다. 사진 보관함에 저장된 사진은 이용자가 직접 삭제할 때까지 유지됩니다.</li>
 </ol>
@@ -107,11 +115,15 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tr>
 <tr>
 <td>인터넷</td>
-<td>필름 목록 확인, 사용 통계 전송, 선물 코드 등록, 결제</td>
+<td>필름 목록 확인, 사용 통계·설치 분석 전송, 선물 코드 등록, 결제, Meta 앱 이벤트</td>
 </tr>
 <tr>
 <td>결제</td>
 <td>Google Play 인앱 결제</td>
+</tr>
+<tr>
+<td>광고 ID</td>
+<td>Meta 앱 이벤트의 광고 성과 측정 (개발자가 서버에서 켠 경우에만 사용)</td>
 </tr>
 </tbody>
 </table></div>
@@ -123,7 +135,7 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <li>결제 정보는 <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">Google 개인정보처리방침</a>에 따라 처리됩니다.</li>
 </ol>
 <h2>제6조 처리 위탁 및 국외 이전</h2>
-<p>개발자는 개인정보를 처리하지 않으므로 개인정보의 처리 위탁 및 국외 이전은 없습니다. 서비스 운영을 위해 아래 사업자의 인프라를 이용합니다.</p>
+<p>서비스 운영을 위해 아래 사업자의 인프라를 이용하며, 설치 분석 정보는 Cloudflare의 서버(미국 등)에 저장됩니다.</p>
 <div class="tw"><table>
 <thead>
 <tr>
@@ -136,7 +148,7 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <tr>
 <td>Cloudflare, Inc.</td>
 <td>미국</td>
-<td>필름 목록 제공, 사용 통계 및 선물 코드 서버 운영</td>
+<td>필름 목록 제공, 사용 통계·설치 분석 및 선물 코드 서버 운영</td>
 </tr>
 <tr>
 <td>GitHub, Inc.</td>
@@ -151,11 +163,34 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tbody>
 </table></div>
 <h2>제7조 제3자 제공</h2>
-<p>개발자는 이용자의 정보를 제3자에게 제공하지 않습니다.</p>
+<p>개발자가 서버에서 Meta 앱 이벤트를 켠 경우, 앱에 포함된 Meta SDK가 아래 정보를 Meta Platforms, Inc.(미국)에 전송합니다. 그 밖에는 이용자의 정보를 제3자에게 제공하지 않습니다.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>받는 자</th>
+<th>항목</th>
+<th>목적</th>
+<th>보유 기간</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meta Platforms, Inc. (미국, 앱이 실행 중일 때 인터넷으로 전송)</td>
+<td>광고 ID, 앱 실행, 첫 현상, 구매 화면을 연 필름 ID, 구매 시작·완료(상품 ID, Google Play의 가격과 통화), 체험 시작한 필름 ID, 기기·앱 정보(Meta SDK가 자동으로 수집하는 항목)</td>
+<td>광고 성과 측정 및 광고 최적화</td>
+<td>Meta의 <a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener">데이터 정책</a>에 따름</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>사진, 이름, 이메일, 위치, 이용자가 입력한 글은 Meta에 전송하지 않습니다.</li>
+<li>개발자가 서버에서 끄면 이후 실행부터 전송하지 않습니다.</li>
+</ul>
 <h2>제8조 정보의 파기</h2>
 <ol>
 <li>보관 기간이 끝난 정보는 지체 없이 복구할 수 없는 방법으로 삭제합니다.</li>
 <li>사용 통계는 일별 합계로만 보관되며, 개인을 식별할 수 없습니다.</li>
+<li>설치 분석은 400일이 지나면 설치 ID 없이 날짜·설치 경로·국가별 합계로만 남기고 원래 기록은 삭제합니다.</li>
 </ol>
 <h2>제9조 안전성 확보 조치</h2>
 <ol>
@@ -167,16 +202,23 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <ol>
 <li>이용자는 언제든지 개인정보의 열람, 정정, 삭제, 처리정지를 요구할 수 있습니다.</li>
 <li>요청은 아래 개인정보 보호책임자에게 이메일로 할 수 있으며, 지체 없이 조치합니다.</li>
-<li>앱에는 계정이 없으므로 계정 삭제 절차는 해당하지 않습니다.</li>
+<li>앱에는 계정이 없으므로 계정 삭제 절차는 해당하지 않습니다. 앱을 삭제하거나 앱 데이터를 지우면 설치 ID가 삭제되어 이후의 기록은 이전 기록과 연결되지 않습니다.</li>
+<li>광고 ID는 Android 설정(설정 &gt; 개인정보 보호 &gt; 광고 등)에서 재설정하거나 삭제할 수 있습니다.</li>
 </ol>
 <h2>제11조 아동의 개인정보</h2>
 <p>앱은 만 14세 미만 아동의 개인정보를 수집하지 않습니다.</p>
-<h2>제12조 해당 없는 사항</h2>
+<h2>제12조 행태정보의 수집·이용·제공 및 거부</h2>
+<ol>
+<li>개발자가 서버에서 Meta 앱 이벤트를 켠 경우, 앱의 Meta SDK가 제7조의 이용 기록(행태정보)과 광고 ID를 앱 실행 중 자동으로 Meta에 전송합니다.</li>
+<li>목적은 광고 성과 측정과 광고 최적화이며, Meta가 맞춤형 광고에 이용할 수 있습니다.</li>
+<li>이용자는 Android 설정에서 광고 ID를 재설정·삭제하거나 맞춤 광고를 끌 수 있습니다.</li>
+<li>만 14세 미만 아동을 대상으로 한 맞춤형 광고에 행태정보를 이용하지 않습니다.</li>
+</ol>
+<h2>제12조의2 해당 없는 사항</h2>
 <p>다음 사항은 해당하지 않습니다.</p>
 <ul>
 <li>민감정보 및 가명정보의 처리</li>
-<li>쿠키 등 자동 수집 장치의 설치·운영</li>
-<li>제3자의 행태정보 수집</li>
+<li>쿠키 등 자동 수집 장치의 설치·운영(웹 쿠키)</li>
 <li>자동화된 결정</li>
 <li>영상정보처리기기의 운영</li>
 <li>국내대리인의 지정</li>
@@ -251,6 +293,10 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </thead>
 <tbody>
 <tr>
+<td>2026년 10월 4일</td>
+<td>설치 분석(설치 ID, 설치 경로, 일별 이용 횟수)과 Meta 앱 이벤트·광고 ID 추가 (앱 0.19.0)</td>
+</tr>
+<tr>
 <td>2026년 10월 1일</td>
 <td>전면 개정</td>
 </tr>
@@ -260,12 +306,13 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tr>
 </tbody>
 </table></div></article>
-<article lang="en" id="en"><header><h1>Sunmini Privacy Policy</h1><p class="date">Effective date: October 1, 2026</p></header>
+<article lang="en" id="en"><header><h1>Sunmini Privacy Policy</h1><p class="date">Effective date: October 4, 2026 (app 0.19.0 onwards)</p></header>
 <p>Minchang Kim (the "Developer"), the developer of Sunmini (the "App"), establishes and discloses this Privacy Policy in accordance with Article 30 of the Personal Information Protection Act of Korea. The Korean version prevails in case of any discrepancy.</p>
 <h2>1. Personal Information</h2>
 <ol>
-<li>The Developer does not collect or store users' personal information.</li>
-<li>The App has no sign-up or login and does not collect names, email addresses, phone numbers, location or device identifiers (Android ID, advertising ID).</li>
+<li>The App has no sign-up or login. The Developer does not collect names, email addresses, phone numbers, location or the Android ID.</li>
+<li>To tell installations apart, the Developer collects a random value the App creates on its first launch (the "install ID") and that installation's daily usage records (Section 2). The install ID is not derived from the advertising ID or device information and is not combined with a name or other information.</li>
+<li>When the Developer turns it on on the server, the Meta app events tool inside the App sends the advertising ID and app usage records to Meta (Sections 7 and 12).</li>
 <li>Photos are processed only on the device and are never sent to a server.</li>
 <li>The Developer's servers do not use or record the IP addresses of connecting devices.</li>
 </ol>
@@ -294,6 +341,12 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <td>Kept as daily totals</td>
 </tr>
 <tr>
+<td>Install analytics</td>
+<td>Install ID, first-launch date, install source (the utm_source, utm_medium, utm_campaign, utm_content and utm_term values of the Google Play Install Referrer), app version, distribution channel, device language setting (e.g. ko-KR) and its country, daily counts (app opens, first develop, film views, shots, saves, shares, purchase screen opened, purchases, trial starts, gift code redemptions) and the product IDs bought that day</td>
+<td>Analysing install sources, usage flow and return visits; service improvement</td>
+<td>400 days, then only as totals without the install ID</td>
+</tr>
+<tr>
 <td>Gift codes</td>
 <td>The gift code entered by the user, time of redemption, a random value created anew for each redemption</td>
 <td>Verifying and granting gift codes</td>
@@ -303,12 +356,13 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </table></div>
 <ul>
 <li>Usage statistics are sent automatically once a day and contain nothing that distinguishes users.</li>
+<li>Install analytics are sent automatically once on the first launch and then once a day. They contain no photos, name, location or advertising ID.</li>
 <li>Gift codes are sent only when the user enters one.</li>
 </ul>
 <h2>3. Information Stored on the Device</h2>
 <ol>
 <li>Photos are saved to <code>Pictures/Sunmini</code>; originals kept for re-developing are stored in the App's private storage.</li>
-<li>Settings, owned films, trial counts and unsent usage statistics (up to 7 days) are stored only on the device.</li>
+<li>Settings, owned films, trial counts, unsent usage statistics (up to 7 days) and install analytics (install ID, install source, up to 10 days of counts) are stored on the device. The install ID is deleted with the App or its data and a new one is created after reinstalling.</li>
 <li>Redeemed gifts are included in Android Auto Backup (Google account) so they can be restored after reinstalling.</li>
 <li>Uninstalling the App deletes all App-private data. Photos saved to the photo library remain until the user deletes them.</li>
 </ol>
@@ -327,11 +381,15 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tr>
 <tr>
 <td>Internet</td>
-<td>Film list check, usage statistics, gift code redemption, payments</td>
+<td>Film list check, usage statistics and install analytics, gift code redemption, payments, Meta app events</td>
 </tr>
 <tr>
 <td>Billing</td>
 <td>Google Play in-app purchases</td>
+</tr>
+<tr>
+<td>Advertising ID</td>
+<td>Ad measurement by Meta app events (used only when the Developer turns it on on the server)</td>
 </tr>
 </tbody>
 </table></div>
@@ -343,7 +401,7 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <li>Payment information is handled under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
 </ol>
 <h2>6. Service Providers and Overseas Transfer</h2>
-<p>As the Developer does not process personal information, there is no entrustment or overseas transfer of personal information. The following providers' infrastructure is used to operate the service.</p>
+<p>The following providers' infrastructure is used to operate the service; install analytics are stored on Cloudflare's servers (United States and other countries).</p>
 <div class="tw"><table>
 <thead>
 <tr>
@@ -356,7 +414,7 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <tr>
 <td>Cloudflare, Inc.</td>
 <td>United States</td>
-<td>Film list delivery; usage statistics and gift code server</td>
+<td>Film list delivery; usage statistics, install analytics and gift code server</td>
 </tr>
 <tr>
 <td>GitHub, Inc.</td>
@@ -371,11 +429,34 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tbody>
 </table></div>
 <h2>7. Provision to Third Parties</h2>
-<p>The Developer does not provide user information to third parties.</p>
+<p>When the Developer turns Meta app events on on the server, the Meta SDK inside the App sends the following to Meta Platforms, Inc. (United States). Otherwise the Developer does not provide user information to third parties.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Recipient</th>
+<th>Items</th>
+<th>Purpose</th>
+<th>Retention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meta Platforms, Inc. (United States; sent over the internet while the App runs)</td>
+<td>Advertising ID, app launches, first develop, the film ID of a purchase screen opened, purchase started and completed (product ID, Google Play's price and currency), the film ID of a trial started, device and app information the Meta SDK collects automatically</td>
+<td>Ad measurement and ad optimisation</td>
+<td>Under Meta's <a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener">Privacy Policy</a></td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>No photos, name, email, location or text typed by the user are sent to Meta.</li>
+<li>When the Developer turns it off on the server, nothing is sent from the next launch on.</li>
+</ul>
 <h2>8. Deletion</h2>
 <ol>
 <li>Information whose retention period has ended is deleted without delay in a way that cannot be recovered.</li>
 <li>Usage statistics are kept only as daily totals and cannot identify individuals.</li>
+<li>After 400 days, install analytics are kept only as totals by day, install source and country without the install ID; the original records are deleted.</li>
 </ol>
 <h2>9. Security Measures</h2>
 <ol>
@@ -387,16 +468,23 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <ol>
 <li>Users may request access to, correction, deletion or suspension of processing of their personal information at any time.</li>
 <li>Requests can be sent by email to the Privacy Officer below and will be handled without delay.</li>
-<li>The App has no accounts, so account deletion does not apply.</li>
+<li>The App has no accounts, so account deletion does not apply. Uninstalling the App or clearing its data deletes the install ID, so later records are not linked to earlier ones.</li>
+<li>The advertising ID can be reset or deleted in Android settings (Settings &gt; Privacy &gt; Ads, or similar).</li>
 </ol>
 <h2>11. Children</h2>
 <p>The App does not collect personal information from children under 14.</p>
-<h2>12. Not Applicable</h2>
+<h2>12. Behavioural Information</h2>
+<ol>
+<li>When the Developer turns Meta app events on on the server, the App's Meta SDK automatically sends the usage records in Section 7 (behavioural information) and the advertising ID to Meta while the App runs.</li>
+<li>The purpose is ad measurement and ad optimisation; Meta may use it for personalised advertising.</li>
+<li>Users can reset or delete the advertising ID, or turn off personalised ads, in Android settings.</li>
+<li>Behavioural information is not used for personalised ads aimed at children under 14.</li>
+</ol>
+<h2>12-2. Not Applicable</h2>
 <p>The following do not apply:</p>
 <ul>
 <li>Processing of sensitive or pseudonymized information</li>
-<li>Cookies or other automatic collection devices</li>
-<li>Collection of behavioral information by third parties</li>
+<li>Web cookies or similar automatic collection devices</li>
 <li>Automated decision-making</li>
 <li>Video surveillance devices</li>
 <li>Designation of a domestic agent</li>
@@ -470,6 +558,10 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>October 4, 2026</td>
+<td>Install analytics (install ID, install source, daily usage counts) and Meta app events / advertising ID added (app 0.19.0)</td>
+</tr>
 <tr>
 <td>October 1, 2026</td>
 <td>Full revision</td>
