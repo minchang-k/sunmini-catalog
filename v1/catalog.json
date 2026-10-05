@@ -1,12 +1,17 @@
 {
   "schema": 1,
-  "version": 7,
-  "generatedAt": "2026-09-28T11:06:00Z",
+  "version": 8,
+  "generatedAt": "2026-10-05T15:07:21Z",
   "minAppVersion": 12,
   "trialShots": 3,
   "revokedCodes": [
     "c_yrfk9iif3u"
   ],
+  "meta": {
+    "appId": "1447556663929373",
+    "clientToken": "93401b4dcffcb4ebdc429cc75c24a633",
+    "enabled": true
+  },
   "regionOrder": {},
   "films": [
     {
