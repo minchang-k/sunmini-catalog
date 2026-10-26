@@ -40,14 +40,14 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <body>
 <div class="wrap">
 <nav class="lang"><a href="#ko" data-l="ko" class="on">한국어</a><a href="#en" data-l="en">English</a></nav>
-<article lang="ko" id="ko"><header><h1>볕조각 개인정보 처리방침</h1><p class="date">시행일: 2026년 10월 6일 (앱 0.20.0부터)</p></header>
+<article lang="ko" id="ko"><header><h1>볕조각 개인정보 처리방침</h1><p class="date">시행일: 2026년 11월 2일 (앱 0.22.1부터)</p></header>
 <p>볕조각(이하 "앱")의 개발자 김민창(이하 "개발자")은 「개인정보 보호법」 제30조에 따라 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
 <h2>제1조 처리하는 개인정보</h2>
 <ol>
 <li>앱에는 회원가입·로그인 기능이 없으며, 개발자는 이름, 이메일, 전화번호, 위치, Android ID를 수집하지 않습니다.</li>
 <li>개발자는 앱을 설치한 기기를 구별하기 위해 앱이 처음 실행될 때 만드는 임의의 값(이하 "설치 ID")과, 그 설치의 일별 이용 기록(제2조)을 수집합니다. 설치 ID는 광고 ID나 기기 정보에서 만들지 않으며 이름 등 다른 정보와 결합하지 않습니다.</li>
-<li>개발자가 서버에서 광고 사용 여부를 켠 경우, 앱에 포함된 Meta 앱 이벤트 도구가 광고 ID와 앱 이용 기록을 Meta에 전송합니다(제7조, 제12조).</li>
-<li>사진은 기기 안에서만 처리되며 서버로 전송되지 않습니다. 단, 이용자가 버그 제보에서 "화면 첨부"를 직접 선택한 경우에 한해 그때의 앱 화면 1장이 전송됩니다(제2조의2).</li>
+<li>이용자가 앱의 동의 화면 또는 설정에서 "허용"한 경우에만(개발자가 서버에서 광고 측정을 켜 둔 경우에 한함), 앱에 포함된 Meta 앱 이벤트 도구가 광고 ID와 앱 이용 기록을 Meta에 전송합니다. 허용하기 전에는 이 도구가 실행되지 않고 Meta로 아무것도 전송되지 않습니다(제7조, 제12조).</li>
+<li>사진은 기기 안에서만 처리되며 서버로 전송되지 않습니다. 단, 이용자가 버그 제보에서 “화면 첨부”를 직접 선택한 경우에 한해 그때의 앱 화면 1장이 전송됩니다(제2조의2).</li>
 <li>개발자의 서버는 접속자의 IP 주소를 이용하거나 기록하지 않습니다.</li>
 </ol>
 <h2>제2조 서버로 전송되는 정보</h2>
@@ -76,7 +76,7 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tr>
 <tr>
 <td>설치 분석</td>
-<td>설치 ID, 처음 실행한 날짜, 설치 경로(Google Play 설치 리퍼러의 utm_source·utm_medium·utm_campaign·utm_content·utm_term 값), 앱 버전, 배포 경로, 기기 언어 설정(예: ko-KR)과 그 국가, 날짜별 횟수(앱 열기, 첫 현상, 필름 보기, 촬영, 저장, 공유, 구매 화면 열기, 구매, 체험 시작, 선물 코드 등록)와 날짜별 구매한 상품 ID</td>
+<td>설치 ID, 처음 실행한 날짜, 설치 경로(Google Play 설치 리퍼러의 utm_source·utm_medium·utm_campaign·utm_content·utm_term 값), 앱 버전, 배포 경로, 기기 언어 설정(예: ko-KR)과 그 국가, 날짜별 횟수(앱 열기, 첫 현상, 필름 보기, 촬영, 저장, 공유, 구매 화면 열기, 구매, 체험 시작, 선물 코드 등록, 네컷·겹찍이 촬영)와 날짜별 구매한 상품 ID</td>
 <td>설치 경로·이용 흐름·재방문 분석, 서비스 개선</td>
 <td>400일 보관 후 설치 ID 없는 합계로만 보관</td>
 </tr>
@@ -101,9 +101,9 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <li>버그 제보는 이용자가 직접 보낼 때만 전송됩니다.</li>
 </ul>
 <h2>제2조의2 버그 제보</h2>
-<p>이용자가 설정의 "버그 제보"에서 내용을 쓰고 보내기를 누른 경우에만 아래 정보가 전송됩니다.</p>
+<p>이용자가 설정의 “버그 제보”에서 내용을 쓰고 보내기를 누른 경우에만 아래 정보가 전송됩니다.</p>
 <ol>
-<li>전송되는 정보: 이용자가 쓴 내용; "화면 첨부"를 선택한 경우에만 설정을 열기 직전의 앱 화면 사진 1장(앱 화면만이며 갤러리 사진은 전송하지 않음); 앱 버전, Android 버전, 기기 제조사·모델; 화면 정보(접힘 상태, 화면 크기, 가로·세로, 화면 배치, 회전 잠금); 사용 중인 필름, 필름 목록(카탈로그) 버전, 기기 언어 설정; 앱이 스스로 남긴 최근 동작 기록(최대 200줄, 파일 경로와 이메일 형태의 문자열은 기기와 서버에서 모두 지움).</li>
+<li>전송되는 정보: 이용자가 쓴 내용; “화면 첨부”를 선택한 경우에만 설정을 열기 직전의 앱 화면 사진 1장(앱 화면만이며 갤러리 사진은 전송하지 않음); 앱 버전, Android 버전, 기기 제조사·모델; 화면 정보(접힘 상태, 화면 크기, 가로·세로, 화면 배치, 회전 잠금); 사용 중인 필름, 필름 목록(카탈로그) 버전, 기기 언어 설정; 앱이 스스로 남긴 최근 동작 기록(최대 200줄, 파일 경로와 이메일 형태의 문자열은 기기와 서버에서 모두 지움).</li>
 <li>전송·저장하지 않는 정보: IP 주소(서버는 접속자의 IP를 저장하지 않음), 설치 ID, 계정, 광고 ID, 위치.</li>
 <li>이용 목적: 앱 오류의 확인과 수정에만 이용하며 제3자에게 제공하지 않습니다.</li>
 <li>보관 기간: 받은 날부터 180일이 지나면 자동으로 삭제합니다.</li>
@@ -139,7 +139,7 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tr>
 <tr>
 <td>광고 ID</td>
-<td>Meta 앱 이벤트의 광고 성과 측정 (개발자가 서버에서 켠 경우에만 사용)</td>
+<td>Meta 앱 이벤트의 광고 성과 측정 (이용자가 허용한 경우에만 사용)</td>
 </tr>
 </tbody>
 </table></div>
@@ -148,38 +148,143 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <ol>
 <li>유료 필름의 결제는 Google Play가 처리합니다.</li>
 <li>개발자는 결제 수단, 이름, 이메일 등 결제 정보를 제공받지 않습니다.</li>
-<li>결제 정보는 <a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener">Google 개인정보처리방침</a>에 따라 처리됩니다.</li>
+<li>결제 정보는 <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a>에 따라 처리됩니다.</li>
 </ol>
 <h2>제6조 처리 위탁 및 국외 이전</h2>
-<p>서비스 운영을 위해 아래 사업자의 인프라를 이용하며, 설치 분석 정보와 버그 제보는 Cloudflare의 서버(미국 등)에 저장됩니다.</p>
+<p>서비스 운영을 위해 아래 사업자에게 정보를 국외로 이전합니다. 각 사업자별 이전 내용은 다음과 같습니다. 받는 자의 연락처는 각 사업자가 공개한 개인정보 처리방침 페이지입니다.</p>
+<h3>1. Cloudflare, Inc. (처리 위탁·보관)</h3>
 <div class="tw"><table>
 <thead>
 <tr>
-<th>사업자</th>
-<th>국가</th>
-<th>이용 업무</th>
+<th>구분</th>
+<th>내용</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Cloudflare, Inc.</td>
-<td>미국</td>
-<td>필름 목록 제공, 사용 통계·설치 분석·버그 제보 및 선물 코드 서버 운영</td>
+<td>이전되는 개인정보 항목</td>
+<td>제2조의 사용 통계, 설치 분석(설치 ID 포함), 버그 제보, 선물 코드 정보. 필름 목록 확인은 공개 파일 요청이며 개발자는 전송 항목이 없습니다.</td>
 </tr>
 <tr>
-<td>GitHub, Inc.</td>
-<td>미국</td>
-<td>필름 목록 예비 서버 운영</td>
+<td>이전 국가·시기·방법</td>
+<td>미국 등 Cloudflare의 서버. 앱 사용 중 HTTPS로 전송합니다(사용 통계·설치 분석은 처음 실행할 때와 하루 한 번, 버그 제보·선물 코드는 이용자가 직접 보낼 때).</td>
 </tr>
 <tr>
-<td>Google LLC</td>
-<td>미국</td>
-<td>인앱 결제, Android 자동 백업</td>
+<td>받는 자의 명칭·연락처</td>
+<td>Cloudflare, Inc. — https://www.cloudflare.com/privacypolicy/</td>
+</tr>
+<tr>
+<td>이용 목적·보유 기간</td>
+<td>필름 목록 제공, 사용 통계·설치 분석·버그 제보·선물 코드 서버 운영. 보유 기간은 제2조의 표와 같습니다.</td>
+</tr>
+<tr>
+<td>거부 방법·절차·효과</td>
+<td>사용 통계·설치 분석은 앱 설정에서 끌 수 없습니다. 원하지 않으면 앱을 삭제해 주세요(설치 ID가 함께 삭제됩니다). 버그 제보와 선물 코드는 이용자가 보내지 않으면 전송되지 않으며, 보내지 않아도 다른 기능에는 영향이 없습니다. 이미 보낸 정보의 삭제·처리정지는 제10조에 따라 요청할 수 있습니다.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>2. GitHub, Inc. (처리 위탁)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>구분</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>이전되는 개인정보 항목</td>
+<td>필름 목록(공개 파일) 요청. 앱이 보내는 개인정보 항목은 없으며, 연결 과정에서 기기의 IP 주소가 GitHub에 전달될 수 있습니다.</td>
+</tr>
+<tr>
+<td>이전 국가·시기·방법</td>
+<td>미국. 주 서버(Cloudflare)에 연결하지 못했을 때에 한해 필름 목록을 확인하며 HTTPS로 요청합니다.</td>
+</tr>
+<tr>
+<td>받는 자의 명칭·연락처</td>
+<td>GitHub, Inc. — https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</td>
+</tr>
+<tr>
+<td>이용 목적·보유 기간</td>
+<td>필름 목록 예비 서버 운영. 개발자는 이 요청에서 얻은 정보를 보관하지 않으며, GitHub의 보유 기간은 GitHub의 정책에 따릅니다.</td>
+</tr>
+<tr>
+<td>거부 방법·절차·효과</td>
+<td>별도의 거부 절차는 없습니다. 원하지 않으면 앱을 삭제해 주세요. 필름 목록 확인이 되지 않으면 새 필름 정보가 갱신되지 않을 뿐 이미 있는 필름은 계속 쓸 수 있습니다.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>3. Google LLC (결제·자동 백업)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>구분</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>이전되는 개인정보 항목</td>
+<td>유료 필름 결제 과정의 결제 정보(Google Play가 직접 처리하며 개발자는 받지 않음), 자동 백업에 포함된 등록한 선물 정보(제3조).</td>
+</tr>
+<tr>
+<td>이전 국가·시기·방법</td>
+<td>미국 등 Google의 서버. 결제할 때, 그리고 Android 자동 백업이 켜져 있을 때 Google 계정으로 전송됩니다.</td>
+</tr>
+<tr>
+<td>받는 자의 명칭·연락처</td>
+<td>Google LLC — https://policies.google.com/privacy</td>
+</tr>
+<tr>
+<td>이용 목적·보유 기간</td>
+<td>인앱 결제 처리, 앱 재설치 시 선물 정보 복원. 보유 기간은 Google의 정책에 따릅니다.</td>
+</tr>
+<tr>
+<td>거부 방법·절차·효과</td>
+<td>결제는 이용자가 구매 버튼을 눌러야 시작됩니다. 자동 백업은 Android 설정에서 끌 수 있으며, 끄면 재설치 시 선물 정보가 복원되지 않습니다.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>4. Meta Platforms, Inc. (제3자 제공, 이용자 동의에 따름)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>구분</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>이전되는 개인정보 항목</td>
+<td>제7조의 표와 같습니다(광고 ID, 앱 이용·구매 기록 등).</td>
+</tr>
+<tr>
+<td>이전 국가·시기·방법</td>
+<td>미국. 이용자가 "허용"한 뒤 앱이 실행되는 동안, Meta SDK가 인터넷으로 자동 전송합니다. 허용하기 전에는 전송하지 않습니다.</td>
+</tr>
+<tr>
+<td>받는 자의 명칭·연락처</td>
+<td>Meta Platforms, Inc. — https://www.facebook.com/privacy/policy</td>
+</tr>
+<tr>
+<td>이용 목적·보유 기간</td>
+<td>광고 성과 측정. 보유 기간은 Meta의 정책에 따름.</td>
+</tr>
+<tr>
+<td>거부 방법·절차·효과</td>
+<td>동의 화면에서 "허용 안 함"을 누르거나, 설정의 "광고 측정 데이터 전송"을 끄면 됩니다(제12조). 거부해도 앱 기능은 모두 동일하게 쓸 수 있으며, 끄는 즉시 이후 전송이 중단됩니다.</td>
 </tr>
 </tbody>
 </table></div>
 <h2>제7조 제3자 제공</h2>
-<p>개발자가 서버에서 Meta 앱 이벤트를 켠 경우, 앱에 포함된 Meta SDK가 아래 정보를 Meta Platforms, Inc.(미국)에 전송합니다. 그 밖에는 이용자의 정보를 제3자에게 제공하지 않습니다.</p>
+<p>이용자가 허용한 경우에만 앱에 포함된 Meta SDK가 아래 정보를 Meta Platforms, Inc.(미국)에 전송합니다(개발자가 서버에서 광고 측정을 켜 둔 경우에 한함). 그 밖에는 이용자의 정보를 제3자에게 제공하지 않습니다.</p>
+<p><strong>동의 방식</strong></p>
+<ul>
+<li>앱은 첫 현상 이후(0.22.1로 업데이트한 경우에는 업데이트 후 처음 카메라 화면이 열릴 때) 한 번, 동의 화면을 보여 줍니다. 화면에는 보내는 정보, 받는 자, 목적이 적혀 있고, "허용"과 "허용 안 함" 두 버튼이 같은 크기로 있습니다.</li>
+<li>"허용"을 누르기 전에는 Meta SDK가 실행되지 않으며 광고 ID도 읽지 않고 Meta로 아무것도 전송되지 않습니다. "허용 안 함"을 누르거나 화면을 닫아도 앱은 똑같이 쓸 수 있습니다.</li>
+<li>앱 0.19.0~0.22.0은 별도의 동의 화면 없이, 서버에서 켜진 경우 전송했습니다. 이 버전을 쓰던 이용자도 동의한 것으로 보지 않으며, 업데이트 후 같은 동의 화면을 보게 됩니다.</li>
+<li>동의 여부는 이용자의 기기에만 저장되며 개발자의 서버로 전송하지 않습니다.</li>
+</ul>
 <div class="tw"><table>
 <thead>
 <tr>
@@ -194,13 +299,13 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <td>Meta Platforms, Inc. (미국, 앱이 실행 중일 때 인터넷으로 전송)</td>
 <td>광고 ID, 앱 실행, 첫 현상, 구매 화면을 연 필름 ID, 구매 시작·완료(상품 ID, Google Play의 가격과 통화), 체험 시작한 필름 ID, 기기·앱 정보(Meta SDK가 자동으로 수집하는 항목)</td>
 <td>광고 성과 측정 및 광고 최적화</td>
-<td>Meta의 <a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener">데이터 정책</a>에 따름</td>
+<td>Meta의 <a href="https://www.facebook.com/privacy/policy">데이터 정책</a>에 따름</td>
 </tr>
 </tbody>
 </table></div>
 <ul>
 <li>사진, 이름, 이메일, 위치, 이용자가 입력한 글은 Meta에 전송하지 않습니다.</li>
-<li>개발자가 서버에서 끄면 이후 실행부터 전송하지 않습니다.</li>
+<li>이용자가 설정에서 끄거나 개발자가 서버에서 끄면 즉시 전송하지 않습니다(제12조).</li>
 </ul>
 <h2>제8조 정보의 파기</h2>
 <ol>
@@ -220,15 +325,17 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <li>이용자는 언제든지 개인정보의 열람, 정정, 삭제, 처리정지를 요구할 수 있습니다.</li>
 <li>요청은 아래 개인정보 보호책임자에게 이메일로 할 수 있으며, 지체 없이 조치합니다.</li>
 <li>앱에는 계정이 없으므로 계정 삭제 절차는 해당하지 않습니다. 앱을 삭제하거나 앱 데이터를 지우면 설치 ID가 삭제되어 이후의 기록은 이전 기록과 연결되지 않습니다.</li>
+<li>광고 측정 데이터 전송에 대한 동의는 설정의 "광고 측정 데이터 전송"에서 언제든 철회할 수 있습니다(제12조).</li>
 <li>광고 ID는 Android 설정(설정 &gt; 개인정보 보호 &gt; 광고 등)에서 재설정하거나 삭제할 수 있습니다.</li>
 </ol>
 <h2>제11조 아동의 개인정보</h2>
-<p>앱은 만 14세 미만 아동의 개인정보를 수집하지 않습니다.</p>
+<p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 만 14세 미만 아동의 개인정보를 알면서 수집하지 않습니다. Meta로의 이벤트 전송은 이용자가 동의 화면에서 허용한 경우에만 이루어지며, 만 14세 미만임을 알게 된 경우 해당 정보를 지체 없이 삭제합니다.</p>
 <h2>제12조 행태정보의 수집·이용·제공 및 거부</h2>
 <ol>
-<li>개발자가 서버에서 Meta 앱 이벤트를 켠 경우, 앱의 Meta SDK가 제7조의 이용 기록(행태정보)과 광고 ID를 앱 실행 중 자동으로 Meta에 전송합니다.</li>
-<li>목적은 광고 성과 측정과 광고 최적화이며, Meta가 맞춤형 광고에 이용할 수 있습니다.</li>
-<li>이용자는 Android 설정에서 광고 ID를 재설정·삭제하거나 맞춤 광고를 끌 수 있습니다.</li>
+<li>이용자가 동의 화면 또는 설정에서 "허용"한 경우에만(개발자가 서버에서 켜 둔 경우에 한함), 앱의 Meta SDK가 제7조의 이용 기록(행태정보)과 광고 ID를 앱 실행 중 자동으로 Meta에 전송합니다. 허용 전에는 전송하지 않습니다.</li>
+<li>목적은 광고 성과 측정이며, Meta가 맞춤형 광고에 이용할 수 있습니다.</li>
+<li>거부·철회 방법: 동의 화면에서 "허용 안 함"을 누르거나, 설정의 "광고 측정 데이터 전송"을 끕니다. 끄는 즉시 Meta SDK의 자동 이벤트와 광고 ID 수집을 중단하고 이후 전송하지 않으며, 철회한 내용은 기기에 저장됩니다. 이미 Meta에 전송된 정보는 Meta의 정책에 따라 처리되며 삭제는 Meta에 요청할 수 있습니다.</li>
+<li>이용자는 Android 설정에서 광고 ID를 재설정·삭제하거나 맞춤 광고를 끌 수도 있습니다.</li>
 <li>만 14세 미만 아동을 대상으로 한 맞춤형 광고에 행태정보를 이용하지 않습니다.</li>
 </ol>
 <h2>제12조의2 해당 없는 사항</h2>
@@ -277,22 +384,22 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <tr>
 <td>개인정보분쟁조정위원회</td>
 <td>1833-6972</td>
-<td><a href="https://www.kopico.go.kr" target="_blank" rel="noopener">www.kopico.go.kr</a></td>
+<td><a href="https://www.kopico.go.kr">www.kopico.go.kr</a></td>
 </tr>
 <tr>
 <td>개인정보침해신고센터</td>
 <td>118</td>
-<td><a href="https://privacy.kisa.or.kr" target="_blank" rel="noopener">privacy.kisa.or.kr</a></td>
+<td><a href="https://privacy.kisa.or.kr">privacy.kisa.or.kr</a></td>
 </tr>
 <tr>
 <td>대검찰청</td>
 <td>1301</td>
-<td><a href="https://www.spo.go.kr" target="_blank" rel="noopener">www.spo.go.kr</a></td>
+<td><a href="https://www.spo.go.kr">www.spo.go.kr</a></td>
 </tr>
 <tr>
 <td>경찰청</td>
 <td>182</td>
-<td><a href="https://ecrm.police.go.kr" target="_blank" rel="noopener">ecrm.police.go.kr</a></td>
+<td><a href="https://ecrm.police.go.kr">ecrm.police.go.kr</a></td>
 </tr>
 </tbody>
 </table></div>
@@ -310,6 +417,14 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </thead>
 <tbody>
 <tr>
+<td>2026년 11월 2일</td>
+<td>Meta 앱 이벤트·광고 ID 전송을 이용자의 동의(허용)를 받은 경우에만 하도록 변경하고 설정에서 철회할 수 있게 함(제7조·제12조), 국외 이전 5개 항목을 사업자별로 구체화(제6조), 만 14세 미만 아동 관련 문구 보완(제11조), 사업자 정보·이용약관·환불 안내 화면 추가 (앱 0.22.1)</td>
+</tr>
+<tr>
+<td>2026년 10월 6일</td>
+<td>설치 분석의 날짜별 횟수에 네컷·겹찍이 촬영 횟수 추가 (앱 0.22.0)</td>
+</tr>
+<tr>
 <td>2026년 10월 6일</td>
 <td>버그 제보(제보 내용, 선택 시 앱 화면 사진, 앱·기기·화면 정보, 앱 동작 기록, 180일 보관) 추가 (앱 0.20.0)</td>
 </tr>
@@ -326,15 +441,16 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <td>제정</td>
 </tr>
 </tbody>
-</table></div></article>
-<article lang="en" id="en"><header><h1>Sunmini Privacy Policy</h1><p class="date">Effective date: October 6, 2026 (app 0.20.0 onwards)</p></header>
+</table></div>
+<!--EN--></article>
+<article lang="en" id="en"><header><h1>Sunmini Privacy Policy</h1><p class="date">Effective date: November 2, 2026 (app 0.22.1 onwards)</p></header>
 <p>Minchang Kim (the "Developer"), the developer of Sunmini (the "App"), establishes and discloses this Privacy Policy in accordance with Article 30 of the Personal Information Protection Act of Korea. The Korean version prevails in case of any discrepancy.</p>
 <h2>1. Personal Information</h2>
 <ol>
 <li>The App has no sign-up or login. The Developer does not collect names, email addresses, phone numbers, location or the Android ID.</li>
 <li>To tell installations apart, the Developer collects a random value the App creates on its first launch (the "install ID") and that installation's daily usage records (Section 2). The install ID is not derived from the advertising ID or device information and is not combined with a name or other information.</li>
-<li>When the Developer turns it on on the server, the Meta app events tool inside the App sends the advertising ID and app usage records to Meta (Sections 7 and 12).</li>
-<li>Photos are processed only on the device and are never sent to a server, except one picture of the App's own screen when the user ticks "Attach screen" in a bug report (Section 2-2).</li>
+<li>Only if the user taps "Allow" on the App's consent screen or in Settings (and the Developer has ad measurement switched on on the server), the Meta app events tool inside the App sends the advertising ID and app usage records to Meta. Before that the tool does not run and nothing is sent to Meta (Sections 7 and 12).</li>
+<li>Photos are processed only on the device and are never sent to a server, except one picture of the App's own screen when the user ticks “Attach screen” in a bug report (Section 2-2).</li>
 <li>The Developer's servers do not use or record the IP addresses of connecting devices.</li>
 </ol>
 <h2>2. Information Sent to the Server</h2>
@@ -363,7 +479,7 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tr>
 <tr>
 <td>Install analytics</td>
-<td>Install ID, first-launch date, install source (the utm_source, utm_medium, utm_campaign, utm_content and utm_term values of the Google Play Install Referrer), app version, distribution channel, device language setting (e.g. ko-KR) and its country, daily counts (app opens, first develop, film views, shots, saves, shares, purchase screen opened, purchases, trial starts, gift code redemptions) and the product IDs bought that day</td>
+<td>Install ID, first-launch date, install source (the utm_source, utm_medium, utm_campaign, utm_content and utm_term values of the Google Play Install Referrer), app version, distribution channel, device language setting (e.g. ko-KR) and its country, daily counts (app opens, first develop, film views, shots, saves, shares, purchase screen opened, purchases, trial starts, gift code redemptions, 4-cut and double-exposure shots) and the product IDs bought that day</td>
 <td>Analysing install sources, usage flow and return visits; service improvement</td>
 <td>400 days, then only as totals without the install ID</td>
 </tr>
@@ -388,9 +504,9 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <li>Bug reports are sent only when the user sends one.</li>
 </ul>
 <h2>2-2. Bug Reports</h2>
-<p>Only when the user writes a report under Settings → "Report a bug" and taps send, the following is sent.</p>
+<p>Only when the user writes a report under Settings → “Report a bug” and taps send, the following is sent.</p>
 <ol>
-<li>Sent: the text the user wrote; only if "Attach screen" is ticked, one picture of the App screen as it was just before Settings opened (the App's own screen only, never a gallery photo); app version, Android version, device manufacturer and model; screen information (fold state, screen size, orientation, layout, rotation lock); the film in use, the film list (catalog) version, the device language setting; the App's own recent activity log (up to 200 lines, with file paths and e-mail-like strings removed on the device and again on the server).</li>
+<li>Sent: the text the user wrote; only if “Attach screen” is ticked, one picture of the App screen as it was just before Settings opened (the App's own screen only, never a gallery photo); app version, Android version, device manufacturer and model; screen information (fold state, screen size, orientation, layout, rotation lock); the film in use, the film list (catalog) version, the device language setting; the App's own recent activity log (up to 200 lines, with file paths and e-mail-like strings removed on the device and again on the server).</li>
 <li>Not sent or stored: the IP address (the server does not store connecting devices' IP addresses), the install ID, accounts, the advertising ID, location.</li>
 <li>Purpose: used only to find and fix app errors; not provided to third parties.</li>
 <li>Retention: deleted automatically 180 days after receipt.</li>
@@ -426,7 +542,7 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tr>
 <tr>
 <td>Advertising ID</td>
-<td>Ad measurement by Meta app events (used only when the Developer turns it on on the server)</td>
+<td>Ad measurement by Meta app events (used only if the user allows it)</td>
 </tr>
 </tbody>
 </table></div>
@@ -435,38 +551,143 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <ol>
 <li>Payments for paid films are processed by Google Play.</li>
 <li>The Developer does not receive payment information such as payment method, name or email address.</li>
-<li>Payment information is handled under the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+<li>Payment information is handled under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
 </ol>
 <h2>6. Service Providers and Overseas Transfer</h2>
-<p>The following providers' infrastructure is used to operate the service; install analytics and bug reports are stored on Cloudflare's servers (United States and other countries).</p>
+<p>Information is transferred abroad to the following providers to run the service. For each, the five required items are below. The recipient's contact is the privacy policy page it publishes.</p>
+<h3>1. Cloudflare, Inc. (processing, storage)</h3>
 <div class="tw"><table>
 <thead>
 <tr>
-<th>Provider</th>
-<th>Country</th>
-<th>Service</th>
+<th>Item</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Cloudflare, Inc.</td>
-<td>United States</td>
-<td>Film list delivery; usage statistics, install analytics, bug report and gift code server</td>
+<td>Personal information transferred</td>
+<td>Usage statistics, install analytics (including the install ID), bug reports and gift code information in Section 2. The film list check is a public file request; the Developer sends no items with it.</td>
 </tr>
 <tr>
-<td>GitHub, Inc.</td>
-<td>United States</td>
-<td>Backup film list server</td>
+<td>Country, time, method</td>
+<td>United States and other countries where Cloudflare operates servers. Sent over HTTPS while the App is used (usage statistics and install analytics on the first launch and once a day; bug reports and gift codes only when the user sends them).</td>
 </tr>
 <tr>
-<td>Google LLC</td>
-<td>United States</td>
-<td>In-app payments, Android Auto Backup</td>
+<td>Recipient and contact</td>
+<td>Cloudflare, Inc. — https://www.cloudflare.com/privacypolicy/</td>
+</tr>
+<tr>
+<td>Purpose and retention</td>
+<td>Film list delivery; usage statistics, install analytics, bug report and gift code servers. Retention is as in the table in Section 2.</td>
+</tr>
+<tr>
+<td>How to refuse, procedure, effect</td>
+<td>Usage statistics and install analytics cannot be switched off in the App; to avoid them, uninstall the App (the install ID is deleted with it). Bug reports and gift codes are sent only when the user sends them, and not sending them affects nothing else. Deletion or suspension of information already sent can be requested under Section 10.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>2. GitHub, Inc. (processing)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personal information transferred</td>
+<td>A request for the film list (a public file). The App sends no personal information items; the device's IP address may reach GitHub as part of the connection.</td>
+</tr>
+<tr>
+<td>Country, time, method</td>
+<td>United States. Only when the main server (Cloudflare) cannot be reached; requested over HTTPS.</td>
+</tr>
+<tr>
+<td>Recipient and contact</td>
+<td>GitHub, Inc. — https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</td>
+</tr>
+<tr>
+<td>Purpose and retention</td>
+<td>Backup film list server. The Developer keeps nothing from this request; GitHub's retention follows GitHub's policy.</td>
+</tr>
+<tr>
+<td>How to refuse, procedure, effect</td>
+<td>There is no separate refusal step; to avoid it, uninstall the App. Without the film list check, new film information is not updated, but films already in the App keep working.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>3. Google LLC (payments, auto backup)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personal information transferred</td>
+<td>Payment information during a paid film purchase (handled by Google Play directly; the Developer does not receive it) and redeemed gift information included in Auto Backup (Section 3).</td>
+</tr>
+<tr>
+<td>Country, time, method</td>
+<td>United States and other countries where Google operates servers. When the user buys, and when Android Auto Backup is on, to the user's Google account.</td>
+</tr>
+<tr>
+<td>Recipient and contact</td>
+<td>Google LLC — https://policies.google.com/privacy</td>
+</tr>
+<tr>
+<td>Purpose and retention</td>
+<td>Processing in-app payments; restoring gift information after reinstalling. Retention follows Google's policy.</td>
+</tr>
+<tr>
+<td>How to refuse, procedure, effect</td>
+<td>A payment starts only when the user taps the buy button. Auto Backup can be turned off in Android settings; then gift information is not restored after reinstalling.</td>
+</tr>
+</tbody>
+</table></div>
+<h3>4. Meta Platforms, Inc. (provision to a third party, based on the user's consent)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personal information transferred</td>
+<td>The items in the table in Section 7 (advertising ID, app usage and purchase records, etc.).</td>
+</tr>
+<tr>
+<td>Country, time, method</td>
+<td>United States. After the user taps "Allow", while the App runs, sent automatically over the internet by the Meta SDK. Nothing is sent before that.</td>
+</tr>
+<tr>
+<td>Recipient and contact</td>
+<td>Meta Platforms, Inc. — https://www.facebook.com/privacy/policy</td>
+</tr>
+<tr>
+<td>Purpose and retention</td>
+<td>Ad measurement. Retention: under Meta's policy.</td>
+</tr>
+<tr>
+<td>How to refuse, procedure, effect</td>
+<td>Tap "Don't allow" on the consent screen, or switch off "Ad measurement data" in Settings (Section 12). Declining changes nothing in the App; switching off stops sending at once.</td>
 </tr>
 </tbody>
 </table></div>
 <h2>7. Provision to Third Parties</h2>
-<p>When the Developer turns Meta app events on on the server, the Meta SDK inside the App sends the following to Meta Platforms, Inc. (United States). Otherwise the Developer does not provide user information to third parties.</p>
+<p>Only if the user allows it, the Meta SDK inside the App sends the following to Meta Platforms, Inc. (United States) (and only while the Developer has ad measurement switched on on the server). Otherwise the Developer does not provide user information to third parties.</p>
+<p><strong>How consent works</strong></p>
+<ul>
+<li>Once, after the first develop (after updating to 0.22.1: the first time the camera screen opens after the update), the App shows a consent screen. It says what is sent, to whom and why, and has two buttons of the same size, "Allow" and "Don't allow".</li>
+<li>Before "Allow", the Meta SDK does not run, the advertising ID is not read and nothing is sent to Meta. Tapping "Don't allow", or closing the screen, leaves the App working exactly the same.</li>
+<li>App 0.19.0-0.22.0 sent data without a consent screen whenever the server had it switched on. Users of those versions are not treated as having consented and see the same consent screen after updating.</li>
+<li>The choice is stored on the user's device only and is not sent to the Developer's server.</li>
+</ul>
 <div class="tw"><table>
 <thead>
 <tr>
@@ -481,13 +702,13 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <td>Meta Platforms, Inc. (United States; sent over the internet while the App runs)</td>
 <td>Advertising ID, app launches, first develop, the film ID of a purchase screen opened, purchase started and completed (product ID, Google Play's price and currency), the film ID of a trial started, device and app information the Meta SDK collects automatically</td>
 <td>Ad measurement and ad optimisation</td>
-<td>Under Meta's <a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener">Privacy Policy</a></td>
+<td>Under Meta's <a href="https://www.facebook.com/privacy/policy">Privacy Policy</a></td>
 </tr>
 </tbody>
 </table></div>
 <ul>
 <li>No photos, name, email, location or text typed by the user are sent to Meta.</li>
-<li>When the Developer turns it off on the server, nothing is sent from the next launch on.</li>
+<li>When the user switches it off in Settings, or the Developer turns it off on the server, sending stops at once (Section 12).</li>
 </ul>
 <h2>8. Deletion</h2>
 <ol>
@@ -507,15 +728,17 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <li>Users may request access to, correction, deletion or suspension of processing of their personal information at any time.</li>
 <li>Requests can be sent by email to the Privacy Officer below and will be handled without delay.</li>
 <li>The App has no accounts, so account deletion does not apply. Uninstalling the App or clearing its data deletes the install ID, so later records are not linked to earlier ones.</li>
+<li>Consent to ad measurement data can be withdrawn at any time in Settings → "Ad measurement data" (Section 12).</li>
 <li>The advertising ID can be reset or deleted in Android settings (Settings &gt; Privacy &gt; Ads, or similar).</li>
 </ol>
 <h2>11. Children</h2>
-<p>The App does not collect personal information from children under 14.</p>
+<p>The App is not directed to children under 14 and does not knowingly collect personal information from them. Events are sent to Meta only if the user allows it on the consent screen; if the Developer learns that a user is under 14, that information is deleted without delay.</p>
 <h2>12. Behavioural Information</h2>
 <ol>
-<li>When the Developer turns Meta app events on on the server, the App's Meta SDK automatically sends the usage records in Section 7 (behavioural information) and the advertising ID to Meta while the App runs.</li>
-<li>The purpose is ad measurement and ad optimisation; Meta may use it for personalised advertising.</li>
-<li>Users can reset or delete the advertising ID, or turn off personalised ads, in Android settings.</li>
+<li>Only if the user taps "Allow" on the consent screen or in Settings (and the Developer has it switched on on the server), the App's Meta SDK automatically sends the usage records in Section 7 (behavioural information) and the advertising ID to Meta while the App runs. Nothing is sent before that.</li>
+<li>The purpose is ad measurement; Meta may use it for personalised advertising.</li>
+<li>To refuse or withdraw: tap "Don't allow" on the consent screen, or switch off "Ad measurement data" in Settings. Switching off stops the Meta SDK's automatic events and advertising ID collection and any further sending at once, and the withdrawal is stored on the device. Information already sent to Meta is handled under Meta's policy; deletion can be requested from Meta.</li>
+<li>Users can also reset or delete the advertising ID, or turn off personalised ads, in Android settings.</li>
 <li>Behavioural information is not used for personalised ads aimed at children under 14.</li>
 </ol>
 <h2>12-2. Not Applicable</h2>
@@ -564,22 +787,22 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 <tr>
 <td>Personal Information Dispute Mediation Committee</td>
 <td>1833-6972</td>
-<td><a href="https://www.kopico.go.kr" target="_blank" rel="noopener">www.kopico.go.kr</a></td>
+<td><a href="https://www.kopico.go.kr">www.kopico.go.kr</a></td>
 </tr>
 <tr>
 <td>Personal Information Infringement Report Center</td>
 <td>118</td>
-<td><a href="https://privacy.kisa.or.kr" target="_blank" rel="noopener">privacy.kisa.or.kr</a></td>
+<td><a href="https://privacy.kisa.or.kr">privacy.kisa.or.kr</a></td>
 </tr>
 <tr>
 <td>Supreme Prosecutors' Office</td>
 <td>1301</td>
-<td><a href="https://www.spo.go.kr" target="_blank" rel="noopener">www.spo.go.kr</a></td>
+<td><a href="https://www.spo.go.kr">www.spo.go.kr</a></td>
 </tr>
 <tr>
 <td>Korean National Police Agency</td>
 <td>182</td>
-<td><a href="https://ecrm.police.go.kr" target="_blank" rel="noopener">ecrm.police.go.kr</a></td>
+<td><a href="https://ecrm.police.go.kr">ecrm.police.go.kr</a></td>
 </tr>
 </tbody>
 </table></div>
@@ -596,6 +819,14 @@ footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); co
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>November 2, 2026</td>
+<td>Meta app events / advertising ID are sent only after the user allows it, and can be withdrawn in Settings (Sections 7 and 12); the five overseas-transfer items are given per provider (Section 6); wording on children under 14 added (Section 11); seller information, terms and refund screen added (app 0.22.1)</td>
+</tr>
+<tr>
+<td>October 6, 2026</td>
+<td>Install analytics' daily counts: 4-cut and double-exposure shots added (app 0.22.0)</td>
+</tr>
 <tr>
 <td>October 6, 2026</td>
 <td>Bug reports added (report text, App screen picture if chosen, app / device / screen information, app activity log; kept 180 days) (app 0.20.0)</td>
